@@ -40588,7 +40588,7 @@ var getInputRequired = (name) => (0, import_core.getInput)(name, {
     throw new Error("Either repository_id or repository_name is required.");
   }
   if (repositoryUri !== "") {
-    const match = /\A(?<registry>\d+).dkr.ecr.(?<region>[^.]+).amazonaws.com\/(?<repo>.+)\z/.exec(
+    const match = /^(?<registry>\d+).dkr.ecr.(?<region>[^.]+).amazonaws.com\/(?<repo>.+)$/.exec(
       repositoryUri
     );
     if (match === null) {
