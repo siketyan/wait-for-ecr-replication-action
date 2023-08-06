@@ -40596,7 +40596,7 @@ var getInputRequired = (name) => (0, import_core.getInput)(name, {
         "Invalid repository URI pattern. Expected <registry>.dkr.ecr.<region>.amazonaws.com/<repository>"
       );
     }
-    repositoryName = match.groups["repository"];
+    repositoryName = match.groups["repo"];
     registryId = match.groups["registry"];
     region = match.groups["region"];
   }
