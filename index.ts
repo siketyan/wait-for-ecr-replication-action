@@ -70,7 +70,7 @@ const getInputRequired = (name: string) =>
   });
 
   while (true) {
-    console.log('🔄 Retrieving image replication statuses');
+    console.log('📥 Retrieving image replication statuses');
 
     const response = await ecr.send(command);
 
@@ -79,17 +79,18 @@ const getInputRequired = (name: string) =>
       switch (status.status) {
         case 'IN_PROGRESS':
           conclusion = 'IN_PROGRESS';
+          console.log(
+            `🔄 ${status.region} / ${status.registryId}: IN_PROGRESS`,
+          );
           break;
 
         case 'COMPLETE':
-          console.log(
-            `✅ ${status.region} / ${status.registryId}: Image replication complete`,
-          );
+          console.log(`✅ ${status.region} / ${status.registryId}: COMPLETE`);
           break;
 
         case 'FAILED':
           throw new Error(
-            `❌ ${status.region} / ${status.registryId}: Image replication failed: ${status.failureCode}`,
+            `❌ ${status.region} / ${status.registryId}: FAILED: ${status.failureCode}`,
           );
       }
     }
