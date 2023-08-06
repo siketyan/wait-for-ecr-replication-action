@@ -1,0 +1,32 @@
+name: Wait for ECR Replication Action
+description: Waits for ECR repository replications to be succeeded on GitHub Actions.
+author: Natsuki Ikeguchi
+branding:
+  icon: upload-cloud
+  color: blue
+runs:
+  using: node16
+  main: 'index.js'
+inputs:
+  token:
+    required: true
+    description: Authenticated GitHub token.
+    default: '${{ github.token }}'
+  image_digest:
+    required: false
+    description: Digest of the image. Either image_digest or image_tag is required.
+  image_tag:
+    required: false
+    description: Tag of the image. Either image_digest or image_tag is required.
+  repository_uri:
+    required: false
+    description: URI of the ECR repository. Either repository_uri or repository_name is required. Overrides registry_id and region.
+  repository_name:
+    required: false
+    description: Name of the ECR repository. Either repository_uri or repository_name is required.
+  regisry_id:
+    required: false
+    description: ID of the ECR registry. Defaults to the default registry of the current account.
+  region:
+    required: false
+    description: AWS region of the ECR registry. Defaults to the current region.
