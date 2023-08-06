@@ -16,6 +16,7 @@ const getInputRequired = (name: string) =>
   });
 
 (async () => {
+  const interval = getInputRequired('interval');
   const imageDigest = getInput('image_digest');
   const imageTag = getInput('image_tag');
   const repositoryUri = getInput('repository_uri');
@@ -98,8 +99,10 @@ const getInputRequired = (name: string) =>
       break;
     }
 
-    console.log('⏳ Retrying in 3 seconds');
-    await new Promise((resolve) => setTimeout(resolve, 3000));
+    console.log(`⏳ Retrying in ${interval} seconds`);
+    await new Promise((resolve) =>
+      setTimeout(resolve, parseInt(interval) * 1000),
+    );
   }
 
   console.log('✅ All image replications has been completed.');
