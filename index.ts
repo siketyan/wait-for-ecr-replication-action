@@ -43,7 +43,7 @@ const getInputRequired = (name: string) =>
       );
     }
 
-    repositoryName = match.groups['repository'];
+    repositoryName = match.groups['repo'];
     registryId = match.groups['registry'];
     region = match.groups['region'];
   }
