@@ -33,7 +33,7 @@ const getInputRequired = (name: string) =>
 
   if (repositoryUri !== '') {
     const match =
-      /\A(?<registry>\d+).dkr.ecr.(?<region>[^.]+).amazonaws.com\/(?<repo>.+)\z/.exec(
+      /^(?<registry>\d+).dkr.ecr.(?<region>[^.]+).amazonaws.com\/(?<repo>.+)$/.exec(
         repositoryUri,
       );
 
