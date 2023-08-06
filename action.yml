@@ -12,6 +12,10 @@ inputs:
     required: true
     description: Authenticated GitHub token.
     default: '${{ github.token }}'
+  interval:
+    required: true
+    description: Polling interval in sec for re-fetching status of in-progress replications.
+    default: '5'
   image_digest:
     required: false
     description: Digest of the image. Either image_digest or image_tag is required.

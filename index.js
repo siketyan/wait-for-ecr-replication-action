@@ -40575,6 +40575,7 @@ var getInputRequired = (name) => (0, import_core.getInput)(name, {
   required: true
 });
 (async () => {
+  const interval = getInputRequired("interval");
   const imageDigest = (0, import_core.getInput)("image_digest");
   const imageTag = (0, import_core.getInput)("image_tag");
   const repositoryUri = (0, import_core.getInput)("repository_uri");
@@ -40619,30 +40620,33 @@ var getInputRequired = (name) => (0, import_core.getInput)(name, {
     }
   });
   while (true) {
-    console.log("\u{1F504} Retrieving image replication statuses");
+    console.log("\u{1F4E5} Retrieving image replication statuses");
     const response = await ecr.send(command);
     let conclusion = "COMPLETE";
     for (const status of response.replicationStatuses) {
       switch (status.status) {
         case "IN_PROGRESS":
           conclusion = "IN_PROGRESS";
+          console.log(
+            `\u{1F504} ${status.region} / ${status.registryId}: IN_PROGRESS`
+          );
           break;
         case "COMPLETE":
-          console.log(
-            `\u2705 ${status.region} / ${status.registryId}: Image replication complete`
-          );
+          console.log(`\u2705 ${status.region} / ${status.registryId}: COMPLETE`);
           break;
         case "FAILED":
           throw new Error(
-            `\u274C ${status.region} / ${status.registryId}: Image replication failed: ${status.failureCode}`
+            `\u274C ${status.region} / ${status.registryId}: FAILED: ${status.failureCode}`
           );
       }
     }
     if (conclusion === "COMPLETE") {
       break;
     }
-    console.log("\u23F3 Retrying in 3 seconds");
-    await new Promise((resolve) => setTimeout(resolve, 3e3));
+    console.log(`\u23F3 Retrying in ${interval} seconds`);
+    await new Promise(
+      (resolve) => setTimeout(resolve, parseInt(interval) * 1e3)
+    );
   }
   console.log("\u2705 All image replications has been completed.");
 })().then().catch((e2) => {
