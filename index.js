@@ -4600,9 +4600,9 @@ var require_public_api = __commonJS({
   }
 });
 
-// node_modules/.pnpm/node-fetch@2.6.12/node_modules/node-fetch/lib/index.js
+// node_modules/.pnpm/node-fetch@2.7.0/node_modules/node-fetch/lib/index.js
 var require_lib3 = __commonJS({
-  "node_modules/.pnpm/node-fetch@2.6.12/node_modules/node-fetch/lib/index.js"(exports, module2) {
+  "node_modules/.pnpm/node-fetch@2.7.0/node_modules/node-fetch/lib/index.js"(exports, module2) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     function _interopDefault(ex) {
@@ -5572,9 +5572,6 @@ var require_lib3 = __commonJS({
       if (typeof agent === "function") {
         agent = agent(parsedURL);
       }
-      if (!headers.has("Connection") && !agent) {
-        headers.set("Connection", "close");
-      }
       return Object.assign({}, parsedURL, {
         method: request.method,
         headers: exportNodeCompatibleHeaders(headers),
@@ -5846,6 +5843,7 @@ var require_lib3 = __commonJS({
     exports.Request = Request2;
     exports.Response = Response2;
     exports.FetchError = FetchError2;
+    exports.AbortError = AbortError2;
   }
 });
 
@@ -7779,7 +7777,7 @@ var require_github = __commonJS({
   }
 });
 
-// node_modules/.pnpm/tslib@2.6.1/node_modules/tslib/tslib.es6.mjs
+// node_modules/.pnpm/tslib@2.6.2/node_modules/tslib/tslib.es6.mjs
 var tslib_es6_exports = {};
 __export(tslib_es6_exports, {
   __addDisposableResource: () => __addDisposableResource,
@@ -8246,7 +8244,7 @@ function __disposeResources(env) {
 }
 var extendStatics, __assign, __createBinding, __setModuleDefault, _SuppressedError, tslib_es6_default;
 var init_tslib_es6 = __esm({
-  "node_modules/.pnpm/tslib@2.6.1/node_modules/tslib/tslib.es6.mjs"() {
+  "node_modules/.pnpm/tslib@2.6.2/node_modules/tslib/tslib.es6.mjs"() {
     extendStatics = function(d, b) {
       extendStatics = Object.setPrototypeOf || { __proto__: [] } instanceof Array && function(d2, b2) {
         d2.__proto__ = b2;
@@ -8325,17 +8323,17 @@ var init_tslib_es6 = __esm({
   }
 });
 
-// node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/abort.js
+// node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/abort.js
 var require_abort = __commonJS({
-  "node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/abort.js"(exports) {
+  "node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/abort.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/auth.js
+// node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/auth.js
 var require_auth2 = __commonJS({
-  "node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/auth.js"(exports) {
+  "node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/auth.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.HttpAuthLocation = void 0;
@@ -8347,65 +8345,65 @@ var require_auth2 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/blob/blob-payload-input-types.js
+// node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/blob/blob-payload-input-types.js
 var require_blob_payload_input_types = __commonJS({
-  "node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/blob/blob-payload-input-types.js"(exports) {
+  "node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/blob/blob-payload-input-types.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/checksum.js
+// node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/checksum.js
 var require_checksum = __commonJS({
-  "node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/checksum.js"(exports) {
+  "node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/checksum.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/client.js
+// node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/client.js
 var require_client = __commonJS({
-  "node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/client.js"(exports) {
+  "node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/client.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/command.js
+// node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/command.js
 var require_command2 = __commonJS({
-  "node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/command.js"(exports) {
+  "node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/command.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/connection/config.js
+// node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/connection/config.js
 var require_config = __commonJS({
-  "node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/connection/config.js"(exports) {
+  "node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/connection/config.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/connection/manager.js
+// node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/connection/manager.js
 var require_manager = __commonJS({
-  "node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/connection/manager.js"(exports) {
+  "node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/connection/manager.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/connection/pool.js
+// node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/connection/pool.js
 var require_pool = __commonJS({
-  "node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/connection/pool.js"(exports) {
+  "node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/connection/pool.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/connection/index.js
+// node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/connection/index.js
 var require_connection = __commonJS({
-  "node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/connection/index.js"(exports) {
+  "node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/connection/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var tslib_1 = (init_tslib_es6(), __toCommonJS(tslib_es6_exports));
@@ -8415,25 +8413,25 @@ var require_connection = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/crypto.js
+// node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/crypto.js
 var require_crypto = __commonJS({
-  "node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/crypto.js"(exports) {
+  "node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/crypto.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/encode.js
+// node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/encode.js
 var require_encode = __commonJS({
-  "node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/encode.js"(exports) {
+  "node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/encode.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/endpoint.js
+// node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/endpoint.js
 var require_endpoint = __commonJS({
-  "node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/endpoint.js"(exports) {
+  "node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/endpoint.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.EndpointURLScheme = void 0;
@@ -8445,49 +8443,49 @@ var require_endpoint = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/endpoints/EndpointRuleObject.js
+// node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/endpoints/EndpointRuleObject.js
 var require_EndpointRuleObject = __commonJS({
-  "node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/endpoints/EndpointRuleObject.js"(exports) {
+  "node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/endpoints/EndpointRuleObject.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/endpoints/ErrorRuleObject.js
+// node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/endpoints/ErrorRuleObject.js
 var require_ErrorRuleObject = __commonJS({
-  "node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/endpoints/ErrorRuleObject.js"(exports) {
+  "node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/endpoints/ErrorRuleObject.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/endpoints/RuleSetObject.js
+// node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/endpoints/RuleSetObject.js
 var require_RuleSetObject = __commonJS({
-  "node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/endpoints/RuleSetObject.js"(exports) {
+  "node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/endpoints/RuleSetObject.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/endpoints/shared.js
+// node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/endpoints/shared.js
 var require_shared = __commonJS({
-  "node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/endpoints/shared.js"(exports) {
+  "node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/endpoints/shared.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/endpoints/TreeRuleObject.js
+// node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/endpoints/TreeRuleObject.js
 var require_TreeRuleObject = __commonJS({
-  "node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/endpoints/TreeRuleObject.js"(exports) {
+  "node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/endpoints/TreeRuleObject.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/endpoints/index.js
+// node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/endpoints/index.js
 var require_endpoints = __commonJS({
-  "node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/endpoints/index.js"(exports) {
+  "node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/endpoints/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var tslib_1 = (init_tslib_es6(), __toCommonJS(tslib_es6_exports));
@@ -8499,17 +8497,113 @@ var require_endpoints = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/eventStream.js
+// node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/eventStream.js
 var require_eventStream = __commonJS({
-  "node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/eventStream.js"(exports) {
+  "node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/eventStream.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/http.js
+// node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/extensions/checksum.js
+var require_checksum2 = __commonJS({
+  "node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/extensions/checksum.js"(exports) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    exports.resolveChecksumRuntimeConfig = exports.getChecksumConfiguration = exports.AlgorithmId = void 0;
+    var AlgorithmId;
+    (function(AlgorithmId2) {
+      AlgorithmId2["MD5"] = "md5";
+      AlgorithmId2["CRC32"] = "crc32";
+      AlgorithmId2["CRC32C"] = "crc32c";
+      AlgorithmId2["SHA1"] = "sha1";
+      AlgorithmId2["SHA256"] = "sha256";
+    })(AlgorithmId = exports.AlgorithmId || (exports.AlgorithmId = {}));
+    var getChecksumConfiguration = (runtimeConfig) => {
+      const checksumAlgorithms = [];
+      if (runtimeConfig.sha256 !== void 0) {
+        checksumAlgorithms.push({
+          algorithmId: () => AlgorithmId.SHA256,
+          checksumConstructor: () => runtimeConfig.sha256
+        });
+      }
+      if (runtimeConfig.md5 != void 0) {
+        checksumAlgorithms.push({
+          algorithmId: () => AlgorithmId.MD5,
+          checksumConstructor: () => runtimeConfig.md5
+        });
+      }
+      return {
+        _checksumAlgorithms: checksumAlgorithms,
+        addChecksumAlgorithm(algo) {
+          this._checksumAlgorithms.push(algo);
+        },
+        checksumAlgorithms() {
+          return this._checksumAlgorithms;
+        }
+      };
+    };
+    exports.getChecksumConfiguration = getChecksumConfiguration;
+    var resolveChecksumRuntimeConfig = (clientConfig) => {
+      const runtimeConfig = {};
+      clientConfig.checksumAlgorithms().forEach((checksumAlgorithm) => {
+        runtimeConfig[checksumAlgorithm.algorithmId()] = checksumAlgorithm.checksumConstructor();
+      });
+      return runtimeConfig;
+    };
+    exports.resolveChecksumRuntimeConfig = resolveChecksumRuntimeConfig;
+  }
+});
+
+// node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/extensions/defaultClientConfiguration.js
+var require_defaultClientConfiguration = __commonJS({
+  "node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/extensions/defaultClientConfiguration.js"(exports) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    exports.resolveDefaultRuntimeConfig = exports.getDefaultClientConfiguration = void 0;
+    var checksum_1 = require_checksum2();
+    var getDefaultClientConfiguration = (runtimeConfig) => {
+      return {
+        ...(0, checksum_1.getChecksumConfiguration)(runtimeConfig)
+      };
+    };
+    exports.getDefaultClientConfiguration = getDefaultClientConfiguration;
+    var resolveDefaultRuntimeConfig = (config) => {
+      return {
+        ...(0, checksum_1.resolveChecksumRuntimeConfig)(config)
+      };
+    };
+    exports.resolveDefaultRuntimeConfig = resolveDefaultRuntimeConfig;
+  }
+});
+
+// node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/extensions/defaultExtensionConfiguration.js
+var require_defaultExtensionConfiguration = __commonJS({
+  "node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/extensions/defaultExtensionConfiguration.js"(exports) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+  }
+});
+
+// node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/extensions/index.js
+var require_extensions = __commonJS({
+  "node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/extensions/index.js"(exports) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    exports.AlgorithmId = void 0;
+    var tslib_1 = (init_tslib_es6(), __toCommonJS(tslib_es6_exports));
+    tslib_1.__exportStar(require_defaultClientConfiguration(), exports);
+    tslib_1.__exportStar(require_defaultExtensionConfiguration(), exports);
+    var checksum_1 = require_checksum2();
+    Object.defineProperty(exports, "AlgorithmId", { enumerable: true, get: function() {
+      return checksum_1.AlgorithmId;
+    } });
+  }
+});
+
+// node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/http.js
 var require_http = __commonJS({
-  "node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/http.js"(exports) {
+  "node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/http.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.FieldPosition = void 0;
@@ -8521,25 +8615,25 @@ var require_http = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/identity/awsCredentialIdentity.js
+// node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/identity/awsCredentialIdentity.js
 var require_awsCredentialIdentity = __commonJS({
-  "node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/identity/awsCredentialIdentity.js"(exports) {
+  "node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/identity/awsCredentialIdentity.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/identity/identity.js
+// node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/identity/identity.js
 var require_identity = __commonJS({
-  "node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/identity/identity.js"(exports) {
+  "node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/identity/identity.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/identity/index.js
+// node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/identity/index.js
 var require_identity2 = __commonJS({
-  "node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/identity/index.js"(exports) {
+  "node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/identity/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var tslib_1 = (init_tslib_es6(), __toCommonJS(tslib_es6_exports));
@@ -8548,113 +8642,113 @@ var require_identity2 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/logger.js
+// node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/logger.js
 var require_logger = __commonJS({
-  "node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/logger.js"(exports) {
+  "node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/logger.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/middleware.js
+// node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/middleware.js
 var require_middleware = __commonJS({
-  "node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/middleware.js"(exports) {
+  "node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/middleware.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/pagination.js
+// node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/pagination.js
 var require_pagination = __commonJS({
-  "node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/pagination.js"(exports) {
+  "node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/pagination.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/profile.js
+// node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/profile.js
 var require_profile = __commonJS({
-  "node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/profile.js"(exports) {
+  "node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/profile.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/response.js
+// node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/response.js
 var require_response = __commonJS({
-  "node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/response.js"(exports) {
+  "node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/response.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/retry.js
+// node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/retry.js
 var require_retry = __commonJS({
-  "node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/retry.js"(exports) {
+  "node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/retry.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/serde.js
+// node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/serde.js
 var require_serde = __commonJS({
-  "node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/serde.js"(exports) {
+  "node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/serde.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/shapes.js
+// node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/shapes.js
 var require_shapes = __commonJS({
-  "node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/shapes.js"(exports) {
+  "node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/shapes.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/signature.js
+// node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/signature.js
 var require_signature = __commonJS({
-  "node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/signature.js"(exports) {
+  "node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/signature.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/stream.js
+// node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/stream.js
 var require_stream = __commonJS({
-  "node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/stream.js"(exports) {
+  "node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/stream.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/streaming-payload/streaming-blob-common-types.js
+// node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/streaming-payload/streaming-blob-common-types.js
 var require_streaming_blob_common_types = __commonJS({
-  "node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/streaming-payload/streaming-blob-common-types.js"(exports) {
+  "node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/streaming-payload/streaming-blob-common-types.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/streaming-payload/streaming-blob-payload-input-types.js
+// node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/streaming-payload/streaming-blob-payload-input-types.js
 var require_streaming_blob_payload_input_types = __commonJS({
-  "node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/streaming-payload/streaming-blob-payload-input-types.js"(exports) {
+  "node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/streaming-payload/streaming-blob-payload-input-types.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/streaming-payload/streaming-blob-payload-output-types.js
+// node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/streaming-payload/streaming-blob-payload-output-types.js
 var require_streaming_blob_payload_output_types = __commonJS({
-  "node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/streaming-payload/streaming-blob-payload-output-types.js"(exports) {
+  "node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/streaming-payload/streaming-blob-payload-output-types.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/transfer.js
+// node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/transfer.js
 var require_transfer = __commonJS({
-  "node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/transfer.js"(exports) {
+  "node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/transfer.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.RequestHandlerProtocol = void 0;
@@ -8667,49 +8761,49 @@ var require_transfer = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/transform/client-payload-blob-type-narrow.js
+// node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/transform/client-payload-blob-type-narrow.js
 var require_client_payload_blob_type_narrow = __commonJS({
-  "node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/transform/client-payload-blob-type-narrow.js"(exports) {
+  "node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/transform/client-payload-blob-type-narrow.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/transform/type-transform.js
+// node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/transform/type-transform.js
 var require_type_transform = __commonJS({
-  "node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/transform/type-transform.js"(exports) {
+  "node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/transform/type-transform.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/uri.js
+// node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/uri.js
 var require_uri = __commonJS({
-  "node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/uri.js"(exports) {
+  "node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/uri.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/util.js
+// node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/util.js
 var require_util = __commonJS({
-  "node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/util.js"(exports) {
+  "node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/util.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/waiter.js
+// node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/waiter.js
 var require_waiter = __commonJS({
-  "node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/waiter.js"(exports) {
+  "node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/waiter.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/index.js
+// node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/index.js
 var require_dist_cjs = __commonJS({
-  "node_modules/.pnpm/@smithy+types@2.0.2/node_modules/@smithy/types/dist-cjs/index.js"(exports) {
+  "node_modules/.pnpm/@smithy+types@2.2.2/node_modules/@smithy/types/dist-cjs/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var tslib_1 = (init_tslib_es6(), __toCommonJS(tslib_es6_exports));
@@ -8725,6 +8819,7 @@ var require_dist_cjs = __commonJS({
     tslib_1.__exportStar(require_endpoint(), exports);
     tslib_1.__exportStar(require_endpoints(), exports);
     tslib_1.__exportStar(require_eventStream(), exports);
+    tslib_1.__exportStar(require_extensions(), exports);
     tslib_1.__exportStar(require_http(), exports);
     tslib_1.__exportStar(require_identity2(), exports);
     tslib_1.__exportStar(require_logger(), exports);
@@ -8749,9 +8844,9 @@ var require_dist_cjs = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+protocol-http@2.0.1/node_modules/@smithy/protocol-http/dist-cjs/Field.js
+// node_modules/.pnpm/@smithy+protocol-http@2.0.5/node_modules/@smithy/protocol-http/dist-cjs/Field.js
 var require_Field = __commonJS({
-  "node_modules/.pnpm/@smithy+protocol-http@2.0.1/node_modules/@smithy/protocol-http/dist-cjs/Field.js"(exports) {
+  "node_modules/.pnpm/@smithy+protocol-http@2.0.5/node_modules/@smithy/protocol-http/dist-cjs/Field.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.Field = void 0;
@@ -8782,9 +8877,9 @@ var require_Field = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+protocol-http@2.0.1/node_modules/@smithy/protocol-http/dist-cjs/Fields.js
+// node_modules/.pnpm/@smithy+protocol-http@2.0.5/node_modules/@smithy/protocol-http/dist-cjs/Fields.js
 var require_Fields = __commonJS({
-  "node_modules/.pnpm/@smithy+protocol-http@2.0.1/node_modules/@smithy/protocol-http/dist-cjs/Fields.js"(exports) {
+  "node_modules/.pnpm/@smithy+protocol-http@2.0.5/node_modules/@smithy/protocol-http/dist-cjs/Fields.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.Fields = void 0;
@@ -8811,17 +8906,17 @@ var require_Fields = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+protocol-http@2.0.1/node_modules/@smithy/protocol-http/dist-cjs/httpHandler.js
+// node_modules/.pnpm/@smithy+protocol-http@2.0.5/node_modules/@smithy/protocol-http/dist-cjs/httpHandler.js
 var require_httpHandler = __commonJS({
-  "node_modules/.pnpm/@smithy+protocol-http@2.0.1/node_modules/@smithy/protocol-http/dist-cjs/httpHandler.js"(exports) {
+  "node_modules/.pnpm/@smithy+protocol-http@2.0.5/node_modules/@smithy/protocol-http/dist-cjs/httpHandler.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@smithy+protocol-http@2.0.1/node_modules/@smithy/protocol-http/dist-cjs/httpRequest.js
+// node_modules/.pnpm/@smithy+protocol-http@2.0.5/node_modules/@smithy/protocol-http/dist-cjs/httpRequest.js
 var require_httpRequest = __commonJS({
-  "node_modules/.pnpm/@smithy+protocol-http@2.0.1/node_modules/@smithy/protocol-http/dist-cjs/httpRequest.js"(exports) {
+  "node_modules/.pnpm/@smithy+protocol-http@2.0.5/node_modules/@smithy/protocol-http/dist-cjs/httpRequest.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.HttpRequest = void 0;
@@ -8868,9 +8963,9 @@ var require_httpRequest = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+protocol-http@2.0.1/node_modules/@smithy/protocol-http/dist-cjs/httpResponse.js
+// node_modules/.pnpm/@smithy+protocol-http@2.0.5/node_modules/@smithy/protocol-http/dist-cjs/httpResponse.js
 var require_httpResponse = __commonJS({
-  "node_modules/.pnpm/@smithy+protocol-http@2.0.1/node_modules/@smithy/protocol-http/dist-cjs/httpResponse.js"(exports) {
+  "node_modules/.pnpm/@smithy+protocol-http@2.0.5/node_modules/@smithy/protocol-http/dist-cjs/httpResponse.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.HttpResponse = void 0;
@@ -8892,9 +8987,9 @@ var require_httpResponse = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+protocol-http@2.0.1/node_modules/@smithy/protocol-http/dist-cjs/isValidHostname.js
+// node_modules/.pnpm/@smithy+protocol-http@2.0.5/node_modules/@smithy/protocol-http/dist-cjs/isValidHostname.js
 var require_isValidHostname = __commonJS({
-  "node_modules/.pnpm/@smithy+protocol-http@2.0.1/node_modules/@smithy/protocol-http/dist-cjs/isValidHostname.js"(exports) {
+  "node_modules/.pnpm/@smithy+protocol-http@2.0.5/node_modules/@smithy/protocol-http/dist-cjs/isValidHostname.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.isValidHostname = void 0;
@@ -8906,17 +9001,17 @@ var require_isValidHostname = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+protocol-http@2.0.1/node_modules/@smithy/protocol-http/dist-cjs/types.js
+// node_modules/.pnpm/@smithy+protocol-http@2.0.5/node_modules/@smithy/protocol-http/dist-cjs/types.js
 var require_types = __commonJS({
-  "node_modules/.pnpm/@smithy+protocol-http@2.0.1/node_modules/@smithy/protocol-http/dist-cjs/types.js"(exports) {
+  "node_modules/.pnpm/@smithy+protocol-http@2.0.5/node_modules/@smithy/protocol-http/dist-cjs/types.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@smithy+protocol-http@2.0.1/node_modules/@smithy/protocol-http/dist-cjs/index.js
+// node_modules/.pnpm/@smithy+protocol-http@2.0.5/node_modules/@smithy/protocol-http/dist-cjs/index.js
 var require_dist_cjs2 = __commonJS({
-  "node_modules/.pnpm/@smithy+protocol-http@2.0.1/node_modules/@smithy/protocol-http/dist-cjs/index.js"(exports) {
+  "node_modules/.pnpm/@smithy+protocol-http@2.0.5/node_modules/@smithy/protocol-http/dist-cjs/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var tslib_1 = (init_tslib_es6(), __toCommonJS(tslib_es6_exports));
@@ -8930,9 +9025,9 @@ var require_dist_cjs2 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+middleware-host-header@3.379.1/node_modules/@aws-sdk/middleware-host-header/dist-cjs/index.js
+// node_modules/.pnpm/@aws-sdk+middleware-host-header@3.398.0/node_modules/@aws-sdk/middleware-host-header/dist-cjs/index.js
 var require_dist_cjs3 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+middleware-host-header@3.379.1/node_modules/@aws-sdk/middleware-host-header/dist-cjs/index.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+middleware-host-header@3.398.0/node_modules/@aws-sdk/middleware-host-header/dist-cjs/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.getHostHeaderPlugin = exports.hostHeaderMiddlewareOptions = exports.hostHeaderMiddleware = exports.resolveHostHeaderConfig = void 0;
@@ -8974,9 +9069,9 @@ var require_dist_cjs3 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+middleware-logger@3.378.0/node_modules/@aws-sdk/middleware-logger/dist-cjs/loggerMiddleware.js
+// node_modules/.pnpm/@aws-sdk+middleware-logger@3.398.0/node_modules/@aws-sdk/middleware-logger/dist-cjs/loggerMiddleware.js
 var require_loggerMiddleware = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+middleware-logger@3.378.0/node_modules/@aws-sdk/middleware-logger/dist-cjs/loggerMiddleware.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+middleware-logger@3.398.0/node_modules/@aws-sdk/middleware-logger/dist-cjs/loggerMiddleware.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.getLoggerPlugin = exports.loggerMiddlewareOptions = exports.loggerMiddleware = void 0;
@@ -9027,9 +9122,9 @@ var require_loggerMiddleware = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+middleware-logger@3.378.0/node_modules/@aws-sdk/middleware-logger/dist-cjs/index.js
+// node_modules/.pnpm/@aws-sdk+middleware-logger@3.398.0/node_modules/@aws-sdk/middleware-logger/dist-cjs/index.js
 var require_dist_cjs4 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+middleware-logger@3.378.0/node_modules/@aws-sdk/middleware-logger/dist-cjs/index.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+middleware-logger@3.398.0/node_modules/@aws-sdk/middleware-logger/dist-cjs/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var tslib_1 = (init_tslib_es6(), __toCommonJS(tslib_es6_exports));
@@ -9037,9 +9132,9 @@ var require_dist_cjs4 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+middleware-recursion-detection@3.378.0/node_modules/@aws-sdk/middleware-recursion-detection/dist-cjs/index.js
+// node_modules/.pnpm/@aws-sdk+middleware-recursion-detection@3.398.0/node_modules/@aws-sdk/middleware-recursion-detection/dist-cjs/index.js
 var require_dist_cjs5 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+middleware-recursion-detection@3.378.0/node_modules/@aws-sdk/middleware-recursion-detection/dist-cjs/index.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+middleware-recursion-detection@3.398.0/node_modules/@aws-sdk/middleware-recursion-detection/dist-cjs/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.getRecursionDetectionPlugin = exports.addRecursionDetectionMiddlewareOptions = exports.recursionDetectionMiddleware = void 0;
@@ -9080,9 +9175,9 @@ var require_dist_cjs5 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+property-provider@2.0.1/node_modules/@smithy/property-provider/dist-cjs/ProviderError.js
+// node_modules/.pnpm/@smithy+property-provider@2.0.6/node_modules/@smithy/property-provider/dist-cjs/ProviderError.js
 var require_ProviderError = __commonJS({
-  "node_modules/.pnpm/@smithy+property-provider@2.0.1/node_modules/@smithy/property-provider/dist-cjs/ProviderError.js"(exports) {
+  "node_modules/.pnpm/@smithy+property-provider@2.0.6/node_modules/@smithy/property-provider/dist-cjs/ProviderError.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.ProviderError = void 0;
@@ -9101,9 +9196,9 @@ var require_ProviderError = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+property-provider@2.0.1/node_modules/@smithy/property-provider/dist-cjs/CredentialsProviderError.js
+// node_modules/.pnpm/@smithy+property-provider@2.0.6/node_modules/@smithy/property-provider/dist-cjs/CredentialsProviderError.js
 var require_CredentialsProviderError = __commonJS({
-  "node_modules/.pnpm/@smithy+property-provider@2.0.1/node_modules/@smithy/property-provider/dist-cjs/CredentialsProviderError.js"(exports) {
+  "node_modules/.pnpm/@smithy+property-provider@2.0.6/node_modules/@smithy/property-provider/dist-cjs/CredentialsProviderError.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.CredentialsProviderError = void 0;
@@ -9120,9 +9215,9 @@ var require_CredentialsProviderError = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+property-provider@2.0.1/node_modules/@smithy/property-provider/dist-cjs/TokenProviderError.js
+// node_modules/.pnpm/@smithy+property-provider@2.0.6/node_modules/@smithy/property-provider/dist-cjs/TokenProviderError.js
 var require_TokenProviderError = __commonJS({
-  "node_modules/.pnpm/@smithy+property-provider@2.0.1/node_modules/@smithy/property-provider/dist-cjs/TokenProviderError.js"(exports) {
+  "node_modules/.pnpm/@smithy+property-provider@2.0.6/node_modules/@smithy/property-provider/dist-cjs/TokenProviderError.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.TokenProviderError = void 0;
@@ -9139,34 +9234,39 @@ var require_TokenProviderError = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+property-provider@2.0.1/node_modules/@smithy/property-provider/dist-cjs/chain.js
+// node_modules/.pnpm/@smithy+property-provider@2.0.6/node_modules/@smithy/property-provider/dist-cjs/chain.js
 var require_chain = __commonJS({
-  "node_modules/.pnpm/@smithy+property-provider@2.0.1/node_modules/@smithy/property-provider/dist-cjs/chain.js"(exports) {
+  "node_modules/.pnpm/@smithy+property-provider@2.0.6/node_modules/@smithy/property-provider/dist-cjs/chain.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.chain = void 0;
     var ProviderError_1 = require_ProviderError();
-    function chain(...providers) {
-      return () => {
-        let promise = Promise.reject(new ProviderError_1.ProviderError("No providers in chain"));
-        for (const provider of providers) {
-          promise = promise.catch((err) => {
-            if (err === null || err === void 0 ? void 0 : err.tryNextLink) {
-              return provider();
-            }
-            throw err;
-          });
+    var chain = (...providers) => async () => {
+      if (providers.length === 0) {
+        throw new ProviderError_1.ProviderError("No providers in chain");
+      }
+      let lastProviderError;
+      for (const provider of providers) {
+        try {
+          const credentials = await provider();
+          return credentials;
+        } catch (err) {
+          lastProviderError = err;
+          if (err === null || err === void 0 ? void 0 : err.tryNextLink) {
+            continue;
+          }
+          throw err;
         }
-        return promise;
-      };
-    }
+      }
+      throw lastProviderError;
+    };
     exports.chain = chain;
   }
 });
 
-// node_modules/.pnpm/@smithy+property-provider@2.0.1/node_modules/@smithy/property-provider/dist-cjs/fromStatic.js
+// node_modules/.pnpm/@smithy+property-provider@2.0.6/node_modules/@smithy/property-provider/dist-cjs/fromStatic.js
 var require_fromStatic = __commonJS({
-  "node_modules/.pnpm/@smithy+property-provider@2.0.1/node_modules/@smithy/property-provider/dist-cjs/fromStatic.js"(exports) {
+  "node_modules/.pnpm/@smithy+property-provider@2.0.6/node_modules/@smithy/property-provider/dist-cjs/fromStatic.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.fromStatic = void 0;
@@ -9175,9 +9275,9 @@ var require_fromStatic = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+property-provider@2.0.1/node_modules/@smithy/property-provider/dist-cjs/memoize.js
+// node_modules/.pnpm/@smithy+property-provider@2.0.6/node_modules/@smithy/property-provider/dist-cjs/memoize.js
 var require_memoize = __commonJS({
-  "node_modules/.pnpm/@smithy+property-provider@2.0.1/node_modules/@smithy/property-provider/dist-cjs/memoize.js"(exports) {
+  "node_modules/.pnpm/@smithy+property-provider@2.0.6/node_modules/@smithy/property-provider/dist-cjs/memoize.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.memoize = void 0;
@@ -9229,9 +9329,9 @@ var require_memoize = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+property-provider@2.0.1/node_modules/@smithy/property-provider/dist-cjs/index.js
+// node_modules/.pnpm/@smithy+property-provider@2.0.6/node_modules/@smithy/property-provider/dist-cjs/index.js
 var require_dist_cjs6 = __commonJS({
-  "node_modules/.pnpm/@smithy+property-provider@2.0.1/node_modules/@smithy/property-provider/dist-cjs/index.js"(exports) {
+  "node_modules/.pnpm/@smithy+property-provider@2.0.6/node_modules/@smithy/property-provider/dist-cjs/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var tslib_1 = (init_tslib_es6(), __toCommonJS(tslib_es6_exports));
@@ -10182,9 +10282,9 @@ var require_dist_cjs8 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+eventstream-codec@2.0.1/node_modules/@smithy/eventstream-codec/dist-cjs/Int64.js
+// node_modules/.pnpm/@smithy+eventstream-codec@2.0.5/node_modules/@smithy/eventstream-codec/dist-cjs/Int64.js
 var require_Int64 = __commonJS({
-  "node_modules/.pnpm/@smithy+eventstream-codec@2.0.1/node_modules/@smithy/eventstream-codec/dist-cjs/Int64.js"(exports) {
+  "node_modules/.pnpm/@smithy+eventstream-codec@2.0.5/node_modules/@smithy/eventstream-codec/dist-cjs/Int64.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.Int64 = void 0;
@@ -10235,9 +10335,9 @@ var require_Int64 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+eventstream-codec@2.0.1/node_modules/@smithy/eventstream-codec/dist-cjs/HeaderMarshaller.js
+// node_modules/.pnpm/@smithy+eventstream-codec@2.0.5/node_modules/@smithy/eventstream-codec/dist-cjs/HeaderMarshaller.js
 var require_HeaderMarshaller = __commonJS({
-  "node_modules/.pnpm/@smithy+eventstream-codec@2.0.1/node_modules/@smithy/eventstream-codec/dist-cjs/HeaderMarshaller.js"(exports) {
+  "node_modules/.pnpm/@smithy+eventstream-codec@2.0.5/node_modules/@smithy/eventstream-codec/dist-cjs/HeaderMarshaller.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.HeaderMarshaller = void 0;
@@ -10427,9 +10527,9 @@ var require_HeaderMarshaller = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+eventstream-codec@2.0.1/node_modules/@smithy/eventstream-codec/dist-cjs/splitMessage.js
+// node_modules/.pnpm/@smithy+eventstream-codec@2.0.5/node_modules/@smithy/eventstream-codec/dist-cjs/splitMessage.js
 var require_splitMessage = __commonJS({
-  "node_modules/.pnpm/@smithy+eventstream-codec@2.0.1/node_modules/@smithy/eventstream-codec/dist-cjs/splitMessage.js"(exports) {
+  "node_modules/.pnpm/@smithy+eventstream-codec@2.0.5/node_modules/@smithy/eventstream-codec/dist-cjs/splitMessage.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.splitMessage = void 0;
@@ -10467,9 +10567,9 @@ var require_splitMessage = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+eventstream-codec@2.0.1/node_modules/@smithy/eventstream-codec/dist-cjs/EventStreamCodec.js
+// node_modules/.pnpm/@smithy+eventstream-codec@2.0.5/node_modules/@smithy/eventstream-codec/dist-cjs/EventStreamCodec.js
 var require_EventStreamCodec = __commonJS({
-  "node_modules/.pnpm/@smithy+eventstream-codec@2.0.1/node_modules/@smithy/eventstream-codec/dist-cjs/EventStreamCodec.js"(exports) {
+  "node_modules/.pnpm/@smithy+eventstream-codec@2.0.5/node_modules/@smithy/eventstream-codec/dist-cjs/EventStreamCodec.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.EventStreamCodec = void 0;
@@ -10539,17 +10639,17 @@ var require_EventStreamCodec = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+eventstream-codec@2.0.1/node_modules/@smithy/eventstream-codec/dist-cjs/Message.js
+// node_modules/.pnpm/@smithy+eventstream-codec@2.0.5/node_modules/@smithy/eventstream-codec/dist-cjs/Message.js
 var require_Message = __commonJS({
-  "node_modules/.pnpm/@smithy+eventstream-codec@2.0.1/node_modules/@smithy/eventstream-codec/dist-cjs/Message.js"(exports) {
+  "node_modules/.pnpm/@smithy+eventstream-codec@2.0.5/node_modules/@smithy/eventstream-codec/dist-cjs/Message.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@smithy+eventstream-codec@2.0.1/node_modules/@smithy/eventstream-codec/dist-cjs/MessageDecoderStream.js
+// node_modules/.pnpm/@smithy+eventstream-codec@2.0.5/node_modules/@smithy/eventstream-codec/dist-cjs/MessageDecoderStream.js
 var require_MessageDecoderStream = __commonJS({
-  "node_modules/.pnpm/@smithy+eventstream-codec@2.0.1/node_modules/@smithy/eventstream-codec/dist-cjs/MessageDecoderStream.js"(exports) {
+  "node_modules/.pnpm/@smithy+eventstream-codec@2.0.5/node_modules/@smithy/eventstream-codec/dist-cjs/MessageDecoderStream.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.MessageDecoderStream = void 0;
@@ -10571,9 +10671,9 @@ var require_MessageDecoderStream = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+eventstream-codec@2.0.1/node_modules/@smithy/eventstream-codec/dist-cjs/MessageEncoderStream.js
+// node_modules/.pnpm/@smithy+eventstream-codec@2.0.5/node_modules/@smithy/eventstream-codec/dist-cjs/MessageEncoderStream.js
 var require_MessageEncoderStream = __commonJS({
-  "node_modules/.pnpm/@smithy+eventstream-codec@2.0.1/node_modules/@smithy/eventstream-codec/dist-cjs/MessageEncoderStream.js"(exports) {
+  "node_modules/.pnpm/@smithy+eventstream-codec@2.0.5/node_modules/@smithy/eventstream-codec/dist-cjs/MessageEncoderStream.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.MessageEncoderStream = void 0;
@@ -10598,9 +10698,9 @@ var require_MessageEncoderStream = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+eventstream-codec@2.0.1/node_modules/@smithy/eventstream-codec/dist-cjs/SmithyMessageDecoderStream.js
+// node_modules/.pnpm/@smithy+eventstream-codec@2.0.5/node_modules/@smithy/eventstream-codec/dist-cjs/SmithyMessageDecoderStream.js
 var require_SmithyMessageDecoderStream = __commonJS({
-  "node_modules/.pnpm/@smithy+eventstream-codec@2.0.1/node_modules/@smithy/eventstream-codec/dist-cjs/SmithyMessageDecoderStream.js"(exports) {
+  "node_modules/.pnpm/@smithy+eventstream-codec@2.0.5/node_modules/@smithy/eventstream-codec/dist-cjs/SmithyMessageDecoderStream.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.SmithyMessageDecoderStream = void 0;
@@ -10624,9 +10724,9 @@ var require_SmithyMessageDecoderStream = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+eventstream-codec@2.0.1/node_modules/@smithy/eventstream-codec/dist-cjs/SmithyMessageEncoderStream.js
+// node_modules/.pnpm/@smithy+eventstream-codec@2.0.5/node_modules/@smithy/eventstream-codec/dist-cjs/SmithyMessageEncoderStream.js
 var require_SmithyMessageEncoderStream = __commonJS({
-  "node_modules/.pnpm/@smithy+eventstream-codec@2.0.1/node_modules/@smithy/eventstream-codec/dist-cjs/SmithyMessageEncoderStream.js"(exports) {
+  "node_modules/.pnpm/@smithy+eventstream-codec@2.0.5/node_modules/@smithy/eventstream-codec/dist-cjs/SmithyMessageEncoderStream.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.SmithyMessageEncoderStream = void 0;
@@ -10648,9 +10748,9 @@ var require_SmithyMessageEncoderStream = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+eventstream-codec@2.0.1/node_modules/@smithy/eventstream-codec/dist-cjs/index.js
+// node_modules/.pnpm/@smithy+eventstream-codec@2.0.5/node_modules/@smithy/eventstream-codec/dist-cjs/index.js
 var require_dist_cjs9 = __commonJS({
-  "node_modules/.pnpm/@smithy+eventstream-codec@2.0.1/node_modules/@smithy/eventstream-codec/dist-cjs/index.js"(exports) {
+  "node_modules/.pnpm/@smithy+eventstream-codec@2.0.5/node_modules/@smithy/eventstream-codec/dist-cjs/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var tslib_1 = (init_tslib_es6(), __toCommonJS(tslib_es6_exports));
@@ -10786,9 +10886,9 @@ var require_dist_cjs13 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+signature-v4@2.0.1/node_modules/@smithy/signature-v4/dist-cjs/constants.js
+// node_modules/.pnpm/@smithy+signature-v4@2.0.5/node_modules/@smithy/signature-v4/dist-cjs/constants.js
 var require_constants = __commonJS({
-  "node_modules/.pnpm/@smithy+signature-v4@2.0.1/node_modules/@smithy/signature-v4/dist-cjs/constants.js"(exports) {
+  "node_modules/.pnpm/@smithy+signature-v4@2.0.5/node_modules/@smithy/signature-v4/dist-cjs/constants.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.MAX_PRESIGNED_TTL = exports.KEY_TYPE_IDENTIFIER = exports.MAX_CACHE_SIZE = exports.UNSIGNED_PAYLOAD = exports.EVENT_ALGORITHM_IDENTIFIER = exports.ALGORITHM_IDENTIFIER_V4A = exports.ALGORITHM_IDENTIFIER = exports.UNSIGNABLE_PATTERNS = exports.SEC_HEADER_PATTERN = exports.PROXY_HEADER_PATTERN = exports.ALWAYS_UNSIGNABLE_HEADERS = exports.HOST_HEADER = exports.TOKEN_HEADER = exports.SHA256_HEADER = exports.SIGNATURE_HEADER = exports.GENERATED_HEADERS = exports.DATE_HEADER = exports.AMZ_DATE_HEADER = exports.AUTH_HEADER = exports.REGION_SET_PARAM = exports.TOKEN_QUERY_PARAM = exports.SIGNATURE_QUERY_PARAM = exports.EXPIRES_QUERY_PARAM = exports.SIGNED_HEADERS_QUERY_PARAM = exports.AMZ_DATE_QUERY_PARAM = exports.CREDENTIAL_QUERY_PARAM = exports.ALGORITHM_QUERY_PARAM = void 0;
@@ -10838,9 +10938,9 @@ var require_constants = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+signature-v4@2.0.1/node_modules/@smithy/signature-v4/dist-cjs/credentialDerivation.js
+// node_modules/.pnpm/@smithy+signature-v4@2.0.5/node_modules/@smithy/signature-v4/dist-cjs/credentialDerivation.js
 var require_credentialDerivation = __commonJS({
-  "node_modules/.pnpm/@smithy+signature-v4@2.0.1/node_modules/@smithy/signature-v4/dist-cjs/credentialDerivation.js"(exports) {
+  "node_modules/.pnpm/@smithy+signature-v4@2.0.5/node_modules/@smithy/signature-v4/dist-cjs/credentialDerivation.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.clearCredentialCache = exports.getSigningKey = exports.createScope = void 0;
@@ -10883,9 +10983,9 @@ var require_credentialDerivation = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+signature-v4@2.0.1/node_modules/@smithy/signature-v4/dist-cjs/getCanonicalHeaders.js
+// node_modules/.pnpm/@smithy+signature-v4@2.0.5/node_modules/@smithy/signature-v4/dist-cjs/getCanonicalHeaders.js
 var require_getCanonicalHeaders = __commonJS({
-  "node_modules/.pnpm/@smithy+signature-v4@2.0.1/node_modules/@smithy/signature-v4/dist-cjs/getCanonicalHeaders.js"(exports) {
+  "node_modules/.pnpm/@smithy+signature-v4@2.0.5/node_modules/@smithy/signature-v4/dist-cjs/getCanonicalHeaders.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.getCanonicalHeaders = void 0;
@@ -10945,9 +11045,9 @@ var require_dist_cjs14 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+signature-v4@2.0.1/node_modules/@smithy/signature-v4/dist-cjs/getCanonicalQuery.js
+// node_modules/.pnpm/@smithy+signature-v4@2.0.5/node_modules/@smithy/signature-v4/dist-cjs/getCanonicalQuery.js
 var require_getCanonicalQuery = __commonJS({
-  "node_modules/.pnpm/@smithy+signature-v4@2.0.1/node_modules/@smithy/signature-v4/dist-cjs/getCanonicalQuery.js"(exports) {
+  "node_modules/.pnpm/@smithy+signature-v4@2.0.5/node_modules/@smithy/signature-v4/dist-cjs/getCanonicalQuery.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.getCanonicalQuery = void 0;
@@ -10965,7 +11065,7 @@ var require_getCanonicalQuery = __commonJS({
         if (typeof value === "string") {
           serialized[key] = `${(0, util_uri_escape_1.escapeUri)(key)}=${(0, util_uri_escape_1.escapeUri)(value)}`;
         } else if (Array.isArray(value)) {
-          serialized[key] = value.slice(0).sort().reduce((encoded, value2) => encoded.concat([`${(0, util_uri_escape_1.escapeUri)(key)}=${(0, util_uri_escape_1.escapeUri)(value2)}`]), []).join("&");
+          serialized[key] = value.slice(0).reduce((encoded, value2) => encoded.concat([`${(0, util_uri_escape_1.escapeUri)(key)}=${(0, util_uri_escape_1.escapeUri)(value2)}`]), []).sort().join("&");
         }
       }
       return keys.map((key) => serialized[key]).filter((serialized2) => serialized2).join("&");
@@ -10974,9 +11074,9 @@ var require_getCanonicalQuery = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+signature-v4@2.0.1/node_modules/@smithy/signature-v4/dist-cjs/getPayloadHash.js
+// node_modules/.pnpm/@smithy+signature-v4@2.0.5/node_modules/@smithy/signature-v4/dist-cjs/getPayloadHash.js
 var require_getPayloadHash = __commonJS({
-  "node_modules/.pnpm/@smithy+signature-v4@2.0.1/node_modules/@smithy/signature-v4/dist-cjs/getPayloadHash.js"(exports) {
+  "node_modules/.pnpm/@smithy+signature-v4@2.0.5/node_modules/@smithy/signature-v4/dist-cjs/getPayloadHash.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.getPayloadHash = void 0;
@@ -11003,9 +11103,9 @@ var require_getPayloadHash = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+signature-v4@2.0.1/node_modules/@smithy/signature-v4/dist-cjs/headerUtil.js
+// node_modules/.pnpm/@smithy+signature-v4@2.0.5/node_modules/@smithy/signature-v4/dist-cjs/headerUtil.js
 var require_headerUtil = __commonJS({
-  "node_modules/.pnpm/@smithy+signature-v4@2.0.1/node_modules/@smithy/signature-v4/dist-cjs/headerUtil.js"(exports) {
+  "node_modules/.pnpm/@smithy+signature-v4@2.0.5/node_modules/@smithy/signature-v4/dist-cjs/headerUtil.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.deleteHeader = exports.getHeaderValue = exports.hasHeader = void 0;
@@ -11041,9 +11141,9 @@ var require_headerUtil = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+signature-v4@2.0.1/node_modules/@smithy/signature-v4/dist-cjs/cloneRequest.js
+// node_modules/.pnpm/@smithy+signature-v4@2.0.5/node_modules/@smithy/signature-v4/dist-cjs/cloneRequest.js
 var require_cloneRequest = __commonJS({
-  "node_modules/.pnpm/@smithy+signature-v4@2.0.1/node_modules/@smithy/signature-v4/dist-cjs/cloneRequest.js"(exports) {
+  "node_modules/.pnpm/@smithy+signature-v4@2.0.5/node_modules/@smithy/signature-v4/dist-cjs/cloneRequest.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.cloneQuery = exports.cloneRequest = void 0;
@@ -11064,9 +11164,9 @@ var require_cloneRequest = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+signature-v4@2.0.1/node_modules/@smithy/signature-v4/dist-cjs/moveHeadersToQuery.js
+// node_modules/.pnpm/@smithy+signature-v4@2.0.5/node_modules/@smithy/signature-v4/dist-cjs/moveHeadersToQuery.js
 var require_moveHeadersToQuery = __commonJS({
-  "node_modules/.pnpm/@smithy+signature-v4@2.0.1/node_modules/@smithy/signature-v4/dist-cjs/moveHeadersToQuery.js"(exports) {
+  "node_modules/.pnpm/@smithy+signature-v4@2.0.5/node_modules/@smithy/signature-v4/dist-cjs/moveHeadersToQuery.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.moveHeadersToQuery = void 0;
@@ -11091,9 +11191,9 @@ var require_moveHeadersToQuery = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+signature-v4@2.0.1/node_modules/@smithy/signature-v4/dist-cjs/prepareRequest.js
+// node_modules/.pnpm/@smithy+signature-v4@2.0.5/node_modules/@smithy/signature-v4/dist-cjs/prepareRequest.js
 var require_prepareRequest = __commonJS({
-  "node_modules/.pnpm/@smithy+signature-v4@2.0.1/node_modules/@smithy/signature-v4/dist-cjs/prepareRequest.js"(exports) {
+  "node_modules/.pnpm/@smithy+signature-v4@2.0.5/node_modules/@smithy/signature-v4/dist-cjs/prepareRequest.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.prepareRequest = void 0;
@@ -11112,9 +11212,9 @@ var require_prepareRequest = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+signature-v4@2.0.1/node_modules/@smithy/signature-v4/dist-cjs/utilDate.js
+// node_modules/.pnpm/@smithy+signature-v4@2.0.5/node_modules/@smithy/signature-v4/dist-cjs/utilDate.js
 var require_utilDate = __commonJS({
-  "node_modules/.pnpm/@smithy+signature-v4@2.0.1/node_modules/@smithy/signature-v4/dist-cjs/utilDate.js"(exports) {
+  "node_modules/.pnpm/@smithy+signature-v4@2.0.5/node_modules/@smithy/signature-v4/dist-cjs/utilDate.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.toDate = exports.iso8601 = void 0;
@@ -11136,9 +11236,9 @@ var require_utilDate = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+signature-v4@2.0.1/node_modules/@smithy/signature-v4/dist-cjs/SignatureV4.js
+// node_modules/.pnpm/@smithy+signature-v4@2.0.5/node_modules/@smithy/signature-v4/dist-cjs/SignatureV4.js
 var require_SignatureV4 = __commonJS({
-  "node_modules/.pnpm/@smithy+signature-v4@2.0.1/node_modules/@smithy/signature-v4/dist-cjs/SignatureV4.js"(exports) {
+  "node_modules/.pnpm/@smithy+signature-v4@2.0.5/node_modules/@smithy/signature-v4/dist-cjs/SignatureV4.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.SignatureV4 = void 0;
@@ -11326,9 +11426,9 @@ ${(0, util_hex_encoding_1.toHex)(hashedRequest)}`;
   }
 });
 
-// node_modules/.pnpm/@smithy+signature-v4@2.0.1/node_modules/@smithy/signature-v4/dist-cjs/index.js
+// node_modules/.pnpm/@smithy+signature-v4@2.0.5/node_modules/@smithy/signature-v4/dist-cjs/index.js
 var require_dist_cjs15 = __commonJS({
-  "node_modules/.pnpm/@smithy+signature-v4@2.0.1/node_modules/@smithy/signature-v4/dist-cjs/index.js"(exports) {
+  "node_modules/.pnpm/@smithy+signature-v4@2.0.5/node_modules/@smithy/signature-v4/dist-cjs/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.prepareRequest = exports.moveHeadersToQuery = exports.getPayloadHash = exports.getCanonicalQuery = exports.getCanonicalHeaders = void 0;
@@ -11358,9 +11458,9 @@ var require_dist_cjs15 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+middleware-signing@3.379.1/node_modules/@aws-sdk/middleware-signing/dist-cjs/awsAuthConfiguration.js
+// node_modules/.pnpm/@aws-sdk+middleware-signing@3.398.0/node_modules/@aws-sdk/middleware-signing/dist-cjs/awsAuthConfiguration.js
 var require_awsAuthConfiguration = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+middleware-signing@3.379.1/node_modules/@aws-sdk/middleware-signing/dist-cjs/awsAuthConfiguration.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+middleware-signing@3.398.0/node_modules/@aws-sdk/middleware-signing/dist-cjs/awsAuthConfiguration.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.resolveSigV4AuthConfig = exports.resolveAwsAuthConfig = void 0;
@@ -11462,9 +11562,9 @@ var require_awsAuthConfiguration = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+middleware-signing@3.379.1/node_modules/@aws-sdk/middleware-signing/dist-cjs/utils/getSkewCorrectedDate.js
+// node_modules/.pnpm/@aws-sdk+middleware-signing@3.398.0/node_modules/@aws-sdk/middleware-signing/dist-cjs/utils/getSkewCorrectedDate.js
 var require_getSkewCorrectedDate = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+middleware-signing@3.379.1/node_modules/@aws-sdk/middleware-signing/dist-cjs/utils/getSkewCorrectedDate.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+middleware-signing@3.398.0/node_modules/@aws-sdk/middleware-signing/dist-cjs/utils/getSkewCorrectedDate.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.getSkewCorrectedDate = void 0;
@@ -11473,9 +11573,9 @@ var require_getSkewCorrectedDate = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+middleware-signing@3.379.1/node_modules/@aws-sdk/middleware-signing/dist-cjs/utils/isClockSkewed.js
+// node_modules/.pnpm/@aws-sdk+middleware-signing@3.398.0/node_modules/@aws-sdk/middleware-signing/dist-cjs/utils/isClockSkewed.js
 var require_isClockSkewed = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+middleware-signing@3.379.1/node_modules/@aws-sdk/middleware-signing/dist-cjs/utils/isClockSkewed.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+middleware-signing@3.398.0/node_modules/@aws-sdk/middleware-signing/dist-cjs/utils/isClockSkewed.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.isClockSkewed = void 0;
@@ -11485,9 +11585,9 @@ var require_isClockSkewed = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+middleware-signing@3.379.1/node_modules/@aws-sdk/middleware-signing/dist-cjs/utils/getUpdatedSystemClockOffset.js
+// node_modules/.pnpm/@aws-sdk+middleware-signing@3.398.0/node_modules/@aws-sdk/middleware-signing/dist-cjs/utils/getUpdatedSystemClockOffset.js
 var require_getUpdatedSystemClockOffset = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+middleware-signing@3.379.1/node_modules/@aws-sdk/middleware-signing/dist-cjs/utils/getUpdatedSystemClockOffset.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+middleware-signing@3.398.0/node_modules/@aws-sdk/middleware-signing/dist-cjs/utils/getUpdatedSystemClockOffset.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.getUpdatedSystemClockOffset = void 0;
@@ -11503,9 +11603,9 @@ var require_getUpdatedSystemClockOffset = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+middleware-signing@3.379.1/node_modules/@aws-sdk/middleware-signing/dist-cjs/awsAuthMiddleware.js
+// node_modules/.pnpm/@aws-sdk+middleware-signing@3.398.0/node_modules/@aws-sdk/middleware-signing/dist-cjs/awsAuthMiddleware.js
 var require_awsAuthMiddleware = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+middleware-signing@3.379.1/node_modules/@aws-sdk/middleware-signing/dist-cjs/awsAuthMiddleware.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+middleware-signing@3.398.0/node_modules/@aws-sdk/middleware-signing/dist-cjs/awsAuthMiddleware.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.getSigV4AuthPlugin = exports.getAwsAuthPlugin = exports.awsAuthMiddlewareOptions = exports.awsAuthMiddleware = void 0;
@@ -11562,9 +11662,9 @@ var require_awsAuthMiddleware = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+middleware-signing@3.379.1/node_modules/@aws-sdk/middleware-signing/dist-cjs/index.js
+// node_modules/.pnpm/@aws-sdk+middleware-signing@3.398.0/node_modules/@aws-sdk/middleware-signing/dist-cjs/index.js
 var require_dist_cjs16 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+middleware-signing@3.379.1/node_modules/@aws-sdk/middleware-signing/dist-cjs/index.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+middleware-signing@3.398.0/node_modules/@aws-sdk/middleware-signing/dist-cjs/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var tslib_1 = (init_tslib_es6(), __toCommonJS(tslib_es6_exports));
@@ -11573,9 +11673,9 @@ var require_dist_cjs16 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+middleware-user-agent@3.382.0/node_modules/@aws-sdk/middleware-user-agent/dist-cjs/configurations.js
+// node_modules/.pnpm/@aws-sdk+middleware-user-agent@3.398.0/node_modules/@aws-sdk/middleware-user-agent/dist-cjs/configurations.js
 var require_configurations = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+middleware-user-agent@3.382.0/node_modules/@aws-sdk/middleware-user-agent/dist-cjs/configurations.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+middleware-user-agent@3.398.0/node_modules/@aws-sdk/middleware-user-agent/dist-cjs/configurations.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.resolveUserAgentConfig = void 0;
@@ -11589,9 +11689,9 @@ var require_configurations = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/lib/aws/partitions.json
+// node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/lib/aws/partitions.json
 var require_partitions = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/lib/aws/partitions.json"(exports, module2) {
+  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/lib/aws/partitions.json"(exports, module2) {
     module2.exports = {
       partitions: [{
         id: "aws",
@@ -11666,6 +11766,9 @@ var require_partitions = __commonJS({
           },
           "eu-west-3": {
             description: "Europe (Paris)"
+          },
+          "il-central-1": {
+            description: "Israel (Tel Aviv)"
           },
           "me-central-1": {
             description: "Middle East (UAE)"
@@ -11798,9 +11901,9 @@ var require_partitions = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/lib/aws/partition.js
+// node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/lib/aws/partition.js
 var require_partition = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/lib/aws/partition.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/lib/aws/partition.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.getUserAgentPrefix = exports.useDefaultPartitionInfo = exports.setPartitionInfo = exports.partition = void 0;
@@ -11852,9 +11955,9 @@ var require_partition = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/lib/isIpAddress.js
+// node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/lib/isIpAddress.js
 var require_isIpAddress = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/lib/isIpAddress.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/lib/isIpAddress.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.isIpAddress = void 0;
@@ -11864,9 +11967,9 @@ var require_isIpAddress = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/debug/debugId.js
+// node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/debug/debugId.js
 var require_debugId = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/debug/debugId.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/debug/debugId.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.debugId = void 0;
@@ -11874,9 +11977,9 @@ var require_debugId = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/debug/toDebugString.js
+// node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/debug/toDebugString.js
 var require_toDebugString = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/debug/toDebugString.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/debug/toDebugString.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.toDebugString = void 0;
@@ -11896,9 +11999,9 @@ var require_toDebugString = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/debug/index.js
+// node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/debug/index.js
 var require_debug = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/debug/index.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/debug/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var tslib_1 = (init_tslib_es6(), __toCommonJS(tslib_es6_exports));
@@ -11907,9 +12010,9 @@ var require_debug = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/types/EndpointError.js
+// node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/types/EndpointError.js
 var require_EndpointError = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/types/EndpointError.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/types/EndpointError.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.EndpointError = void 0;
@@ -11923,49 +12026,49 @@ var require_EndpointError = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/types/EndpointRuleObject.js
+// node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/types/EndpointRuleObject.js
 var require_EndpointRuleObject2 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/types/EndpointRuleObject.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/types/EndpointRuleObject.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/types/ErrorRuleObject.js
+// node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/types/ErrorRuleObject.js
 var require_ErrorRuleObject2 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/types/ErrorRuleObject.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/types/ErrorRuleObject.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/types/RuleSetObject.js
+// node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/types/RuleSetObject.js
 var require_RuleSetObject2 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/types/RuleSetObject.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/types/RuleSetObject.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/types/TreeRuleObject.js
+// node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/types/TreeRuleObject.js
 var require_TreeRuleObject2 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/types/TreeRuleObject.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/types/TreeRuleObject.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/types/shared.js
+// node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/types/shared.js
 var require_shared2 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/types/shared.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/types/shared.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/types/index.js
+// node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/types/index.js
 var require_types2 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/types/index.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/types/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var tslib_1 = (init_tslib_es6(), __toCommonJS(tslib_es6_exports));
@@ -11978,9 +12081,9 @@ var require_types2 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/lib/isValidHostLabel.js
+// node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/lib/isValidHostLabel.js
 var require_isValidHostLabel = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/lib/isValidHostLabel.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/lib/isValidHostLabel.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.isValidHostLabel = void 0;
@@ -12001,9 +12104,9 @@ var require_isValidHostLabel = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/lib/aws/isVirtualHostableS3Bucket.js
+// node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/lib/aws/isVirtualHostableS3Bucket.js
 var require_isVirtualHostableS3Bucket = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/lib/aws/isVirtualHostableS3Bucket.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/lib/aws/isVirtualHostableS3Bucket.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.isVirtualHostableS3Bucket = void 0;
@@ -12036,9 +12139,9 @@ var require_isVirtualHostableS3Bucket = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/lib/aws/parseArn.js
+// node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/lib/aws/parseArn.js
 var require_parseArn = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/lib/aws/parseArn.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/lib/aws/parseArn.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.parseArn = void 0;
@@ -12061,9 +12164,9 @@ var require_parseArn = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/lib/aws/index.js
+// node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/lib/aws/index.js
 var require_aws = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/lib/aws/index.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/lib/aws/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var tslib_1 = (init_tslib_es6(), __toCommonJS(tslib_es6_exports));
@@ -12073,9 +12176,9 @@ var require_aws = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/lib/booleanEquals.js
+// node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/lib/booleanEquals.js
 var require_booleanEquals = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/lib/booleanEquals.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/lib/booleanEquals.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.booleanEquals = void 0;
@@ -12084,9 +12187,9 @@ var require_booleanEquals = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/lib/getAttrPathList.js
+// node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/lib/getAttrPathList.js
 var require_getAttrPathList = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/lib/getAttrPathList.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/lib/getAttrPathList.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.getAttrPathList = void 0;
@@ -12118,9 +12221,9 @@ var require_getAttrPathList = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/lib/getAttr.js
+// node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/lib/getAttr.js
 var require_getAttr = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/lib/getAttr.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/lib/getAttr.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.getAttr = void 0;
@@ -12138,9 +12241,9 @@ var require_getAttr = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/lib/isSet.js
+// node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/lib/isSet.js
 var require_isSet = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/lib/isSet.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/lib/isSet.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.isSet = void 0;
@@ -12149,9 +12252,9 @@ var require_isSet = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/lib/not.js
+// node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/lib/not.js
 var require_not = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/lib/not.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/lib/not.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.not = void 0;
@@ -12160,17 +12263,17 @@ var require_not = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+types@3.378.0/node_modules/@aws-sdk/types/dist-cjs/abort.js
+// node_modules/.pnpm/@aws-sdk+types@3.398.0/node_modules/@aws-sdk/types/dist-cjs/abort.js
 var require_abort2 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+types@3.378.0/node_modules/@aws-sdk/types/dist-cjs/abort.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+types@3.398.0/node_modules/@aws-sdk/types/dist-cjs/abort.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+types@3.378.0/node_modules/@aws-sdk/types/dist-cjs/auth.js
+// node_modules/.pnpm/@aws-sdk+types@3.398.0/node_modules/@aws-sdk/types/dist-cjs/auth.js
 var require_auth3 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+types@3.378.0/node_modules/@aws-sdk/types/dist-cjs/auth.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+types@3.398.0/node_modules/@aws-sdk/types/dist-cjs/auth.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.HttpAuthLocation = void 0;
@@ -12181,65 +12284,65 @@ var require_auth3 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+types@3.378.0/node_modules/@aws-sdk/types/dist-cjs/blob/blob-types.js
+// node_modules/.pnpm/@aws-sdk+types@3.398.0/node_modules/@aws-sdk/types/dist-cjs/blob/blob-types.js
 var require_blob_types = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+types@3.378.0/node_modules/@aws-sdk/types/dist-cjs/blob/blob-types.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+types@3.398.0/node_modules/@aws-sdk/types/dist-cjs/blob/blob-types.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+types@3.378.0/node_modules/@aws-sdk/types/dist-cjs/checksum.js
-var require_checksum2 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+types@3.378.0/node_modules/@aws-sdk/types/dist-cjs/checksum.js"(exports) {
+// node_modules/.pnpm/@aws-sdk+types@3.398.0/node_modules/@aws-sdk/types/dist-cjs/checksum.js
+var require_checksum3 = __commonJS({
+  "node_modules/.pnpm/@aws-sdk+types@3.398.0/node_modules/@aws-sdk/types/dist-cjs/checksum.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+types@3.378.0/node_modules/@aws-sdk/types/dist-cjs/client.js
+// node_modules/.pnpm/@aws-sdk+types@3.398.0/node_modules/@aws-sdk/types/dist-cjs/client.js
 var require_client2 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+types@3.378.0/node_modules/@aws-sdk/types/dist-cjs/client.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+types@3.398.0/node_modules/@aws-sdk/types/dist-cjs/client.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+types@3.378.0/node_modules/@aws-sdk/types/dist-cjs/command.js
+// node_modules/.pnpm/@aws-sdk+types@3.398.0/node_modules/@aws-sdk/types/dist-cjs/command.js
 var require_command3 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+types@3.378.0/node_modules/@aws-sdk/types/dist-cjs/command.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+types@3.398.0/node_modules/@aws-sdk/types/dist-cjs/command.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+types@3.378.0/node_modules/@aws-sdk/types/dist-cjs/connection.js
+// node_modules/.pnpm/@aws-sdk+types@3.398.0/node_modules/@aws-sdk/types/dist-cjs/connection.js
 var require_connection2 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+types@3.378.0/node_modules/@aws-sdk/types/dist-cjs/connection.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+types@3.398.0/node_modules/@aws-sdk/types/dist-cjs/connection.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+types@3.378.0/node_modules/@aws-sdk/types/dist-cjs/credentials.js
+// node_modules/.pnpm/@aws-sdk+types@3.398.0/node_modules/@aws-sdk/types/dist-cjs/credentials.js
 var require_credentials = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+types@3.378.0/node_modules/@aws-sdk/types/dist-cjs/credentials.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+types@3.398.0/node_modules/@aws-sdk/types/dist-cjs/credentials.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+types@3.378.0/node_modules/@aws-sdk/types/dist-cjs/crypto.js
+// node_modules/.pnpm/@aws-sdk+types@3.398.0/node_modules/@aws-sdk/types/dist-cjs/crypto.js
 var require_crypto2 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+types@3.378.0/node_modules/@aws-sdk/types/dist-cjs/crypto.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+types@3.398.0/node_modules/@aws-sdk/types/dist-cjs/crypto.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+types@3.378.0/node_modules/@aws-sdk/types/dist-cjs/dns.js
+// node_modules/.pnpm/@aws-sdk+types@3.398.0/node_modules/@aws-sdk/types/dist-cjs/dns.js
 var require_dns = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+types@3.378.0/node_modules/@aws-sdk/types/dist-cjs/dns.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+types@3.398.0/node_modules/@aws-sdk/types/dist-cjs/dns.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.HostAddressType = void 0;
@@ -12251,17 +12354,17 @@ var require_dns = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+types@3.378.0/node_modules/@aws-sdk/types/dist-cjs/encode.js
+// node_modules/.pnpm/@aws-sdk+types@3.398.0/node_modules/@aws-sdk/types/dist-cjs/encode.js
 var require_encode2 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+types@3.378.0/node_modules/@aws-sdk/types/dist-cjs/encode.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+types@3.398.0/node_modules/@aws-sdk/types/dist-cjs/encode.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+types@3.378.0/node_modules/@aws-sdk/types/dist-cjs/endpoint.js
+// node_modules/.pnpm/@aws-sdk+types@3.398.0/node_modules/@aws-sdk/types/dist-cjs/endpoint.js
 var require_endpoint2 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+types@3.378.0/node_modules/@aws-sdk/types/dist-cjs/endpoint.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+types@3.398.0/node_modules/@aws-sdk/types/dist-cjs/endpoint.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.EndpointURLScheme = void 0;
@@ -12272,65 +12375,65 @@ var require_endpoint2 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+types@3.378.0/node_modules/@aws-sdk/types/dist-cjs/eventStream.js
+// node_modules/.pnpm/@aws-sdk+types@3.398.0/node_modules/@aws-sdk/types/dist-cjs/eventStream.js
 var require_eventStream2 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+types@3.378.0/node_modules/@aws-sdk/types/dist-cjs/eventStream.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+types@3.398.0/node_modules/@aws-sdk/types/dist-cjs/eventStream.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+types@3.378.0/node_modules/@aws-sdk/types/dist-cjs/http.js
+// node_modules/.pnpm/@aws-sdk+types@3.398.0/node_modules/@aws-sdk/types/dist-cjs/http.js
 var require_http2 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+types@3.378.0/node_modules/@aws-sdk/types/dist-cjs/http.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+types@3.398.0/node_modules/@aws-sdk/types/dist-cjs/http.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+types@3.378.0/node_modules/@aws-sdk/types/dist-cjs/identity/AnonymousIdentity.js
+// node_modules/.pnpm/@aws-sdk+types@3.398.0/node_modules/@aws-sdk/types/dist-cjs/identity/AnonymousIdentity.js
 var require_AnonymousIdentity = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+types@3.378.0/node_modules/@aws-sdk/types/dist-cjs/identity/AnonymousIdentity.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+types@3.398.0/node_modules/@aws-sdk/types/dist-cjs/identity/AnonymousIdentity.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+types@3.378.0/node_modules/@aws-sdk/types/dist-cjs/identity/AwsCredentialIdentity.js
+// node_modules/.pnpm/@aws-sdk+types@3.398.0/node_modules/@aws-sdk/types/dist-cjs/identity/AwsCredentialIdentity.js
 var require_AwsCredentialIdentity = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+types@3.378.0/node_modules/@aws-sdk/types/dist-cjs/identity/AwsCredentialIdentity.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+types@3.398.0/node_modules/@aws-sdk/types/dist-cjs/identity/AwsCredentialIdentity.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+types@3.378.0/node_modules/@aws-sdk/types/dist-cjs/identity/Identity.js
+// node_modules/.pnpm/@aws-sdk+types@3.398.0/node_modules/@aws-sdk/types/dist-cjs/identity/Identity.js
 var require_Identity = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+types@3.378.0/node_modules/@aws-sdk/types/dist-cjs/identity/Identity.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+types@3.398.0/node_modules/@aws-sdk/types/dist-cjs/identity/Identity.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+types@3.378.0/node_modules/@aws-sdk/types/dist-cjs/identity/LoginIdentity.js
+// node_modules/.pnpm/@aws-sdk+types@3.398.0/node_modules/@aws-sdk/types/dist-cjs/identity/LoginIdentity.js
 var require_LoginIdentity = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+types@3.378.0/node_modules/@aws-sdk/types/dist-cjs/identity/LoginIdentity.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+types@3.398.0/node_modules/@aws-sdk/types/dist-cjs/identity/LoginIdentity.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+types@3.378.0/node_modules/@aws-sdk/types/dist-cjs/identity/TokenIdentity.js
+// node_modules/.pnpm/@aws-sdk+types@3.398.0/node_modules/@aws-sdk/types/dist-cjs/identity/TokenIdentity.js
 var require_TokenIdentity = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+types@3.378.0/node_modules/@aws-sdk/types/dist-cjs/identity/TokenIdentity.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+types@3.398.0/node_modules/@aws-sdk/types/dist-cjs/identity/TokenIdentity.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+types@3.378.0/node_modules/@aws-sdk/types/dist-cjs/identity/index.js
+// node_modules/.pnpm/@aws-sdk+types@3.398.0/node_modules/@aws-sdk/types/dist-cjs/identity/index.js
 var require_identity3 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+types@3.378.0/node_modules/@aws-sdk/types/dist-cjs/identity/index.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+types@3.398.0/node_modules/@aws-sdk/types/dist-cjs/identity/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var tslib_1 = (init_tslib_es6(), __toCommonJS(tslib_es6_exports));
@@ -12342,105 +12445,105 @@ var require_identity3 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+types@3.378.0/node_modules/@aws-sdk/types/dist-cjs/logger.js
+// node_modules/.pnpm/@aws-sdk+types@3.398.0/node_modules/@aws-sdk/types/dist-cjs/logger.js
 var require_logger2 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+types@3.378.0/node_modules/@aws-sdk/types/dist-cjs/logger.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+types@3.398.0/node_modules/@aws-sdk/types/dist-cjs/logger.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+types@3.378.0/node_modules/@aws-sdk/types/dist-cjs/middleware.js
+// node_modules/.pnpm/@aws-sdk+types@3.398.0/node_modules/@aws-sdk/types/dist-cjs/middleware.js
 var require_middleware2 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+types@3.378.0/node_modules/@aws-sdk/types/dist-cjs/middleware.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+types@3.398.0/node_modules/@aws-sdk/types/dist-cjs/middleware.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+types@3.378.0/node_modules/@aws-sdk/types/dist-cjs/pagination.js
+// node_modules/.pnpm/@aws-sdk+types@3.398.0/node_modules/@aws-sdk/types/dist-cjs/pagination.js
 var require_pagination2 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+types@3.378.0/node_modules/@aws-sdk/types/dist-cjs/pagination.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+types@3.398.0/node_modules/@aws-sdk/types/dist-cjs/pagination.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+types@3.378.0/node_modules/@aws-sdk/types/dist-cjs/profile.js
+// node_modules/.pnpm/@aws-sdk+types@3.398.0/node_modules/@aws-sdk/types/dist-cjs/profile.js
 var require_profile2 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+types@3.378.0/node_modules/@aws-sdk/types/dist-cjs/profile.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+types@3.398.0/node_modules/@aws-sdk/types/dist-cjs/profile.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+types@3.378.0/node_modules/@aws-sdk/types/dist-cjs/request.js
+// node_modules/.pnpm/@aws-sdk+types@3.398.0/node_modules/@aws-sdk/types/dist-cjs/request.js
 var require_request = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+types@3.378.0/node_modules/@aws-sdk/types/dist-cjs/request.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+types@3.398.0/node_modules/@aws-sdk/types/dist-cjs/request.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+types@3.378.0/node_modules/@aws-sdk/types/dist-cjs/response.js
+// node_modules/.pnpm/@aws-sdk+types@3.398.0/node_modules/@aws-sdk/types/dist-cjs/response.js
 var require_response2 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+types@3.378.0/node_modules/@aws-sdk/types/dist-cjs/response.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+types@3.398.0/node_modules/@aws-sdk/types/dist-cjs/response.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+types@3.378.0/node_modules/@aws-sdk/types/dist-cjs/retry.js
+// node_modules/.pnpm/@aws-sdk+types@3.398.0/node_modules/@aws-sdk/types/dist-cjs/retry.js
 var require_retry2 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+types@3.378.0/node_modules/@aws-sdk/types/dist-cjs/retry.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+types@3.398.0/node_modules/@aws-sdk/types/dist-cjs/retry.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+types@3.378.0/node_modules/@aws-sdk/types/dist-cjs/serde.js
+// node_modules/.pnpm/@aws-sdk+types@3.398.0/node_modules/@aws-sdk/types/dist-cjs/serde.js
 var require_serde2 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+types@3.378.0/node_modules/@aws-sdk/types/dist-cjs/serde.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+types@3.398.0/node_modules/@aws-sdk/types/dist-cjs/serde.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+types@3.378.0/node_modules/@aws-sdk/types/dist-cjs/shapes.js
+// node_modules/.pnpm/@aws-sdk+types@3.398.0/node_modules/@aws-sdk/types/dist-cjs/shapes.js
 var require_shapes2 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+types@3.378.0/node_modules/@aws-sdk/types/dist-cjs/shapes.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+types@3.398.0/node_modules/@aws-sdk/types/dist-cjs/shapes.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+types@3.378.0/node_modules/@aws-sdk/types/dist-cjs/signature.js
+// node_modules/.pnpm/@aws-sdk+types@3.398.0/node_modules/@aws-sdk/types/dist-cjs/signature.js
 var require_signature2 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+types@3.378.0/node_modules/@aws-sdk/types/dist-cjs/signature.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+types@3.398.0/node_modules/@aws-sdk/types/dist-cjs/signature.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+types@3.378.0/node_modules/@aws-sdk/types/dist-cjs/stream.js
+// node_modules/.pnpm/@aws-sdk+types@3.398.0/node_modules/@aws-sdk/types/dist-cjs/stream.js
 var require_stream2 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+types@3.378.0/node_modules/@aws-sdk/types/dist-cjs/stream.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+types@3.398.0/node_modules/@aws-sdk/types/dist-cjs/stream.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+types@3.378.0/node_modules/@aws-sdk/types/dist-cjs/token.js
+// node_modules/.pnpm/@aws-sdk+types@3.398.0/node_modules/@aws-sdk/types/dist-cjs/token.js
 var require_token = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+types@3.378.0/node_modules/@aws-sdk/types/dist-cjs/token.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+types@3.398.0/node_modules/@aws-sdk/types/dist-cjs/token.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+types@3.378.0/node_modules/@aws-sdk/types/dist-cjs/transfer.js
+// node_modules/.pnpm/@aws-sdk+types@3.398.0/node_modules/@aws-sdk/types/dist-cjs/transfer.js
 var require_transfer2 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+types@3.378.0/node_modules/@aws-sdk/types/dist-cjs/transfer.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+types@3.398.0/node_modules/@aws-sdk/types/dist-cjs/transfer.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.RequestHandlerProtocol = void 0;
@@ -12451,40 +12554,40 @@ var require_transfer2 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+types@3.378.0/node_modules/@aws-sdk/types/dist-cjs/uri.js
+// node_modules/.pnpm/@aws-sdk+types@3.398.0/node_modules/@aws-sdk/types/dist-cjs/uri.js
 var require_uri2 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+types@3.378.0/node_modules/@aws-sdk/types/dist-cjs/uri.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+types@3.398.0/node_modules/@aws-sdk/types/dist-cjs/uri.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+types@3.378.0/node_modules/@aws-sdk/types/dist-cjs/util.js
+// node_modules/.pnpm/@aws-sdk+types@3.398.0/node_modules/@aws-sdk/types/dist-cjs/util.js
 var require_util2 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+types@3.378.0/node_modules/@aws-sdk/types/dist-cjs/util.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+types@3.398.0/node_modules/@aws-sdk/types/dist-cjs/util.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+types@3.378.0/node_modules/@aws-sdk/types/dist-cjs/waiter.js
+// node_modules/.pnpm/@aws-sdk+types@3.398.0/node_modules/@aws-sdk/types/dist-cjs/waiter.js
 var require_waiter2 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+types@3.378.0/node_modules/@aws-sdk/types/dist-cjs/waiter.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+types@3.398.0/node_modules/@aws-sdk/types/dist-cjs/waiter.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+types@3.378.0/node_modules/@aws-sdk/types/dist-cjs/index.js
+// node_modules/.pnpm/@aws-sdk+types@3.398.0/node_modules/@aws-sdk/types/dist-cjs/index.js
 var require_dist_cjs17 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+types@3.378.0/node_modules/@aws-sdk/types/dist-cjs/index.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+types@3.398.0/node_modules/@aws-sdk/types/dist-cjs/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var tslib_1 = (init_tslib_es6(), __toCommonJS(tslib_es6_exports));
     tslib_1.__exportStar(require_abort2(), exports);
     tslib_1.__exportStar(require_auth3(), exports);
     tslib_1.__exportStar(require_blob_types(), exports);
-    tslib_1.__exportStar(require_checksum2(), exports);
+    tslib_1.__exportStar(require_checksum3(), exports);
     tslib_1.__exportStar(require_client2(), exports);
     tslib_1.__exportStar(require_command3(), exports);
     tslib_1.__exportStar(require_connection2(), exports);
@@ -12515,9 +12618,9 @@ var require_dist_cjs17 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/lib/parseURL.js
+// node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/lib/parseURL.js
 var require_parseURL = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/lib/parseURL.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/lib/parseURL.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.parseURL = void 0;
@@ -12572,9 +12675,9 @@ var require_parseURL = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/lib/stringEquals.js
+// node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/lib/stringEquals.js
 var require_stringEquals = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/lib/stringEquals.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/lib/stringEquals.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.stringEquals = void 0;
@@ -12583,9 +12686,9 @@ var require_stringEquals = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/lib/substring.js
+// node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/lib/substring.js
 var require_substring = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/lib/substring.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/lib/substring.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.substring = void 0;
@@ -12602,9 +12705,9 @@ var require_substring = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/lib/uriEncode.js
+// node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/lib/uriEncode.js
 var require_uriEncode = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/lib/uriEncode.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/lib/uriEncode.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.uriEncode = void 0;
@@ -12613,9 +12716,9 @@ var require_uriEncode = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/lib/index.js
+// node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/lib/index.js
 var require_lib4 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/lib/index.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/lib/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.aws = void 0;
@@ -12633,9 +12736,9 @@ var require_lib4 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/utils/evaluateTemplate.js
+// node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/utils/evaluateTemplate.js
 var require_evaluateTemplate = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/utils/evaluateTemplate.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/utils/evaluateTemplate.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.evaluateTemplate = void 0;
@@ -12678,9 +12781,9 @@ var require_evaluateTemplate = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/utils/getReferenceValue.js
+// node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/utils/getReferenceValue.js
 var require_getReferenceValue = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/utils/getReferenceValue.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/utils/getReferenceValue.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.getReferenceValue = void 0;
@@ -12695,9 +12798,9 @@ var require_getReferenceValue = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/utils/evaluateExpression.js
+// node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/utils/evaluateExpression.js
 var require_evaluateExpression = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/utils/evaluateExpression.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/utils/evaluateExpression.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.evaluateExpression = void 0;
@@ -12719,9 +12822,9 @@ var require_evaluateExpression = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/utils/callFunction.js
+// node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/utils/callFunction.js
 var require_callFunction = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/utils/callFunction.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/utils/callFunction.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.callFunction = void 0;
@@ -12736,9 +12839,9 @@ var require_callFunction = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/utils/evaluateCondition.js
+// node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/utils/evaluateCondition.js
 var require_evaluateCondition = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/utils/evaluateCondition.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/utils/evaluateCondition.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.evaluateCondition = void 0;
@@ -12761,9 +12864,9 @@ var require_evaluateCondition = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/utils/evaluateConditions.js
+// node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/utils/evaluateConditions.js
 var require_evaluateConditions = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/utils/evaluateConditions.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/utils/evaluateConditions.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.evaluateConditions = void 0;
@@ -12794,9 +12897,9 @@ var require_evaluateConditions = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/utils/getEndpointHeaders.js
+// node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/utils/getEndpointHeaders.js
 var require_getEndpointHeaders = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/utils/getEndpointHeaders.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/utils/getEndpointHeaders.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.getEndpointHeaders = void 0;
@@ -12816,9 +12919,9 @@ var require_getEndpointHeaders = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/utils/getEndpointProperty.js
+// node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/utils/getEndpointProperty.js
 var require_getEndpointProperty = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/utils/getEndpointProperty.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/utils/getEndpointProperty.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.getEndpointProperty = void 0;
@@ -12847,9 +12950,9 @@ var require_getEndpointProperty = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/utils/getEndpointProperties.js
+// node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/utils/getEndpointProperties.js
 var require_getEndpointProperties = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/utils/getEndpointProperties.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/utils/getEndpointProperties.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.getEndpointProperties = void 0;
@@ -12862,9 +12965,9 @@ var require_getEndpointProperties = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/utils/getEndpointUrl.js
+// node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/utils/getEndpointUrl.js
 var require_getEndpointUrl = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/utils/getEndpointUrl.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/utils/getEndpointUrl.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.getEndpointUrl = void 0;
@@ -12886,9 +12989,9 @@ var require_getEndpointUrl = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/utils/evaluateEndpointRule.js
+// node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/utils/evaluateEndpointRule.js
 var require_evaluateEndpointRule = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/utils/evaluateEndpointRule.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/utils/evaluateEndpointRule.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.evaluateEndpointRule = void 0;
@@ -12924,9 +13027,9 @@ var require_evaluateEndpointRule = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/utils/evaluateErrorRule.js
+// node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/utils/evaluateErrorRule.js
 var require_evaluateErrorRule = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/utils/evaluateErrorRule.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/utils/evaluateErrorRule.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.evaluateErrorRule = void 0;
@@ -12948,9 +13051,9 @@ var require_evaluateErrorRule = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/utils/evaluateTreeRule.js
+// node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/utils/evaluateTreeRule.js
 var require_evaluateTreeRule = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/utils/evaluateTreeRule.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/utils/evaluateTreeRule.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.evaluateTreeRule = void 0;
@@ -12971,9 +13074,9 @@ var require_evaluateTreeRule = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/utils/evaluateRules.js
+// node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/utils/evaluateRules.js
 var require_evaluateRules = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/utils/evaluateRules.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/utils/evaluateRules.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.evaluateRules = void 0;
@@ -13005,9 +13108,9 @@ var require_evaluateRules = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/utils/index.js
+// node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/utils/index.js
 var require_utils5 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/utils/index.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/utils/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var tslib_1 = (init_tslib_es6(), __toCommonJS(tslib_es6_exports));
@@ -13015,9 +13118,9 @@ var require_utils5 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/resolveEndpoint.js
+// node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/resolveEndpoint.js
 var require_resolveEndpoint = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/resolveEndpoint.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/resolveEndpoint.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.resolveEndpoint = void 0;
@@ -13058,9 +13161,9 @@ var require_resolveEndpoint = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/index.js
+// node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/index.js
 var require_dist_cjs18 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.382.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/index.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+util-endpoints@3.398.0/node_modules/@aws-sdk/util-endpoints/dist-cjs/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var tslib_1 = (init_tslib_es6(), __toCommonJS(tslib_es6_exports));
@@ -13071,9 +13174,9 @@ var require_dist_cjs18 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+middleware-user-agent@3.382.0/node_modules/@aws-sdk/middleware-user-agent/dist-cjs/constants.js
+// node_modules/.pnpm/@aws-sdk+middleware-user-agent@3.398.0/node_modules/@aws-sdk/middleware-user-agent/dist-cjs/constants.js
 var require_constants2 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+middleware-user-agent@3.382.0/node_modules/@aws-sdk/middleware-user-agent/dist-cjs/constants.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+middleware-user-agent@3.398.0/node_modules/@aws-sdk/middleware-user-agent/dist-cjs/constants.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.UA_ESCAPE_CHAR = exports.UA_VALUE_ESCAPE_REGEX = exports.UA_NAME_ESCAPE_REGEX = exports.UA_NAME_SEPARATOR = exports.SPACE = exports.X_AMZ_USER_AGENT = exports.USER_AGENT = void 0;
@@ -13087,9 +13190,9 @@ var require_constants2 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+middleware-user-agent@3.382.0/node_modules/@aws-sdk/middleware-user-agent/dist-cjs/user-agent-middleware.js
+// node_modules/.pnpm/@aws-sdk+middleware-user-agent@3.398.0/node_modules/@aws-sdk/middleware-user-agent/dist-cjs/user-agent-middleware.js
 var require_user_agent_middleware = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+middleware-user-agent@3.382.0/node_modules/@aws-sdk/middleware-user-agent/dist-cjs/user-agent-middleware.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+middleware-user-agent@3.398.0/node_modules/@aws-sdk/middleware-user-agent/dist-cjs/user-agent-middleware.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.getUserAgentPlugin = exports.getUserAgentMiddlewareOptions = exports.userAgentMiddleware = void 0;
@@ -13162,9 +13265,9 @@ var require_user_agent_middleware = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+middleware-user-agent@3.382.0/node_modules/@aws-sdk/middleware-user-agent/dist-cjs/index.js
+// node_modules/.pnpm/@aws-sdk+middleware-user-agent@3.398.0/node_modules/@aws-sdk/middleware-user-agent/dist-cjs/index.js
 var require_dist_cjs19 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+middleware-user-agent@3.382.0/node_modules/@aws-sdk/middleware-user-agent/dist-cjs/index.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+middleware-user-agent@3.398.0/node_modules/@aws-sdk/middleware-user-agent/dist-cjs/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var tslib_1 = (init_tslib_es6(), __toCommonJS(tslib_es6_exports));
@@ -13207,9 +13310,9 @@ var require_dist_cjs20 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+config-resolver@2.0.1/node_modules/@smithy/config-resolver/dist-cjs/endpointsConfig/NodeUseDualstackEndpointConfigOptions.js
+// node_modules/.pnpm/@smithy+config-resolver@2.0.5/node_modules/@smithy/config-resolver/dist-cjs/endpointsConfig/NodeUseDualstackEndpointConfigOptions.js
 var require_NodeUseDualstackEndpointConfigOptions = __commonJS({
-  "node_modules/.pnpm/@smithy+config-resolver@2.0.1/node_modules/@smithy/config-resolver/dist-cjs/endpointsConfig/NodeUseDualstackEndpointConfigOptions.js"(exports) {
+  "node_modules/.pnpm/@smithy+config-resolver@2.0.5/node_modules/@smithy/config-resolver/dist-cjs/endpointsConfig/NodeUseDualstackEndpointConfigOptions.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.NODE_USE_DUALSTACK_ENDPOINT_CONFIG_OPTIONS = exports.DEFAULT_USE_DUALSTACK_ENDPOINT = exports.CONFIG_USE_DUALSTACK_ENDPOINT = exports.ENV_USE_DUALSTACK_ENDPOINT = void 0;
@@ -13225,9 +13328,9 @@ var require_NodeUseDualstackEndpointConfigOptions = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+config-resolver@2.0.1/node_modules/@smithy/config-resolver/dist-cjs/endpointsConfig/NodeUseFipsEndpointConfigOptions.js
+// node_modules/.pnpm/@smithy+config-resolver@2.0.5/node_modules/@smithy/config-resolver/dist-cjs/endpointsConfig/NodeUseFipsEndpointConfigOptions.js
 var require_NodeUseFipsEndpointConfigOptions = __commonJS({
-  "node_modules/.pnpm/@smithy+config-resolver@2.0.1/node_modules/@smithy/config-resolver/dist-cjs/endpointsConfig/NodeUseFipsEndpointConfigOptions.js"(exports) {
+  "node_modules/.pnpm/@smithy+config-resolver@2.0.5/node_modules/@smithy/config-resolver/dist-cjs/endpointsConfig/NodeUseFipsEndpointConfigOptions.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.NODE_USE_FIPS_ENDPOINT_CONFIG_OPTIONS = exports.DEFAULT_USE_FIPS_ENDPOINT = exports.CONFIG_USE_FIPS_ENDPOINT = exports.ENV_USE_FIPS_ENDPOINT = void 0;
@@ -13243,9 +13346,9 @@ var require_NodeUseFipsEndpointConfigOptions = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+config-resolver@2.0.1/node_modules/@smithy/config-resolver/dist-cjs/endpointsConfig/resolveCustomEndpointsConfig.js
+// node_modules/.pnpm/@smithy+config-resolver@2.0.5/node_modules/@smithy/config-resolver/dist-cjs/endpointsConfig/resolveCustomEndpointsConfig.js
 var require_resolveCustomEndpointsConfig = __commonJS({
-  "node_modules/.pnpm/@smithy+config-resolver@2.0.1/node_modules/@smithy/config-resolver/dist-cjs/endpointsConfig/resolveCustomEndpointsConfig.js"(exports) {
+  "node_modules/.pnpm/@smithy+config-resolver@2.0.5/node_modules/@smithy/config-resolver/dist-cjs/endpointsConfig/resolveCustomEndpointsConfig.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.resolveCustomEndpointsConfig = void 0;
@@ -13265,9 +13368,9 @@ var require_resolveCustomEndpointsConfig = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+config-resolver@2.0.1/node_modules/@smithy/config-resolver/dist-cjs/endpointsConfig/utils/getEndpointFromRegion.js
+// node_modules/.pnpm/@smithy+config-resolver@2.0.5/node_modules/@smithy/config-resolver/dist-cjs/endpointsConfig/utils/getEndpointFromRegion.js
 var require_getEndpointFromRegion = __commonJS({
-  "node_modules/.pnpm/@smithy+config-resolver@2.0.1/node_modules/@smithy/config-resolver/dist-cjs/endpointsConfig/utils/getEndpointFromRegion.js"(exports) {
+  "node_modules/.pnpm/@smithy+config-resolver@2.0.5/node_modules/@smithy/config-resolver/dist-cjs/endpointsConfig/utils/getEndpointFromRegion.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.getEndpointFromRegion = void 0;
@@ -13291,9 +13394,9 @@ var require_getEndpointFromRegion = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+config-resolver@2.0.1/node_modules/@smithy/config-resolver/dist-cjs/endpointsConfig/resolveEndpointsConfig.js
+// node_modules/.pnpm/@smithy+config-resolver@2.0.5/node_modules/@smithy/config-resolver/dist-cjs/endpointsConfig/resolveEndpointsConfig.js
 var require_resolveEndpointsConfig = __commonJS({
-  "node_modules/.pnpm/@smithy+config-resolver@2.0.1/node_modules/@smithy/config-resolver/dist-cjs/endpointsConfig/resolveEndpointsConfig.js"(exports) {
+  "node_modules/.pnpm/@smithy+config-resolver@2.0.5/node_modules/@smithy/config-resolver/dist-cjs/endpointsConfig/resolveEndpointsConfig.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.resolveEndpointsConfig = void 0;
@@ -13315,9 +13418,9 @@ var require_resolveEndpointsConfig = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+config-resolver@2.0.1/node_modules/@smithy/config-resolver/dist-cjs/endpointsConfig/index.js
+// node_modules/.pnpm/@smithy+config-resolver@2.0.5/node_modules/@smithy/config-resolver/dist-cjs/endpointsConfig/index.js
 var require_endpointsConfig = __commonJS({
-  "node_modules/.pnpm/@smithy+config-resolver@2.0.1/node_modules/@smithy/config-resolver/dist-cjs/endpointsConfig/index.js"(exports) {
+  "node_modules/.pnpm/@smithy+config-resolver@2.0.5/node_modules/@smithy/config-resolver/dist-cjs/endpointsConfig/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var tslib_1 = (init_tslib_es6(), __toCommonJS(tslib_es6_exports));
@@ -13328,9 +13431,9 @@ var require_endpointsConfig = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+config-resolver@2.0.1/node_modules/@smithy/config-resolver/dist-cjs/regionConfig/config.js
+// node_modules/.pnpm/@smithy+config-resolver@2.0.5/node_modules/@smithy/config-resolver/dist-cjs/regionConfig/config.js
 var require_config2 = __commonJS({
-  "node_modules/.pnpm/@smithy+config-resolver@2.0.1/node_modules/@smithy/config-resolver/dist-cjs/regionConfig/config.js"(exports) {
+  "node_modules/.pnpm/@smithy+config-resolver@2.0.5/node_modules/@smithy/config-resolver/dist-cjs/regionConfig/config.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.NODE_REGION_CONFIG_FILE_OPTIONS = exports.NODE_REGION_CONFIG_OPTIONS = exports.REGION_INI_NAME = exports.REGION_ENV_NAME = void 0;
@@ -13349,9 +13452,9 @@ var require_config2 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+config-resolver@2.0.1/node_modules/@smithy/config-resolver/dist-cjs/regionConfig/isFipsRegion.js
+// node_modules/.pnpm/@smithy+config-resolver@2.0.5/node_modules/@smithy/config-resolver/dist-cjs/regionConfig/isFipsRegion.js
 var require_isFipsRegion = __commonJS({
-  "node_modules/.pnpm/@smithy+config-resolver@2.0.1/node_modules/@smithy/config-resolver/dist-cjs/regionConfig/isFipsRegion.js"(exports) {
+  "node_modules/.pnpm/@smithy+config-resolver@2.0.5/node_modules/@smithy/config-resolver/dist-cjs/regionConfig/isFipsRegion.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.isFipsRegion = void 0;
@@ -13360,9 +13463,9 @@ var require_isFipsRegion = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+config-resolver@2.0.1/node_modules/@smithy/config-resolver/dist-cjs/regionConfig/getRealRegion.js
+// node_modules/.pnpm/@smithy+config-resolver@2.0.5/node_modules/@smithy/config-resolver/dist-cjs/regionConfig/getRealRegion.js
 var require_getRealRegion = __commonJS({
-  "node_modules/.pnpm/@smithy+config-resolver@2.0.1/node_modules/@smithy/config-resolver/dist-cjs/regionConfig/getRealRegion.js"(exports) {
+  "node_modules/.pnpm/@smithy+config-resolver@2.0.5/node_modules/@smithy/config-resolver/dist-cjs/regionConfig/getRealRegion.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.getRealRegion = void 0;
@@ -13372,9 +13475,9 @@ var require_getRealRegion = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+config-resolver@2.0.1/node_modules/@smithy/config-resolver/dist-cjs/regionConfig/resolveRegionConfig.js
+// node_modules/.pnpm/@smithy+config-resolver@2.0.5/node_modules/@smithy/config-resolver/dist-cjs/regionConfig/resolveRegionConfig.js
 var require_resolveRegionConfig = __commonJS({
-  "node_modules/.pnpm/@smithy+config-resolver@2.0.1/node_modules/@smithy/config-resolver/dist-cjs/regionConfig/resolveRegionConfig.js"(exports) {
+  "node_modules/.pnpm/@smithy+config-resolver@2.0.5/node_modules/@smithy/config-resolver/dist-cjs/regionConfig/resolveRegionConfig.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.resolveRegionConfig = void 0;
@@ -13407,9 +13510,9 @@ var require_resolveRegionConfig = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+config-resolver@2.0.1/node_modules/@smithy/config-resolver/dist-cjs/regionConfig/index.js
+// node_modules/.pnpm/@smithy+config-resolver@2.0.5/node_modules/@smithy/config-resolver/dist-cjs/regionConfig/index.js
 var require_regionConfig = __commonJS({
-  "node_modules/.pnpm/@smithy+config-resolver@2.0.1/node_modules/@smithy/config-resolver/dist-cjs/regionConfig/index.js"(exports) {
+  "node_modules/.pnpm/@smithy+config-resolver@2.0.5/node_modules/@smithy/config-resolver/dist-cjs/regionConfig/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var tslib_1 = (init_tslib_es6(), __toCommonJS(tslib_es6_exports));
@@ -13418,25 +13521,25 @@ var require_regionConfig = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+config-resolver@2.0.1/node_modules/@smithy/config-resolver/dist-cjs/regionInfo/PartitionHash.js
+// node_modules/.pnpm/@smithy+config-resolver@2.0.5/node_modules/@smithy/config-resolver/dist-cjs/regionInfo/PartitionHash.js
 var require_PartitionHash = __commonJS({
-  "node_modules/.pnpm/@smithy+config-resolver@2.0.1/node_modules/@smithy/config-resolver/dist-cjs/regionInfo/PartitionHash.js"(exports) {
+  "node_modules/.pnpm/@smithy+config-resolver@2.0.5/node_modules/@smithy/config-resolver/dist-cjs/regionInfo/PartitionHash.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@smithy+config-resolver@2.0.1/node_modules/@smithy/config-resolver/dist-cjs/regionInfo/RegionHash.js
+// node_modules/.pnpm/@smithy+config-resolver@2.0.5/node_modules/@smithy/config-resolver/dist-cjs/regionInfo/RegionHash.js
 var require_RegionHash = __commonJS({
-  "node_modules/.pnpm/@smithy+config-resolver@2.0.1/node_modules/@smithy/config-resolver/dist-cjs/regionInfo/RegionHash.js"(exports) {
+  "node_modules/.pnpm/@smithy+config-resolver@2.0.5/node_modules/@smithy/config-resolver/dist-cjs/regionInfo/RegionHash.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@smithy+config-resolver@2.0.1/node_modules/@smithy/config-resolver/dist-cjs/regionInfo/getHostnameFromVariants.js
+// node_modules/.pnpm/@smithy+config-resolver@2.0.5/node_modules/@smithy/config-resolver/dist-cjs/regionInfo/getHostnameFromVariants.js
 var require_getHostnameFromVariants = __commonJS({
-  "node_modules/.pnpm/@smithy+config-resolver@2.0.1/node_modules/@smithy/config-resolver/dist-cjs/regionInfo/getHostnameFromVariants.js"(exports) {
+  "node_modules/.pnpm/@smithy+config-resolver@2.0.5/node_modules/@smithy/config-resolver/dist-cjs/regionInfo/getHostnameFromVariants.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.getHostnameFromVariants = void 0;
@@ -13448,9 +13551,9 @@ var require_getHostnameFromVariants = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+config-resolver@2.0.1/node_modules/@smithy/config-resolver/dist-cjs/regionInfo/getResolvedHostname.js
+// node_modules/.pnpm/@smithy+config-resolver@2.0.5/node_modules/@smithy/config-resolver/dist-cjs/regionInfo/getResolvedHostname.js
 var require_getResolvedHostname = __commonJS({
-  "node_modules/.pnpm/@smithy+config-resolver@2.0.1/node_modules/@smithy/config-resolver/dist-cjs/regionInfo/getResolvedHostname.js"(exports) {
+  "node_modules/.pnpm/@smithy+config-resolver@2.0.5/node_modules/@smithy/config-resolver/dist-cjs/regionInfo/getResolvedHostname.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.getResolvedHostname = void 0;
@@ -13459,9 +13562,9 @@ var require_getResolvedHostname = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+config-resolver@2.0.1/node_modules/@smithy/config-resolver/dist-cjs/regionInfo/getResolvedPartition.js
+// node_modules/.pnpm/@smithy+config-resolver@2.0.5/node_modules/@smithy/config-resolver/dist-cjs/regionInfo/getResolvedPartition.js
 var require_getResolvedPartition = __commonJS({
-  "node_modules/.pnpm/@smithy+config-resolver@2.0.1/node_modules/@smithy/config-resolver/dist-cjs/regionInfo/getResolvedPartition.js"(exports) {
+  "node_modules/.pnpm/@smithy+config-resolver@2.0.5/node_modules/@smithy/config-resolver/dist-cjs/regionInfo/getResolvedPartition.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.getResolvedPartition = void 0;
@@ -13473,9 +13576,9 @@ var require_getResolvedPartition = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+config-resolver@2.0.1/node_modules/@smithy/config-resolver/dist-cjs/regionInfo/getResolvedSigningRegion.js
+// node_modules/.pnpm/@smithy+config-resolver@2.0.5/node_modules/@smithy/config-resolver/dist-cjs/regionInfo/getResolvedSigningRegion.js
 var require_getResolvedSigningRegion = __commonJS({
-  "node_modules/.pnpm/@smithy+config-resolver@2.0.1/node_modules/@smithy/config-resolver/dist-cjs/regionInfo/getResolvedSigningRegion.js"(exports) {
+  "node_modules/.pnpm/@smithy+config-resolver@2.0.5/node_modules/@smithy/config-resolver/dist-cjs/regionInfo/getResolvedSigningRegion.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.getResolvedSigningRegion = void 0;
@@ -13494,9 +13597,9 @@ var require_getResolvedSigningRegion = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+config-resolver@2.0.1/node_modules/@smithy/config-resolver/dist-cjs/regionInfo/getRegionInfo.js
+// node_modules/.pnpm/@smithy+config-resolver@2.0.5/node_modules/@smithy/config-resolver/dist-cjs/regionInfo/getRegionInfo.js
 var require_getRegionInfo = __commonJS({
-  "node_modules/.pnpm/@smithy+config-resolver@2.0.1/node_modules/@smithy/config-resolver/dist-cjs/regionInfo/getRegionInfo.js"(exports) {
+  "node_modules/.pnpm/@smithy+config-resolver@2.0.5/node_modules/@smithy/config-resolver/dist-cjs/regionInfo/getRegionInfo.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.getRegionInfo = void 0;
@@ -13534,9 +13637,9 @@ var require_getRegionInfo = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+config-resolver@2.0.1/node_modules/@smithy/config-resolver/dist-cjs/regionInfo/index.js
+// node_modules/.pnpm/@smithy+config-resolver@2.0.5/node_modules/@smithy/config-resolver/dist-cjs/regionInfo/index.js
 var require_regionInfo = __commonJS({
-  "node_modules/.pnpm/@smithy+config-resolver@2.0.1/node_modules/@smithy/config-resolver/dist-cjs/regionInfo/index.js"(exports) {
+  "node_modules/.pnpm/@smithy+config-resolver@2.0.5/node_modules/@smithy/config-resolver/dist-cjs/regionInfo/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var tslib_1 = (init_tslib_es6(), __toCommonJS(tslib_es6_exports));
@@ -13546,9 +13649,9 @@ var require_regionInfo = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+config-resolver@2.0.1/node_modules/@smithy/config-resolver/dist-cjs/index.js
+// node_modules/.pnpm/@smithy+config-resolver@2.0.5/node_modules/@smithy/config-resolver/dist-cjs/index.js
 var require_dist_cjs21 = __commonJS({
-  "node_modules/.pnpm/@smithy+config-resolver@2.0.1/node_modules/@smithy/config-resolver/dist-cjs/index.js"(exports) {
+  "node_modules/.pnpm/@smithy+config-resolver@2.0.5/node_modules/@smithy/config-resolver/dist-cjs/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var tslib_1 = (init_tslib_es6(), __toCommonJS(tslib_es6_exports));
@@ -13558,9 +13661,9 @@ var require_dist_cjs21 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+middleware-content-length@2.0.1/node_modules/@smithy/middleware-content-length/dist-cjs/index.js
+// node_modules/.pnpm/@smithy+middleware-content-length@2.0.5/node_modules/@smithy/middleware-content-length/dist-cjs/index.js
 var require_dist_cjs22 = __commonJS({
-  "node_modules/.pnpm/@smithy+middleware-content-length@2.0.1/node_modules/@smithy/middleware-content-length/dist-cjs/index.js"(exports) {
+  "node_modules/.pnpm/@smithy+middleware-content-length@2.0.5/node_modules/@smithy/middleware-content-length/dist-cjs/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.getContentLengthPlugin = exports.contentLengthMiddlewareOptions = exports.contentLengthMiddleware = void 0;
@@ -13604,9 +13707,9 @@ var require_dist_cjs22 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+middleware-endpoint@2.0.1/node_modules/@smithy/middleware-endpoint/dist-cjs/service-customizations/s3.js
+// node_modules/.pnpm/@smithy+middleware-endpoint@2.0.5/node_modules/@smithy/middleware-endpoint/dist-cjs/service-customizations/s3.js
 var require_s3 = __commonJS({
-  "node_modules/.pnpm/@smithy+middleware-endpoint@2.0.1/node_modules/@smithy/middleware-endpoint/dist-cjs/service-customizations/s3.js"(exports) {
+  "node_modules/.pnpm/@smithy+middleware-endpoint@2.0.5/node_modules/@smithy/middleware-endpoint/dist-cjs/service-customizations/s3.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.isArnBucketName = exports.isDnsCompatibleBucketName = exports.S3_HOSTNAME_PATTERN = exports.DOT_PATTERN = exports.resolveParamsForS3 = void 0;
@@ -13649,9 +13752,9 @@ var require_s3 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+middleware-endpoint@2.0.1/node_modules/@smithy/middleware-endpoint/dist-cjs/service-customizations/index.js
+// node_modules/.pnpm/@smithy+middleware-endpoint@2.0.5/node_modules/@smithy/middleware-endpoint/dist-cjs/service-customizations/index.js
 var require_service_customizations = __commonJS({
-  "node_modules/.pnpm/@smithy+middleware-endpoint@2.0.1/node_modules/@smithy/middleware-endpoint/dist-cjs/service-customizations/index.js"(exports) {
+  "node_modules/.pnpm/@smithy+middleware-endpoint@2.0.5/node_modules/@smithy/middleware-endpoint/dist-cjs/service-customizations/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var tslib_1 = (init_tslib_es6(), __toCommonJS(tslib_es6_exports));
@@ -13659,9 +13762,9 @@ var require_service_customizations = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+middleware-endpoint@2.0.1/node_modules/@smithy/middleware-endpoint/dist-cjs/adaptors/createConfigValueProvider.js
+// node_modules/.pnpm/@smithy+middleware-endpoint@2.0.5/node_modules/@smithy/middleware-endpoint/dist-cjs/adaptors/createConfigValueProvider.js
 var require_createConfigValueProvider = __commonJS({
-  "node_modules/.pnpm/@smithy+middleware-endpoint@2.0.1/node_modules/@smithy/middleware-endpoint/dist-cjs/adaptors/createConfigValueProvider.js"(exports) {
+  "node_modules/.pnpm/@smithy+middleware-endpoint@2.0.5/node_modules/@smithy/middleware-endpoint/dist-cjs/adaptors/createConfigValueProvider.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.createConfigValueProvider = void 0;
@@ -13695,9 +13798,9 @@ var require_createConfigValueProvider = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+middleware-endpoint@2.0.1/node_modules/@smithy/middleware-endpoint/dist-cjs/adaptors/getEndpointFromInstructions.js
+// node_modules/.pnpm/@smithy+middleware-endpoint@2.0.5/node_modules/@smithy/middleware-endpoint/dist-cjs/adaptors/getEndpointFromInstructions.js
 var require_getEndpointFromInstructions = __commonJS({
-  "node_modules/.pnpm/@smithy+middleware-endpoint@2.0.1/node_modules/@smithy/middleware-endpoint/dist-cjs/adaptors/getEndpointFromInstructions.js"(exports) {
+  "node_modules/.pnpm/@smithy+middleware-endpoint@2.0.5/node_modules/@smithy/middleware-endpoint/dist-cjs/adaptors/getEndpointFromInstructions.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.resolveParams = exports.getEndpointFromInstructions = void 0;
@@ -13744,9 +13847,9 @@ var require_getEndpointFromInstructions = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+querystring-parser@2.0.1/node_modules/@smithy/querystring-parser/dist-cjs/index.js
+// node_modules/.pnpm/@smithy+querystring-parser@2.0.5/node_modules/@smithy/querystring-parser/dist-cjs/index.js
 var require_dist_cjs23 = __commonJS({
-  "node_modules/.pnpm/@smithy+querystring-parser@2.0.1/node_modules/@smithy/querystring-parser/dist-cjs/index.js"(exports) {
+  "node_modules/.pnpm/@smithy+querystring-parser@2.0.5/node_modules/@smithy/querystring-parser/dist-cjs/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.parseQueryString = void 0;
@@ -13775,9 +13878,9 @@ var require_dist_cjs23 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+url-parser@2.0.1/node_modules/@smithy/url-parser/dist-cjs/index.js
+// node_modules/.pnpm/@smithy+url-parser@2.0.5/node_modules/@smithy/url-parser/dist-cjs/index.js
 var require_dist_cjs24 = __commonJS({
-  "node_modules/.pnpm/@smithy+url-parser@2.0.1/node_modules/@smithy/url-parser/dist-cjs/index.js"(exports) {
+  "node_modules/.pnpm/@smithy+url-parser@2.0.5/node_modules/@smithy/url-parser/dist-cjs/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.parseUrl = void 0;
@@ -13803,9 +13906,9 @@ var require_dist_cjs24 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+middleware-endpoint@2.0.1/node_modules/@smithy/middleware-endpoint/dist-cjs/adaptors/toEndpointV1.js
+// node_modules/.pnpm/@smithy+middleware-endpoint@2.0.5/node_modules/@smithy/middleware-endpoint/dist-cjs/adaptors/toEndpointV1.js
 var require_toEndpointV1 = __commonJS({
-  "node_modules/.pnpm/@smithy+middleware-endpoint@2.0.1/node_modules/@smithy/middleware-endpoint/dist-cjs/adaptors/toEndpointV1.js"(exports) {
+  "node_modules/.pnpm/@smithy+middleware-endpoint@2.0.5/node_modules/@smithy/middleware-endpoint/dist-cjs/adaptors/toEndpointV1.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.toEndpointV1 = void 0;
@@ -13823,9 +13926,9 @@ var require_toEndpointV1 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+middleware-endpoint@2.0.1/node_modules/@smithy/middleware-endpoint/dist-cjs/adaptors/index.js
+// node_modules/.pnpm/@smithy+middleware-endpoint@2.0.5/node_modules/@smithy/middleware-endpoint/dist-cjs/adaptors/index.js
 var require_adaptors = __commonJS({
-  "node_modules/.pnpm/@smithy+middleware-endpoint@2.0.1/node_modules/@smithy/middleware-endpoint/dist-cjs/adaptors/index.js"(exports) {
+  "node_modules/.pnpm/@smithy+middleware-endpoint@2.0.5/node_modules/@smithy/middleware-endpoint/dist-cjs/adaptors/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var tslib_1 = (init_tslib_es6(), __toCommonJS(tslib_es6_exports));
@@ -13834,9 +13937,9 @@ var require_adaptors = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+middleware-endpoint@2.0.1/node_modules/@smithy/middleware-endpoint/dist-cjs/endpointMiddleware.js
+// node_modules/.pnpm/@smithy+middleware-endpoint@2.0.5/node_modules/@smithy/middleware-endpoint/dist-cjs/endpointMiddleware.js
 var require_endpointMiddleware = __commonJS({
-  "node_modules/.pnpm/@smithy+middleware-endpoint@2.0.1/node_modules/@smithy/middleware-endpoint/dist-cjs/endpointMiddleware.js"(exports) {
+  "node_modules/.pnpm/@smithy+middleware-endpoint@2.0.5/node_modules/@smithy/middleware-endpoint/dist-cjs/endpointMiddleware.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.endpointMiddleware = void 0;
@@ -13865,9 +13968,9 @@ var require_endpointMiddleware = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+middleware-serde@2.0.1/node_modules/@smithy/middleware-serde/dist-cjs/deserializerMiddleware.js
+// node_modules/.pnpm/@smithy+middleware-serde@2.0.5/node_modules/@smithy/middleware-serde/dist-cjs/deserializerMiddleware.js
 var require_deserializerMiddleware = __commonJS({
-  "node_modules/.pnpm/@smithy+middleware-serde@2.0.1/node_modules/@smithy/middleware-serde/dist-cjs/deserializerMiddleware.js"(exports) {
+  "node_modules/.pnpm/@smithy+middleware-serde@2.0.5/node_modules/@smithy/middleware-serde/dist-cjs/deserializerMiddleware.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.deserializerMiddleware = void 0;
@@ -13894,9 +13997,9 @@ var require_deserializerMiddleware = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+middleware-serde@2.0.1/node_modules/@smithy/middleware-serde/dist-cjs/serializerMiddleware.js
+// node_modules/.pnpm/@smithy+middleware-serde@2.0.5/node_modules/@smithy/middleware-serde/dist-cjs/serializerMiddleware.js
 var require_serializerMiddleware = __commonJS({
-  "node_modules/.pnpm/@smithy+middleware-serde@2.0.1/node_modules/@smithy/middleware-serde/dist-cjs/serializerMiddleware.js"(exports) {
+  "node_modules/.pnpm/@smithy+middleware-serde@2.0.5/node_modules/@smithy/middleware-serde/dist-cjs/serializerMiddleware.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.serializerMiddleware = void 0;
@@ -13916,9 +14019,9 @@ var require_serializerMiddleware = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+middleware-serde@2.0.1/node_modules/@smithy/middleware-serde/dist-cjs/serdePlugin.js
+// node_modules/.pnpm/@smithy+middleware-serde@2.0.5/node_modules/@smithy/middleware-serde/dist-cjs/serdePlugin.js
 var require_serdePlugin = __commonJS({
-  "node_modules/.pnpm/@smithy+middleware-serde@2.0.1/node_modules/@smithy/middleware-serde/dist-cjs/serdePlugin.js"(exports) {
+  "node_modules/.pnpm/@smithy+middleware-serde@2.0.5/node_modules/@smithy/middleware-serde/dist-cjs/serdePlugin.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.getSerdePlugin = exports.serializerMiddlewareOption = exports.deserializerMiddlewareOption = void 0;
@@ -13948,9 +14051,9 @@ var require_serdePlugin = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+middleware-serde@2.0.1/node_modules/@smithy/middleware-serde/dist-cjs/index.js
+// node_modules/.pnpm/@smithy+middleware-serde@2.0.5/node_modules/@smithy/middleware-serde/dist-cjs/index.js
 var require_dist_cjs25 = __commonJS({
-  "node_modules/.pnpm/@smithy+middleware-serde@2.0.1/node_modules/@smithy/middleware-serde/dist-cjs/index.js"(exports) {
+  "node_modules/.pnpm/@smithy+middleware-serde@2.0.5/node_modules/@smithy/middleware-serde/dist-cjs/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var tslib_1 = (init_tslib_es6(), __toCommonJS(tslib_es6_exports));
@@ -13960,9 +14063,9 @@ var require_dist_cjs25 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+middleware-endpoint@2.0.1/node_modules/@smithy/middleware-endpoint/dist-cjs/getEndpointPlugin.js
+// node_modules/.pnpm/@smithy+middleware-endpoint@2.0.5/node_modules/@smithy/middleware-endpoint/dist-cjs/getEndpointPlugin.js
 var require_getEndpointPlugin = __commonJS({
-  "node_modules/.pnpm/@smithy+middleware-endpoint@2.0.1/node_modules/@smithy/middleware-endpoint/dist-cjs/getEndpointPlugin.js"(exports) {
+  "node_modules/.pnpm/@smithy+middleware-endpoint@2.0.5/node_modules/@smithy/middleware-endpoint/dist-cjs/getEndpointPlugin.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.getEndpointPlugin = exports.endpointMiddlewareOptions = void 0;
@@ -13988,9 +14091,9 @@ var require_getEndpointPlugin = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+middleware-endpoint@2.0.1/node_modules/@smithy/middleware-endpoint/dist-cjs/resolveEndpointConfig.js
+// node_modules/.pnpm/@smithy+middleware-endpoint@2.0.5/node_modules/@smithy/middleware-endpoint/dist-cjs/resolveEndpointConfig.js
 var require_resolveEndpointConfig = __commonJS({
-  "node_modules/.pnpm/@smithy+middleware-endpoint@2.0.1/node_modules/@smithy/middleware-endpoint/dist-cjs/resolveEndpointConfig.js"(exports) {
+  "node_modules/.pnpm/@smithy+middleware-endpoint@2.0.5/node_modules/@smithy/middleware-endpoint/dist-cjs/resolveEndpointConfig.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.resolveEndpointConfig = void 0;
@@ -14015,17 +14118,17 @@ var require_resolveEndpointConfig = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+middleware-endpoint@2.0.1/node_modules/@smithy/middleware-endpoint/dist-cjs/types.js
+// node_modules/.pnpm/@smithy+middleware-endpoint@2.0.5/node_modules/@smithy/middleware-endpoint/dist-cjs/types.js
 var require_types3 = __commonJS({
-  "node_modules/.pnpm/@smithy+middleware-endpoint@2.0.1/node_modules/@smithy/middleware-endpoint/dist-cjs/types.js"(exports) {
+  "node_modules/.pnpm/@smithy+middleware-endpoint@2.0.5/node_modules/@smithy/middleware-endpoint/dist-cjs/types.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@smithy+middleware-endpoint@2.0.1/node_modules/@smithy/middleware-endpoint/dist-cjs/index.js
+// node_modules/.pnpm/@smithy+middleware-endpoint@2.0.5/node_modules/@smithy/middleware-endpoint/dist-cjs/index.js
 var require_dist_cjs26 = __commonJS({
-  "node_modules/.pnpm/@smithy+middleware-endpoint@2.0.1/node_modules/@smithy/middleware-endpoint/dist-cjs/index.js"(exports) {
+  "node_modules/.pnpm/@smithy+middleware-endpoint@2.0.5/node_modules/@smithy/middleware-endpoint/dist-cjs/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var tslib_1 = (init_tslib_es6(), __toCommonJS(tslib_es6_exports));
@@ -14453,9 +14556,9 @@ var require_dist_cjs28 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+middleware-retry@2.0.1/node_modules/@smithy/middleware-retry/dist-cjs/defaultRetryQuota.js
+// node_modules/.pnpm/@smithy+middleware-retry@2.0.5/node_modules/@smithy/middleware-retry/dist-cjs/defaultRetryQuota.js
 var require_defaultRetryQuota = __commonJS({
-  "node_modules/.pnpm/@smithy+middleware-retry@2.0.1/node_modules/@smithy/middleware-retry/dist-cjs/defaultRetryQuota.js"(exports) {
+  "node_modules/.pnpm/@smithy+middleware-retry@2.0.5/node_modules/@smithy/middleware-retry/dist-cjs/defaultRetryQuota.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.getDefaultRetryQuota = void 0;
@@ -14491,9 +14594,9 @@ var require_defaultRetryQuota = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+middleware-retry@2.0.1/node_modules/@smithy/middleware-retry/dist-cjs/delayDecider.js
+// node_modules/.pnpm/@smithy+middleware-retry@2.0.5/node_modules/@smithy/middleware-retry/dist-cjs/delayDecider.js
 var require_delayDecider = __commonJS({
-  "node_modules/.pnpm/@smithy+middleware-retry@2.0.1/node_modules/@smithy/middleware-retry/dist-cjs/delayDecider.js"(exports) {
+  "node_modules/.pnpm/@smithy+middleware-retry@2.0.5/node_modules/@smithy/middleware-retry/dist-cjs/delayDecider.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.defaultDelayDecider = void 0;
@@ -14503,9 +14606,9 @@ var require_delayDecider = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+middleware-retry@2.0.1/node_modules/@smithy/middleware-retry/dist-cjs/retryDecider.js
+// node_modules/.pnpm/@smithy+middleware-retry@2.0.5/node_modules/@smithy/middleware-retry/dist-cjs/retryDecider.js
 var require_retryDecider = __commonJS({
-  "node_modules/.pnpm/@smithy+middleware-retry@2.0.1/node_modules/@smithy/middleware-retry/dist-cjs/retryDecider.js"(exports) {
+  "node_modules/.pnpm/@smithy+middleware-retry@2.0.5/node_modules/@smithy/middleware-retry/dist-cjs/retryDecider.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.defaultRetryDecider = void 0;
@@ -14520,9 +14623,9 @@ var require_retryDecider = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+middleware-retry@2.0.1/node_modules/@smithy/middleware-retry/dist-cjs/util.js
+// node_modules/.pnpm/@smithy+middleware-retry@2.0.5/node_modules/@smithy/middleware-retry/dist-cjs/util.js
 var require_util3 = __commonJS({
-  "node_modules/.pnpm/@smithy+middleware-retry@2.0.1/node_modules/@smithy/middleware-retry/dist-cjs/util.js"(exports) {
+  "node_modules/.pnpm/@smithy+middleware-retry@2.0.5/node_modules/@smithy/middleware-retry/dist-cjs/util.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.asSdkError = void 0;
@@ -14539,9 +14642,9 @@ var require_util3 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+middleware-retry@2.0.1/node_modules/@smithy/middleware-retry/dist-cjs/StandardRetryStrategy.js
+// node_modules/.pnpm/@smithy+middleware-retry@2.0.5/node_modules/@smithy/middleware-retry/dist-cjs/StandardRetryStrategy.js
 var require_StandardRetryStrategy2 = __commonJS({
-  "node_modules/.pnpm/@smithy+middleware-retry@2.0.1/node_modules/@smithy/middleware-retry/dist-cjs/StandardRetryStrategy.js"(exports) {
+  "node_modules/.pnpm/@smithy+middleware-retry@2.0.5/node_modules/@smithy/middleware-retry/dist-cjs/StandardRetryStrategy.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.StandardRetryStrategy = void 0;
@@ -14638,9 +14741,9 @@ var require_StandardRetryStrategy2 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+middleware-retry@2.0.1/node_modules/@smithy/middleware-retry/dist-cjs/AdaptiveRetryStrategy.js
+// node_modules/.pnpm/@smithy+middleware-retry@2.0.5/node_modules/@smithy/middleware-retry/dist-cjs/AdaptiveRetryStrategy.js
 var require_AdaptiveRetryStrategy2 = __commonJS({
-  "node_modules/.pnpm/@smithy+middleware-retry@2.0.1/node_modules/@smithy/middleware-retry/dist-cjs/AdaptiveRetryStrategy.js"(exports) {
+  "node_modules/.pnpm/@smithy+middleware-retry@2.0.5/node_modules/@smithy/middleware-retry/dist-cjs/AdaptiveRetryStrategy.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.AdaptiveRetryStrategy = void 0;
@@ -14668,9 +14771,9 @@ var require_AdaptiveRetryStrategy2 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+middleware-retry@2.0.1/node_modules/@smithy/middleware-retry/dist-cjs/configurations.js
+// node_modules/.pnpm/@smithy+middleware-retry@2.0.5/node_modules/@smithy/middleware-retry/dist-cjs/configurations.js
 var require_configurations2 = __commonJS({
-  "node_modules/.pnpm/@smithy+middleware-retry@2.0.1/node_modules/@smithy/middleware-retry/dist-cjs/configurations.js"(exports) {
+  "node_modules/.pnpm/@smithy+middleware-retry@2.0.5/node_modules/@smithy/middleware-retry/dist-cjs/configurations.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.NODE_RETRY_MODE_CONFIG_OPTIONS = exports.CONFIG_RETRY_MODE = exports.ENV_RETRY_MODE = exports.resolveRetryConfig = exports.NODE_MAX_ATTEMPT_CONFIG_OPTIONS = exports.CONFIG_MAX_ATTEMPTS = exports.ENV_MAX_ATTEMPTS = void 0;
@@ -14731,9 +14834,9 @@ var require_configurations2 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+middleware-retry@2.0.1/node_modules/@smithy/middleware-retry/dist-cjs/omitRetryHeadersMiddleware.js
+// node_modules/.pnpm/@smithy+middleware-retry@2.0.5/node_modules/@smithy/middleware-retry/dist-cjs/omitRetryHeadersMiddleware.js
 var require_omitRetryHeadersMiddleware = __commonJS({
-  "node_modules/.pnpm/@smithy+middleware-retry@2.0.1/node_modules/@smithy/middleware-retry/dist-cjs/omitRetryHeadersMiddleware.js"(exports) {
+  "node_modules/.pnpm/@smithy+middleware-retry@2.0.5/node_modules/@smithy/middleware-retry/dist-cjs/omitRetryHeadersMiddleware.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.getOmitRetryHeadersPlugin = exports.omitRetryHeadersMiddlewareOptions = exports.omitRetryHeadersMiddleware = void 0;
@@ -14764,9 +14867,9 @@ var require_omitRetryHeadersMiddleware = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+middleware-retry@2.0.1/node_modules/@smithy/middleware-retry/dist-cjs/retryMiddleware.js
+// node_modules/.pnpm/@smithy+middleware-retry@2.0.5/node_modules/@smithy/middleware-retry/dist-cjs/retryMiddleware.js
 var require_retryMiddleware = __commonJS({
-  "node_modules/.pnpm/@smithy+middleware-retry@2.0.1/node_modules/@smithy/middleware-retry/dist-cjs/retryMiddleware.js"(exports) {
+  "node_modules/.pnpm/@smithy+middleware-retry@2.0.5/node_modules/@smithy/middleware-retry/dist-cjs/retryMiddleware.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.getRetryAfterHint = exports.getRetryPlugin = exports.retryMiddlewareOptions = exports.retryMiddleware = void 0;
@@ -14875,9 +14978,9 @@ var require_retryMiddleware = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+middleware-retry@2.0.1/node_modules/@smithy/middleware-retry/dist-cjs/index.js
+// node_modules/.pnpm/@smithy+middleware-retry@2.0.5/node_modules/@smithy/middleware-retry/dist-cjs/index.js
 var require_dist_cjs29 = __commonJS({
-  "node_modules/.pnpm/@smithy+middleware-retry@2.0.1/node_modules/@smithy/middleware-retry/dist-cjs/index.js"(exports) {
+  "node_modules/.pnpm/@smithy+middleware-retry@2.0.5/node_modules/@smithy/middleware-retry/dist-cjs/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var tslib_1 = (init_tslib_es6(), __toCommonJS(tslib_es6_exports));
@@ -14891,9 +14994,9 @@ var require_dist_cjs29 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+smithy-client@2.0.1/node_modules/@smithy/smithy-client/dist-cjs/NoOpLogger.js
+// node_modules/.pnpm/@smithy+smithy-client@2.0.5/node_modules/@smithy/smithy-client/dist-cjs/NoOpLogger.js
 var require_NoOpLogger = __commonJS({
-  "node_modules/.pnpm/@smithy+smithy-client@2.0.1/node_modules/@smithy/smithy-client/dist-cjs/NoOpLogger.js"(exports) {
+  "node_modules/.pnpm/@smithy+smithy-client@2.0.5/node_modules/@smithy/smithy-client/dist-cjs/NoOpLogger.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.NoOpLogger = void 0;
@@ -15145,9 +15248,9 @@ var require_dist_cjs30 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+smithy-client@2.0.1/node_modules/@smithy/smithy-client/dist-cjs/client.js
+// node_modules/.pnpm/@smithy+smithy-client@2.0.5/node_modules/@smithy/smithy-client/dist-cjs/client.js
 var require_client3 = __commonJS({
-  "node_modules/.pnpm/@smithy+smithy-client@2.0.1/node_modules/@smithy/smithy-client/dist-cjs/client.js"(exports) {
+  "node_modules/.pnpm/@smithy+smithy-client@2.0.5/node_modules/@smithy/smithy-client/dist-cjs/client.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.Client = void 0;
@@ -15222,9 +15325,9 @@ var require_dist_cjs31 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+util-stream@2.0.1/node_modules/@smithy/util-stream/dist-cjs/blob/transforms.js
+// node_modules/.pnpm/@smithy+util-stream@2.0.5/node_modules/@smithy/util-stream/dist-cjs/blob/transforms.js
 var require_transforms = __commonJS({
-  "node_modules/.pnpm/@smithy+util-stream@2.0.1/node_modules/@smithy/util-stream/dist-cjs/blob/transforms.js"(exports) {
+  "node_modules/.pnpm/@smithy+util-stream@2.0.5/node_modules/@smithy/util-stream/dist-cjs/blob/transforms.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.transformFromString = exports.transformToString = void 0;
@@ -15248,9 +15351,9 @@ var require_transforms = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+util-stream@2.0.1/node_modules/@smithy/util-stream/dist-cjs/blob/Uint8ArrayBlobAdapter.js
+// node_modules/.pnpm/@smithy+util-stream@2.0.5/node_modules/@smithy/util-stream/dist-cjs/blob/Uint8ArrayBlobAdapter.js
 var require_Uint8ArrayBlobAdapter = __commonJS({
-  "node_modules/.pnpm/@smithy+util-stream@2.0.1/node_modules/@smithy/util-stream/dist-cjs/blob/Uint8ArrayBlobAdapter.js"(exports) {
+  "node_modules/.pnpm/@smithy+util-stream@2.0.5/node_modules/@smithy/util-stream/dist-cjs/blob/Uint8ArrayBlobAdapter.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.Uint8ArrayBlobAdapter = void 0;
@@ -15276,9 +15379,9 @@ var require_Uint8ArrayBlobAdapter = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+util-stream@2.0.1/node_modules/@smithy/util-stream/dist-cjs/getAwsChunkedEncodingStream.js
+// node_modules/.pnpm/@smithy+util-stream@2.0.5/node_modules/@smithy/util-stream/dist-cjs/getAwsChunkedEncodingStream.js
 var require_getAwsChunkedEncodingStream = __commonJS({
-  "node_modules/.pnpm/@smithy+util-stream@2.0.1/node_modules/@smithy/util-stream/dist-cjs/getAwsChunkedEncodingStream.js"(exports) {
+  "node_modules/.pnpm/@smithy+util-stream@2.0.5/node_modules/@smithy/util-stream/dist-cjs/getAwsChunkedEncodingStream.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.getAwsChunkedEncodingStream = void 0;
@@ -15314,9 +15417,9 @@ var require_getAwsChunkedEncodingStream = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+querystring-builder@2.0.1/node_modules/@smithy/querystring-builder/dist-cjs/index.js
+// node_modules/.pnpm/@smithy+querystring-builder@2.0.5/node_modules/@smithy/querystring-builder/dist-cjs/index.js
 var require_dist_cjs32 = __commonJS({
-  "node_modules/.pnpm/@smithy+querystring-builder@2.0.1/node_modules/@smithy/querystring-builder/dist-cjs/index.js"(exports) {
+  "node_modules/.pnpm/@smithy+querystring-builder@2.0.5/node_modules/@smithy/querystring-builder/dist-cjs/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.buildQueryString = void 0;
@@ -15344,9 +15447,9 @@ var require_dist_cjs32 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+node-http-handler@2.0.1/node_modules/@smithy/node-http-handler/dist-cjs/constants.js
+// node_modules/.pnpm/@smithy+node-http-handler@2.0.5/node_modules/@smithy/node-http-handler/dist-cjs/constants.js
 var require_constants5 = __commonJS({
-  "node_modules/.pnpm/@smithy+node-http-handler@2.0.1/node_modules/@smithy/node-http-handler/dist-cjs/constants.js"(exports) {
+  "node_modules/.pnpm/@smithy+node-http-handler@2.0.5/node_modules/@smithy/node-http-handler/dist-cjs/constants.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.NODEJS_TIMEOUT_ERROR_CODES = void 0;
@@ -15354,9 +15457,9 @@ var require_constants5 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+node-http-handler@2.0.1/node_modules/@smithy/node-http-handler/dist-cjs/get-transformed-headers.js
+// node_modules/.pnpm/@smithy+node-http-handler@2.0.5/node_modules/@smithy/node-http-handler/dist-cjs/get-transformed-headers.js
 var require_get_transformed_headers = __commonJS({
-  "node_modules/.pnpm/@smithy+node-http-handler@2.0.1/node_modules/@smithy/node-http-handler/dist-cjs/get-transformed-headers.js"(exports) {
+  "node_modules/.pnpm/@smithy+node-http-handler@2.0.5/node_modules/@smithy/node-http-handler/dist-cjs/get-transformed-headers.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.getTransformedHeaders = void 0;
@@ -15372,9 +15475,9 @@ var require_get_transformed_headers = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+node-http-handler@2.0.1/node_modules/@smithy/node-http-handler/dist-cjs/set-connection-timeout.js
+// node_modules/.pnpm/@smithy+node-http-handler@2.0.5/node_modules/@smithy/node-http-handler/dist-cjs/set-connection-timeout.js
 var require_set_connection_timeout = __commonJS({
-  "node_modules/.pnpm/@smithy+node-http-handler@2.0.1/node_modules/@smithy/node-http-handler/dist-cjs/set-connection-timeout.js"(exports) {
+  "node_modules/.pnpm/@smithy+node-http-handler@2.0.5/node_modules/@smithy/node-http-handler/dist-cjs/set-connection-timeout.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.setConnectionTimeout = void 0;
@@ -15402,9 +15505,9 @@ var require_set_connection_timeout = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+node-http-handler@2.0.1/node_modules/@smithy/node-http-handler/dist-cjs/set-socket-keep-alive.js
+// node_modules/.pnpm/@smithy+node-http-handler@2.0.5/node_modules/@smithy/node-http-handler/dist-cjs/set-socket-keep-alive.js
 var require_set_socket_keep_alive = __commonJS({
-  "node_modules/.pnpm/@smithy+node-http-handler@2.0.1/node_modules/@smithy/node-http-handler/dist-cjs/set-socket-keep-alive.js"(exports) {
+  "node_modules/.pnpm/@smithy+node-http-handler@2.0.5/node_modules/@smithy/node-http-handler/dist-cjs/set-socket-keep-alive.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.setSocketKeepAlive = void 0;
@@ -15420,9 +15523,9 @@ var require_set_socket_keep_alive = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+node-http-handler@2.0.1/node_modules/@smithy/node-http-handler/dist-cjs/set-socket-timeout.js
+// node_modules/.pnpm/@smithy+node-http-handler@2.0.5/node_modules/@smithy/node-http-handler/dist-cjs/set-socket-timeout.js
 var require_set_socket_timeout = __commonJS({
-  "node_modules/.pnpm/@smithy+node-http-handler@2.0.1/node_modules/@smithy/node-http-handler/dist-cjs/set-socket-timeout.js"(exports) {
+  "node_modules/.pnpm/@smithy+node-http-handler@2.0.5/node_modules/@smithy/node-http-handler/dist-cjs/set-socket-timeout.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.setSocketTimeout = void 0;
@@ -15436,9 +15539,9 @@ var require_set_socket_timeout = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+node-http-handler@2.0.1/node_modules/@smithy/node-http-handler/dist-cjs/write-request-body.js
+// node_modules/.pnpm/@smithy+node-http-handler@2.0.5/node_modules/@smithy/node-http-handler/dist-cjs/write-request-body.js
 var require_write_request_body = __commonJS({
-  "node_modules/.pnpm/@smithy+node-http-handler@2.0.1/node_modules/@smithy/node-http-handler/dist-cjs/write-request-body.js"(exports) {
+  "node_modules/.pnpm/@smithy+node-http-handler@2.0.5/node_modules/@smithy/node-http-handler/dist-cjs/write-request-body.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.writeRequestBody = void 0;
@@ -15485,9 +15588,9 @@ var require_write_request_body = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+node-http-handler@2.0.1/node_modules/@smithy/node-http-handler/dist-cjs/node-http-handler.js
+// node_modules/.pnpm/@smithy+node-http-handler@2.0.5/node_modules/@smithy/node-http-handler/dist-cjs/node-http-handler.js
 var require_node_http_handler = __commonJS({
-  "node_modules/.pnpm/@smithy+node-http-handler@2.0.1/node_modules/@smithy/node-http-handler/dist-cjs/node-http-handler.js"(exports) {
+  "node_modules/.pnpm/@smithy+node-http-handler@2.0.5/node_modules/@smithy/node-http-handler/dist-cjs/node-http-handler.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.NodeHttpHandler = exports.DEFAULT_REQUEST_TIMEOUT = void 0;
@@ -15621,9 +15724,9 @@ var require_node_http_handler = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+node-http-handler@2.0.1/node_modules/@smithy/node-http-handler/dist-cjs/node-http2-connection-pool.js
+// node_modules/.pnpm/@smithy+node-http-handler@2.0.5/node_modules/@smithy/node-http-handler/dist-cjs/node-http2-connection-pool.js
 var require_node_http2_connection_pool = __commonJS({
-  "node_modules/.pnpm/@smithy+node-http-handler@2.0.1/node_modules/@smithy/node-http-handler/dist-cjs/node-http2-connection-pool.js"(exports) {
+  "node_modules/.pnpm/@smithy+node-http-handler@2.0.5/node_modules/@smithy/node-http-handler/dist-cjs/node-http2-connection-pool.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.NodeHttp2ConnectionPool = void 0;
@@ -15663,9 +15766,9 @@ var require_node_http2_connection_pool = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+node-http-handler@2.0.1/node_modules/@smithy/node-http-handler/dist-cjs/node-http2-connection-manager.js
+// node_modules/.pnpm/@smithy+node-http-handler@2.0.5/node_modules/@smithy/node-http-handler/dist-cjs/node-http2-connection-manager.js
 var require_node_http2_connection_manager = __commonJS({
-  "node_modules/.pnpm/@smithy+node-http-handler@2.0.1/node_modules/@smithy/node-http-handler/dist-cjs/node-http2-connection-manager.js"(exports) {
+  "node_modules/.pnpm/@smithy+node-http-handler@2.0.5/node_modules/@smithy/node-http-handler/dist-cjs/node-http2-connection-manager.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.NodeHttp2ConnectionManager = void 0;
@@ -15758,9 +15861,9 @@ var require_node_http2_connection_manager = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+node-http-handler@2.0.1/node_modules/@smithy/node-http-handler/dist-cjs/node-http2-handler.js
+// node_modules/.pnpm/@smithy+node-http-handler@2.0.5/node_modules/@smithy/node-http-handler/dist-cjs/node-http2-handler.js
 var require_node_http2_handler = __commonJS({
-  "node_modules/.pnpm/@smithy+node-http-handler@2.0.1/node_modules/@smithy/node-http-handler/dist-cjs/node-http2-handler.js"(exports) {
+  "node_modules/.pnpm/@smithy+node-http-handler@2.0.5/node_modules/@smithy/node-http-handler/dist-cjs/node-http2-handler.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.NodeHttp2Handler = void 0;
@@ -15907,9 +16010,9 @@ var require_node_http2_handler = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+node-http-handler@2.0.1/node_modules/@smithy/node-http-handler/dist-cjs/stream-collector/collector.js
+// node_modules/.pnpm/@smithy+node-http-handler@2.0.5/node_modules/@smithy/node-http-handler/dist-cjs/stream-collector/collector.js
 var require_collector = __commonJS({
-  "node_modules/.pnpm/@smithy+node-http-handler@2.0.1/node_modules/@smithy/node-http-handler/dist-cjs/stream-collector/collector.js"(exports) {
+  "node_modules/.pnpm/@smithy+node-http-handler@2.0.5/node_modules/@smithy/node-http-handler/dist-cjs/stream-collector/collector.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.Collector = void 0;
@@ -15928,9 +16031,9 @@ var require_collector = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+node-http-handler@2.0.1/node_modules/@smithy/node-http-handler/dist-cjs/stream-collector/index.js
+// node_modules/.pnpm/@smithy+node-http-handler@2.0.5/node_modules/@smithy/node-http-handler/dist-cjs/stream-collector/index.js
 var require_stream_collector = __commonJS({
-  "node_modules/.pnpm/@smithy+node-http-handler@2.0.1/node_modules/@smithy/node-http-handler/dist-cjs/stream-collector/index.js"(exports) {
+  "node_modules/.pnpm/@smithy+node-http-handler@2.0.5/node_modules/@smithy/node-http-handler/dist-cjs/stream-collector/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.streamCollector = void 0;
@@ -15952,9 +16055,9 @@ var require_stream_collector = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+node-http-handler@2.0.1/node_modules/@smithy/node-http-handler/dist-cjs/index.js
+// node_modules/.pnpm/@smithy+node-http-handler@2.0.5/node_modules/@smithy/node-http-handler/dist-cjs/index.js
 var require_dist_cjs33 = __commonJS({
-  "node_modules/.pnpm/@smithy+node-http-handler@2.0.1/node_modules/@smithy/node-http-handler/dist-cjs/index.js"(exports) {
+  "node_modules/.pnpm/@smithy+node-http-handler@2.0.5/node_modules/@smithy/node-http-handler/dist-cjs/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var tslib_1 = (init_tslib_es6(), __toCommonJS(tslib_es6_exports));
@@ -15964,9 +16067,9 @@ var require_dist_cjs33 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+util-stream@2.0.1/node_modules/@smithy/util-stream/dist-cjs/sdk-stream-mixin.js
+// node_modules/.pnpm/@smithy+util-stream@2.0.5/node_modules/@smithy/util-stream/dist-cjs/sdk-stream-mixin.js
 var require_sdk_stream_mixin = __commonJS({
-  "node_modules/.pnpm/@smithy+util-stream@2.0.1/node_modules/@smithy/util-stream/dist-cjs/sdk-stream-mixin.js"(exports) {
+  "node_modules/.pnpm/@smithy+util-stream@2.0.5/node_modules/@smithy/util-stream/dist-cjs/sdk-stream-mixin.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.sdkStreamMixin = void 0;
@@ -16019,9 +16122,9 @@ var require_sdk_stream_mixin = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+util-stream@2.0.1/node_modules/@smithy/util-stream/dist-cjs/index.js
+// node_modules/.pnpm/@smithy+util-stream@2.0.5/node_modules/@smithy/util-stream/dist-cjs/index.js
 var require_dist_cjs34 = __commonJS({
-  "node_modules/.pnpm/@smithy+util-stream@2.0.1/node_modules/@smithy/util-stream/dist-cjs/index.js"(exports) {
+  "node_modules/.pnpm/@smithy+util-stream@2.0.5/node_modules/@smithy/util-stream/dist-cjs/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var tslib_1 = (init_tslib_es6(), __toCommonJS(tslib_es6_exports));
@@ -16031,9 +16134,9 @@ var require_dist_cjs34 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+smithy-client@2.0.1/node_modules/@smithy/smithy-client/dist-cjs/collect-stream-body.js
+// node_modules/.pnpm/@smithy+smithy-client@2.0.5/node_modules/@smithy/smithy-client/dist-cjs/collect-stream-body.js
 var require_collect_stream_body = __commonJS({
-  "node_modules/.pnpm/@smithy+smithy-client@2.0.1/node_modules/@smithy/smithy-client/dist-cjs/collect-stream-body.js"(exports) {
+  "node_modules/.pnpm/@smithy+smithy-client@2.0.5/node_modules/@smithy/smithy-client/dist-cjs/collect-stream-body.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.collectBody = void 0;
@@ -16052,9 +16155,9 @@ var require_collect_stream_body = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+smithy-client@2.0.1/node_modules/@smithy/smithy-client/dist-cjs/command.js
+// node_modules/.pnpm/@smithy+smithy-client@2.0.5/node_modules/@smithy/smithy-client/dist-cjs/command.js
 var require_command4 = __commonJS({
-  "node_modules/.pnpm/@smithy+smithy-client@2.0.1/node_modules/@smithy/smithy-client/dist-cjs/command.js"(exports) {
+  "node_modules/.pnpm/@smithy+smithy-client@2.0.5/node_modules/@smithy/smithy-client/dist-cjs/command.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.Command = void 0;
@@ -16068,9 +16171,9 @@ var require_command4 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+smithy-client@2.0.1/node_modules/@smithy/smithy-client/dist-cjs/constants.js
+// node_modules/.pnpm/@smithy+smithy-client@2.0.5/node_modules/@smithy/smithy-client/dist-cjs/constants.js
 var require_constants6 = __commonJS({
-  "node_modules/.pnpm/@smithy+smithy-client@2.0.1/node_modules/@smithy/smithy-client/dist-cjs/constants.js"(exports) {
+  "node_modules/.pnpm/@smithy+smithy-client@2.0.5/node_modules/@smithy/smithy-client/dist-cjs/constants.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.SENSITIVE_STRING = void 0;
@@ -16078,9 +16181,9 @@ var require_constants6 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+smithy-client@2.0.1/node_modules/@smithy/smithy-client/dist-cjs/create-aggregated-client.js
+// node_modules/.pnpm/@smithy+smithy-client@2.0.5/node_modules/@smithy/smithy-client/dist-cjs/create-aggregated-client.js
 var require_create_aggregated_client = __commonJS({
-  "node_modules/.pnpm/@smithy+smithy-client@2.0.1/node_modules/@smithy/smithy-client/dist-cjs/create-aggregated-client.js"(exports) {
+  "node_modules/.pnpm/@smithy+smithy-client@2.0.5/node_modules/@smithy/smithy-client/dist-cjs/create-aggregated-client.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.createAggregatedClient = void 0;
@@ -16107,9 +16210,9 @@ var require_create_aggregated_client = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+smithy-client@2.0.1/node_modules/@smithy/smithy-client/dist-cjs/parse-utils.js
+// node_modules/.pnpm/@smithy+smithy-client@2.0.5/node_modules/@smithy/smithy-client/dist-cjs/parse-utils.js
 var require_parse_utils = __commonJS({
-  "node_modules/.pnpm/@smithy+smithy-client@2.0.1/node_modules/@smithy/smithy-client/dist-cjs/parse-utils.js"(exports) {
+  "node_modules/.pnpm/@smithy+smithy-client@2.0.5/node_modules/@smithy/smithy-client/dist-cjs/parse-utils.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.logger = exports.strictParseByte = exports.strictParseShort = exports.strictParseInt32 = exports.strictParseInt = exports.strictParseLong = exports.limitedParseFloat32 = exports.limitedParseFloat = exports.handleFloat = exports.limitedParseDouble = exports.strictParseFloat32 = exports.strictParseFloat = exports.strictParseDouble = exports.expectUnion = exports.expectString = exports.expectObject = exports.expectNonNull = exports.expectByte = exports.expectShort = exports.expectInt32 = exports.expectInt = exports.expectLong = exports.expectFloat32 = exports.expectNumber = exports.expectBoolean = exports.parseBoolean = void 0;
@@ -16360,9 +16463,9 @@ var require_parse_utils = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+smithy-client@2.0.1/node_modules/@smithy/smithy-client/dist-cjs/date-utils.js
+// node_modules/.pnpm/@smithy+smithy-client@2.0.5/node_modules/@smithy/smithy-client/dist-cjs/date-utils.js
 var require_date_utils = __commonJS({
-  "node_modules/.pnpm/@smithy+smithy-client@2.0.1/node_modules/@smithy/smithy-client/dist-cjs/date-utils.js"(exports) {
+  "node_modules/.pnpm/@smithy+smithy-client@2.0.5/node_modules/@smithy/smithy-client/dist-cjs/date-utils.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.parseEpochTimestamp = exports.parseRfc7231DateTime = exports.parseRfc3339DateTimeWithOffset = exports.parseRfc3339DateTime = exports.dateToUtcString = void 0;
@@ -16557,9 +16660,9 @@ var require_date_utils = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+smithy-client@2.0.1/node_modules/@smithy/smithy-client/dist-cjs/exceptions.js
+// node_modules/.pnpm/@smithy+smithy-client@2.0.5/node_modules/@smithy/smithy-client/dist-cjs/exceptions.js
 var require_exceptions = __commonJS({
-  "node_modules/.pnpm/@smithy+smithy-client@2.0.1/node_modules/@smithy/smithy-client/dist-cjs/exceptions.js"(exports) {
+  "node_modules/.pnpm/@smithy+smithy-client@2.0.5/node_modules/@smithy/smithy-client/dist-cjs/exceptions.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.decorateServiceException = exports.ServiceException = void 0;
@@ -16588,9 +16691,9 @@ var require_exceptions = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+smithy-client@2.0.1/node_modules/@smithy/smithy-client/dist-cjs/default-error-handler.js
+// node_modules/.pnpm/@smithy+smithy-client@2.0.5/node_modules/@smithy/smithy-client/dist-cjs/default-error-handler.js
 var require_default_error_handler = __commonJS({
-  "node_modules/.pnpm/@smithy+smithy-client@2.0.1/node_modules/@smithy/smithy-client/dist-cjs/default-error-handler.js"(exports) {
+  "node_modules/.pnpm/@smithy+smithy-client@2.0.5/node_modules/@smithy/smithy-client/dist-cjs/default-error-handler.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.withBaseException = exports.throwDefaultError = void 0;
@@ -16624,9 +16727,9 @@ var require_default_error_handler = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+smithy-client@2.0.1/node_modules/@smithy/smithy-client/dist-cjs/defaults-mode.js
+// node_modules/.pnpm/@smithy+smithy-client@2.0.5/node_modules/@smithy/smithy-client/dist-cjs/defaults-mode.js
 var require_defaults_mode = __commonJS({
-  "node_modules/.pnpm/@smithy+smithy-client@2.0.1/node_modules/@smithy/smithy-client/dist-cjs/defaults-mode.js"(exports) {
+  "node_modules/.pnpm/@smithy+smithy-client@2.0.5/node_modules/@smithy/smithy-client/dist-cjs/defaults-mode.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.loadConfigsForDefaultMode = void 0;
@@ -16660,9 +16763,9 @@ var require_defaults_mode = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+smithy-client@2.0.1/node_modules/@smithy/smithy-client/dist-cjs/emitWarningIfUnsupportedVersion.js
+// node_modules/.pnpm/@smithy+smithy-client@2.0.5/node_modules/@smithy/smithy-client/dist-cjs/emitWarningIfUnsupportedVersion.js
 var require_emitWarningIfUnsupportedVersion = __commonJS({
-  "node_modules/.pnpm/@smithy+smithy-client@2.0.1/node_modules/@smithy/smithy-client/dist-cjs/emitWarningIfUnsupportedVersion.js"(exports) {
+  "node_modules/.pnpm/@smithy+smithy-client@2.0.5/node_modules/@smithy/smithy-client/dist-cjs/emitWarningIfUnsupportedVersion.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.emitWarningIfUnsupportedVersion = void 0;
@@ -16676,9 +16779,88 @@ var require_emitWarningIfUnsupportedVersion = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+smithy-client@2.0.1/node_modules/@smithy/smithy-client/dist-cjs/extended-encode-uri-component.js
+// node_modules/.pnpm/@smithy+smithy-client@2.0.5/node_modules/@smithy/smithy-client/dist-cjs/extensions/checksum.js
+var require_checksum4 = __commonJS({
+  "node_modules/.pnpm/@smithy+smithy-client@2.0.5/node_modules/@smithy/smithy-client/dist-cjs/extensions/checksum.js"(exports) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    exports.resolveChecksumRuntimeConfig = exports.getChecksumConfiguration = exports.AlgorithmId = void 0;
+    var types_1 = require_dist_cjs();
+    Object.defineProperty(exports, "AlgorithmId", { enumerable: true, get: function() {
+      return types_1.AlgorithmId;
+    } });
+    var getChecksumConfiguration = (runtimeConfig) => {
+      const checksumAlgorithms = [];
+      if (runtimeConfig.sha256 !== void 0) {
+        checksumAlgorithms.push({
+          algorithmId: () => types_1.AlgorithmId.SHA256,
+          checksumConstructor: () => runtimeConfig.sha256
+        });
+      }
+      if (runtimeConfig.md5 != void 0) {
+        checksumAlgorithms.push({
+          algorithmId: () => types_1.AlgorithmId.MD5,
+          checksumConstructor: () => runtimeConfig.md5
+        });
+      }
+      return {
+        _checksumAlgorithms: checksumAlgorithms,
+        addChecksumAlgorithm(algo) {
+          this._checksumAlgorithms.push(algo);
+        },
+        checksumAlgorithms() {
+          return this._checksumAlgorithms;
+        }
+      };
+    };
+    exports.getChecksumConfiguration = getChecksumConfiguration;
+    var resolveChecksumRuntimeConfig = (clientConfig) => {
+      const runtimeConfig = {};
+      clientConfig.checksumAlgorithms().forEach((checksumAlgorithm) => {
+        runtimeConfig[checksumAlgorithm.algorithmId()] = checksumAlgorithm.checksumConstructor();
+      });
+      return runtimeConfig;
+    };
+    exports.resolveChecksumRuntimeConfig = resolveChecksumRuntimeConfig;
+  }
+});
+
+// node_modules/.pnpm/@smithy+smithy-client@2.0.5/node_modules/@smithy/smithy-client/dist-cjs/extensions/defaultExtensionConfiguration.js
+var require_defaultExtensionConfiguration2 = __commonJS({
+  "node_modules/.pnpm/@smithy+smithy-client@2.0.5/node_modules/@smithy/smithy-client/dist-cjs/extensions/defaultExtensionConfiguration.js"(exports) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    exports.resolveDefaultRuntimeConfig = exports.getDefaultClientConfiguration = exports.getDefaultExtensionConfiguration = void 0;
+    var checksum_1 = require_checksum4();
+    var getDefaultExtensionConfiguration = (runtimeConfig) => {
+      return {
+        ...(0, checksum_1.getChecksumConfiguration)(runtimeConfig)
+      };
+    };
+    exports.getDefaultExtensionConfiguration = getDefaultExtensionConfiguration;
+    exports.getDefaultClientConfiguration = exports.getDefaultExtensionConfiguration;
+    var resolveDefaultRuntimeConfig = (config) => {
+      return {
+        ...(0, checksum_1.resolveChecksumRuntimeConfig)(config)
+      };
+    };
+    exports.resolveDefaultRuntimeConfig = resolveDefaultRuntimeConfig;
+  }
+});
+
+// node_modules/.pnpm/@smithy+smithy-client@2.0.5/node_modules/@smithy/smithy-client/dist-cjs/extensions/index.js
+var require_extensions2 = __commonJS({
+  "node_modules/.pnpm/@smithy+smithy-client@2.0.5/node_modules/@smithy/smithy-client/dist-cjs/extensions/index.js"(exports) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    var tslib_1 = (init_tslib_es6(), __toCommonJS(tslib_es6_exports));
+    tslib_1.__exportStar(require_defaultExtensionConfiguration2(), exports);
+  }
+});
+
+// node_modules/.pnpm/@smithy+smithy-client@2.0.5/node_modules/@smithy/smithy-client/dist-cjs/extended-encode-uri-component.js
 var require_extended_encode_uri_component = __commonJS({
-  "node_modules/.pnpm/@smithy+smithy-client@2.0.1/node_modules/@smithy/smithy-client/dist-cjs/extended-encode-uri-component.js"(exports) {
+  "node_modules/.pnpm/@smithy+smithy-client@2.0.5/node_modules/@smithy/smithy-client/dist-cjs/extended-encode-uri-component.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.extendedEncodeURIComponent = void 0;
@@ -16691,9 +16873,9 @@ var require_extended_encode_uri_component = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+smithy-client@2.0.1/node_modules/@smithy/smithy-client/dist-cjs/get-array-if-single-item.js
+// node_modules/.pnpm/@smithy+smithy-client@2.0.5/node_modules/@smithy/smithy-client/dist-cjs/get-array-if-single-item.js
 var require_get_array_if_single_item = __commonJS({
-  "node_modules/.pnpm/@smithy+smithy-client@2.0.1/node_modules/@smithy/smithy-client/dist-cjs/get-array-if-single-item.js"(exports) {
+  "node_modules/.pnpm/@smithy+smithy-client@2.0.5/node_modules/@smithy/smithy-client/dist-cjs/get-array-if-single-item.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.getArrayIfSingleItem = void 0;
@@ -16702,9 +16884,9 @@ var require_get_array_if_single_item = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+smithy-client@2.0.1/node_modules/@smithy/smithy-client/dist-cjs/get-value-from-text-node.js
+// node_modules/.pnpm/@smithy+smithy-client@2.0.5/node_modules/@smithy/smithy-client/dist-cjs/get-value-from-text-node.js
 var require_get_value_from_text_node = __commonJS({
-  "node_modules/.pnpm/@smithy+smithy-client@2.0.1/node_modules/@smithy/smithy-client/dist-cjs/get-value-from-text-node.js"(exports) {
+  "node_modules/.pnpm/@smithy+smithy-client@2.0.5/node_modules/@smithy/smithy-client/dist-cjs/get-value-from-text-node.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.getValueFromTextNode = void 0;
@@ -16723,9 +16905,9 @@ var require_get_value_from_text_node = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+smithy-client@2.0.1/node_modules/@smithy/smithy-client/dist-cjs/lazy-json.js
+// node_modules/.pnpm/@smithy+smithy-client@2.0.5/node_modules/@smithy/smithy-client/dist-cjs/lazy-json.js
 var require_lazy_json = __commonJS({
-  "node_modules/.pnpm/@smithy+smithy-client@2.0.1/node_modules/@smithy/smithy-client/dist-cjs/lazy-json.js"(exports) {
+  "node_modules/.pnpm/@smithy+smithy-client@2.0.5/node_modules/@smithy/smithy-client/dist-cjs/lazy-json.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.LazyJsonString = exports.StringWrapper = void 0;
@@ -16766,9 +16948,9 @@ var require_lazy_json = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+smithy-client@2.0.1/node_modules/@smithy/smithy-client/dist-cjs/object-mapping.js
+// node_modules/.pnpm/@smithy+smithy-client@2.0.5/node_modules/@smithy/smithy-client/dist-cjs/object-mapping.js
 var require_object_mapping = __commonJS({
-  "node_modules/.pnpm/@smithy+smithy-client@2.0.1/node_modules/@smithy/smithy-client/dist-cjs/object-mapping.js"(exports) {
+  "node_modules/.pnpm/@smithy+smithy-client@2.0.5/node_modules/@smithy/smithy-client/dist-cjs/object-mapping.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.take = exports.convertMap = exports.map = void 0;
@@ -16864,9 +17046,9 @@ var require_object_mapping = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+smithy-client@2.0.1/node_modules/@smithy/smithy-client/dist-cjs/resolve-path.js
+// node_modules/.pnpm/@smithy+smithy-client@2.0.5/node_modules/@smithy/smithy-client/dist-cjs/resolve-path.js
 var require_resolve_path = __commonJS({
-  "node_modules/.pnpm/@smithy+smithy-client@2.0.1/node_modules/@smithy/smithy-client/dist-cjs/resolve-path.js"(exports) {
+  "node_modules/.pnpm/@smithy+smithy-client@2.0.5/node_modules/@smithy/smithy-client/dist-cjs/resolve-path.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.resolvedPath = void 0;
@@ -16887,9 +17069,9 @@ var require_resolve_path = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+smithy-client@2.0.1/node_modules/@smithy/smithy-client/dist-cjs/ser-utils.js
+// node_modules/.pnpm/@smithy+smithy-client@2.0.5/node_modules/@smithy/smithy-client/dist-cjs/ser-utils.js
 var require_ser_utils = __commonJS({
-  "node_modules/.pnpm/@smithy+smithy-client@2.0.1/node_modules/@smithy/smithy-client/dist-cjs/ser-utils.js"(exports) {
+  "node_modules/.pnpm/@smithy+smithy-client@2.0.5/node_modules/@smithy/smithy-client/dist-cjs/ser-utils.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.serializeFloat = void 0;
@@ -16910,9 +17092,9 @@ var require_ser_utils = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+smithy-client@2.0.1/node_modules/@smithy/smithy-client/dist-cjs/serde-json.js
+// node_modules/.pnpm/@smithy+smithy-client@2.0.5/node_modules/@smithy/smithy-client/dist-cjs/serde-json.js
 var require_serde_json = __commonJS({
-  "node_modules/.pnpm/@smithy+smithy-client@2.0.1/node_modules/@smithy/smithy-client/dist-cjs/serde-json.js"(exports) {
+  "node_modules/.pnpm/@smithy+smithy-client@2.0.5/node_modules/@smithy/smithy-client/dist-cjs/serde-json.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports._json = void 0;
@@ -16939,9 +17121,9 @@ var require_serde_json = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+smithy-client@2.0.1/node_modules/@smithy/smithy-client/dist-cjs/split-every.js
+// node_modules/.pnpm/@smithy+smithy-client@2.0.5/node_modules/@smithy/smithy-client/dist-cjs/split-every.js
 var require_split_every = __commonJS({
-  "node_modules/.pnpm/@smithy+smithy-client@2.0.1/node_modules/@smithy/smithy-client/dist-cjs/split-every.js"(exports) {
+  "node_modules/.pnpm/@smithy+smithy-client@2.0.5/node_modules/@smithy/smithy-client/dist-cjs/split-every.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.splitEvery = void 0;
@@ -16975,9 +17157,9 @@ var require_split_every = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+smithy-client@2.0.1/node_modules/@smithy/smithy-client/dist-cjs/index.js
+// node_modules/.pnpm/@smithy+smithy-client@2.0.5/node_modules/@smithy/smithy-client/dist-cjs/index.js
 var require_dist_cjs35 = __commonJS({
-  "node_modules/.pnpm/@smithy+smithy-client@2.0.1/node_modules/@smithy/smithy-client/dist-cjs/index.js"(exports) {
+  "node_modules/.pnpm/@smithy+smithy-client@2.0.5/node_modules/@smithy/smithy-client/dist-cjs/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var tslib_1 = (init_tslib_es6(), __toCommonJS(tslib_es6_exports));
@@ -16991,6 +17173,7 @@ var require_dist_cjs35 = __commonJS({
     tslib_1.__exportStar(require_default_error_handler(), exports);
     tslib_1.__exportStar(require_defaults_mode(), exports);
     tslib_1.__exportStar(require_emitWarningIfUnsupportedVersion(), exports);
+    tslib_1.__exportStar(require_extensions2(), exports);
     tslib_1.__exportStar(require_exceptions(), exports);
     tslib_1.__exportStar(require_extended_encode_uri_component(), exports);
     tslib_1.__exportStar(require_get_array_if_single_item(), exports);
@@ -17005,9 +17188,9 @@ var require_dist_cjs35 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/endpoint/EndpointParameters.js
+// node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/endpoint/EndpointParameters.js
 var require_EndpointParameters = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/endpoint/EndpointParameters.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/endpoint/EndpointParameters.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.resolveClientEndpointParameters = void 0;
@@ -17023,13 +17206,13 @@ var require_EndpointParameters = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/package.json
+// node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/package.json
 var require_package = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/package.json"(exports, module2) {
+  "node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/package.json"(exports, module2) {
     module2.exports = {
       name: "@aws-sdk/client-ecr",
       description: "AWS SDK for JavaScript Ecr Client for Node.js, Browser and React Native",
-      version: "3.385.0",
+      version: "3.405.0",
       scripts: {
         build: "concurrently 'yarn:build:cjs' 'yarn:build:es' 'yarn:build:types'",
         "build:cjs": "tsc -p tsconfig.cjs.json",
@@ -17049,40 +17232,40 @@ var require_package = __commonJS({
       dependencies: {
         "@aws-crypto/sha256-browser": "3.0.0",
         "@aws-crypto/sha256-js": "3.0.0",
-        "@aws-sdk/client-sts": "3.385.0",
-        "@aws-sdk/credential-provider-node": "3.385.0",
-        "@aws-sdk/middleware-host-header": "3.379.1",
-        "@aws-sdk/middleware-logger": "3.378.0",
-        "@aws-sdk/middleware-recursion-detection": "3.378.0",
-        "@aws-sdk/middleware-signing": "3.379.1",
-        "@aws-sdk/middleware-user-agent": "3.382.0",
-        "@aws-sdk/types": "3.378.0",
-        "@aws-sdk/util-endpoints": "3.382.0",
-        "@aws-sdk/util-user-agent-browser": "3.378.0",
-        "@aws-sdk/util-user-agent-node": "3.378.0",
-        "@smithy/config-resolver": "^2.0.1",
-        "@smithy/fetch-http-handler": "^2.0.1",
-        "@smithy/hash-node": "^2.0.1",
-        "@smithy/invalid-dependency": "^2.0.1",
-        "@smithy/middleware-content-length": "^2.0.1",
-        "@smithy/middleware-endpoint": "^2.0.1",
-        "@smithy/middleware-retry": "^2.0.1",
-        "@smithy/middleware-serde": "^2.0.1",
+        "@aws-sdk/client-sts": "3.405.0",
+        "@aws-sdk/credential-provider-node": "3.405.0",
+        "@aws-sdk/middleware-host-header": "3.398.0",
+        "@aws-sdk/middleware-logger": "3.398.0",
+        "@aws-sdk/middleware-recursion-detection": "3.398.0",
+        "@aws-sdk/middleware-signing": "3.398.0",
+        "@aws-sdk/middleware-user-agent": "3.398.0",
+        "@aws-sdk/types": "3.398.0",
+        "@aws-sdk/util-endpoints": "3.398.0",
+        "@aws-sdk/util-user-agent-browser": "3.398.0",
+        "@aws-sdk/util-user-agent-node": "3.405.0",
+        "@smithy/config-resolver": "^2.0.5",
+        "@smithy/fetch-http-handler": "^2.0.5",
+        "@smithy/hash-node": "^2.0.5",
+        "@smithy/invalid-dependency": "^2.0.5",
+        "@smithy/middleware-content-length": "^2.0.5",
+        "@smithy/middleware-endpoint": "^2.0.5",
+        "@smithy/middleware-retry": "^2.0.5",
+        "@smithy/middleware-serde": "^2.0.5",
         "@smithy/middleware-stack": "^2.0.0",
-        "@smithy/node-config-provider": "^2.0.1",
-        "@smithy/node-http-handler": "^2.0.1",
-        "@smithy/protocol-http": "^2.0.1",
-        "@smithy/smithy-client": "^2.0.1",
-        "@smithy/types": "^2.0.2",
-        "@smithy/url-parser": "^2.0.1",
+        "@smithy/node-config-provider": "^2.0.6",
+        "@smithy/node-http-handler": "^2.0.5",
+        "@smithy/protocol-http": "^2.0.5",
+        "@smithy/smithy-client": "^2.0.5",
+        "@smithy/types": "^2.2.2",
+        "@smithy/url-parser": "^2.0.5",
         "@smithy/util-base64": "^2.0.0",
         "@smithy/util-body-length-browser": "^2.0.0",
-        "@smithy/util-body-length-node": "^2.0.0",
-        "@smithy/util-defaults-mode-browser": "^2.0.1",
-        "@smithy/util-defaults-mode-node": "^2.0.1",
+        "@smithy/util-body-length-node": "^2.1.0",
+        "@smithy/util-defaults-mode-browser": "^2.0.6",
+        "@smithy/util-defaults-mode-node": "^2.0.6",
         "@smithy/util-retry": "^2.0.0",
         "@smithy/util-utf8": "^2.0.0",
-        "@smithy/util-waiter": "^2.0.1",
+        "@smithy/util-waiter": "^2.0.5",
         tslib: "^2.5.0"
       },
       devDependencies: {
@@ -17129,9 +17312,9 @@ var require_package = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+middleware-sdk-sts@3.379.1/node_modules/@aws-sdk/middleware-sdk-sts/dist-cjs/index.js
+// node_modules/.pnpm/@aws-sdk+middleware-sdk-sts@3.398.0/node_modules/@aws-sdk/middleware-sdk-sts/dist-cjs/index.js
 var require_dist_cjs36 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+middleware-sdk-sts@3.379.1/node_modules/@aws-sdk/middleware-sdk-sts/dist-cjs/index.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+middleware-sdk-sts@3.398.0/node_modules/@aws-sdk/middleware-sdk-sts/dist-cjs/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.resolveStsAuthConfig = void 0;
@@ -17144,9 +17327,9 @@ var require_dist_cjs36 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-sts@3.385.0/node_modules/@aws-sdk/client-sts/dist-cjs/endpoint/EndpointParameters.js
+// node_modules/.pnpm/@aws-sdk+client-sts@3.405.0/node_modules/@aws-sdk/client-sts/dist-cjs/endpoint/EndpointParameters.js
 var require_EndpointParameters2 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-sts@3.385.0/node_modules/@aws-sdk/client-sts/dist-cjs/endpoint/EndpointParameters.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-sts@3.405.0/node_modules/@aws-sdk/client-sts/dist-cjs/endpoint/EndpointParameters.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.resolveClientEndpointParameters = void 0;
@@ -17163,13 +17346,13 @@ var require_EndpointParameters2 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-sts@3.385.0/node_modules/@aws-sdk/client-sts/package.json
+// node_modules/.pnpm/@aws-sdk+client-sts@3.405.0/node_modules/@aws-sdk/client-sts/package.json
 var require_package2 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-sts@3.385.0/node_modules/@aws-sdk/client-sts/package.json"(exports, module2) {
+  "node_modules/.pnpm/@aws-sdk+client-sts@3.405.0/node_modules/@aws-sdk/client-sts/package.json"(exports, module2) {
     module2.exports = {
       name: "@aws-sdk/client-sts",
       description: "AWS SDK for JavaScript Sts Client for Node.js, Browser and React Native",
-      version: "3.385.0",
+      version: "3.405.0",
       scripts: {
         build: "concurrently 'yarn:build:cjs' 'yarn:build:es' 'yarn:build:types'",
         "build:cjs": "tsc -p tsconfig.cjs.json",
@@ -17191,37 +17374,37 @@ var require_package2 = __commonJS({
       dependencies: {
         "@aws-crypto/sha256-browser": "3.0.0",
         "@aws-crypto/sha256-js": "3.0.0",
-        "@aws-sdk/credential-provider-node": "3.385.0",
-        "@aws-sdk/middleware-host-header": "3.379.1",
-        "@aws-sdk/middleware-logger": "3.378.0",
-        "@aws-sdk/middleware-recursion-detection": "3.378.0",
-        "@aws-sdk/middleware-sdk-sts": "3.379.1",
-        "@aws-sdk/middleware-signing": "3.379.1",
-        "@aws-sdk/middleware-user-agent": "3.382.0",
-        "@aws-sdk/types": "3.378.0",
-        "@aws-sdk/util-endpoints": "3.382.0",
-        "@aws-sdk/util-user-agent-browser": "3.378.0",
-        "@aws-sdk/util-user-agent-node": "3.378.0",
-        "@smithy/config-resolver": "^2.0.1",
-        "@smithy/fetch-http-handler": "^2.0.1",
-        "@smithy/hash-node": "^2.0.1",
-        "@smithy/invalid-dependency": "^2.0.1",
-        "@smithy/middleware-content-length": "^2.0.1",
-        "@smithy/middleware-endpoint": "^2.0.1",
-        "@smithy/middleware-retry": "^2.0.1",
-        "@smithy/middleware-serde": "^2.0.1",
+        "@aws-sdk/credential-provider-node": "3.405.0",
+        "@aws-sdk/middleware-host-header": "3.398.0",
+        "@aws-sdk/middleware-logger": "3.398.0",
+        "@aws-sdk/middleware-recursion-detection": "3.398.0",
+        "@aws-sdk/middleware-sdk-sts": "3.398.0",
+        "@aws-sdk/middleware-signing": "3.398.0",
+        "@aws-sdk/middleware-user-agent": "3.398.0",
+        "@aws-sdk/types": "3.398.0",
+        "@aws-sdk/util-endpoints": "3.398.0",
+        "@aws-sdk/util-user-agent-browser": "3.398.0",
+        "@aws-sdk/util-user-agent-node": "3.405.0",
+        "@smithy/config-resolver": "^2.0.5",
+        "@smithy/fetch-http-handler": "^2.0.5",
+        "@smithy/hash-node": "^2.0.5",
+        "@smithy/invalid-dependency": "^2.0.5",
+        "@smithy/middleware-content-length": "^2.0.5",
+        "@smithy/middleware-endpoint": "^2.0.5",
+        "@smithy/middleware-retry": "^2.0.5",
+        "@smithy/middleware-serde": "^2.0.5",
         "@smithy/middleware-stack": "^2.0.0",
-        "@smithy/node-config-provider": "^2.0.1",
-        "@smithy/node-http-handler": "^2.0.1",
-        "@smithy/protocol-http": "^2.0.1",
-        "@smithy/smithy-client": "^2.0.1",
-        "@smithy/types": "^2.0.2",
-        "@smithy/url-parser": "^2.0.1",
+        "@smithy/node-config-provider": "^2.0.6",
+        "@smithy/node-http-handler": "^2.0.5",
+        "@smithy/protocol-http": "^2.0.5",
+        "@smithy/smithy-client": "^2.0.5",
+        "@smithy/types": "^2.2.2",
+        "@smithy/url-parser": "^2.0.5",
         "@smithy/util-base64": "^2.0.0",
         "@smithy/util-body-length-browser": "^2.0.0",
-        "@smithy/util-body-length-node": "^2.0.0",
-        "@smithy/util-defaults-mode-browser": "^2.0.1",
-        "@smithy/util-defaults-mode-node": "^2.0.1",
+        "@smithy/util-body-length-node": "^2.1.0",
+        "@smithy/util-defaults-mode-browser": "^2.0.6",
+        "@smithy/util-defaults-mode-node": "^2.0.6",
         "@smithy/util-retry": "^2.0.0",
         "@smithy/util-utf8": "^2.0.0",
         "fast-xml-parser": "4.2.5",
@@ -17271,9 +17454,9 @@ var require_package2 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-sts@3.385.0/node_modules/@aws-sdk/client-sts/dist-cjs/models/STSServiceException.js
+// node_modules/.pnpm/@aws-sdk+client-sts@3.405.0/node_modules/@aws-sdk/client-sts/dist-cjs/models/STSServiceException.js
 var require_STSServiceException = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-sts@3.385.0/node_modules/@aws-sdk/client-sts/dist-cjs/models/STSServiceException.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-sts@3.405.0/node_modules/@aws-sdk/client-sts/dist-cjs/models/STSServiceException.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.STSServiceException = exports.__ServiceException = void 0;
@@ -17291,9 +17474,9 @@ var require_STSServiceException = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-sts@3.385.0/node_modules/@aws-sdk/client-sts/dist-cjs/models/models_0.js
+// node_modules/.pnpm/@aws-sdk+client-sts@3.405.0/node_modules/@aws-sdk/client-sts/dist-cjs/models/models_0.js
 var require_models_0 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-sts@3.385.0/node_modules/@aws-sdk/client-sts/dist-cjs/models/models_0.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-sts@3.405.0/node_modules/@aws-sdk/client-sts/dist-cjs/models/models_0.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.GetSessionTokenResponseFilterSensitiveLog = exports.GetFederationTokenResponseFilterSensitiveLog = exports.AssumeRoleWithWebIdentityResponseFilterSensitiveLog = exports.AssumeRoleWithWebIdentityRequestFilterSensitiveLog = exports.AssumeRoleWithSAMLResponseFilterSensitiveLog = exports.AssumeRoleWithSAMLRequestFilterSensitiveLog = exports.AssumeRoleResponseFilterSensitiveLog = exports.CredentialsFilterSensitiveLog = exports.InvalidAuthorizationMessageException = exports.IDPCommunicationErrorException = exports.InvalidIdentityTokenException = exports.IDPRejectedClaimException = exports.RegionDisabledException = exports.PackedPolicyTooLargeException = exports.MalformedPolicyDocumentException = exports.ExpiredTokenException = void 0;
@@ -19125,9 +19308,9 @@ var require_fxp = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-sts@3.385.0/node_modules/@aws-sdk/client-sts/dist-cjs/protocols/Aws_query.js
+// node_modules/.pnpm/@aws-sdk+client-sts@3.405.0/node_modules/@aws-sdk/client-sts/dist-cjs/protocols/Aws_query.js
 var require_Aws_query = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-sts@3.385.0/node_modules/@aws-sdk/client-sts/dist-cjs/protocols/Aws_query.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-sts@3.405.0/node_modules/@aws-sdk/client-sts/dist-cjs/protocols/Aws_query.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.de_GetSessionTokenCommand = exports.de_GetFederationTokenCommand = exports.de_GetCallerIdentityCommand = exports.de_GetAccessKeyInfoCommand = exports.de_DecodeAuthorizationMessageCommand = exports.de_AssumeRoleWithWebIdentityCommand = exports.de_AssumeRoleWithSAMLCommand = exports.de_AssumeRoleCommand = exports.se_GetSessionTokenCommand = exports.se_GetFederationTokenCommand = exports.se_GetCallerIdentityCommand = exports.se_GetAccessKeyInfoCommand = exports.se_DecodeAuthorizationMessageCommand = exports.se_AssumeRoleWithWebIdentityCommand = exports.se_AssumeRoleWithSAMLCommand = exports.se_AssumeRoleCommand = void 0;
@@ -20157,9 +20340,9 @@ var require_Aws_query = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-sts@3.385.0/node_modules/@aws-sdk/client-sts/dist-cjs/commands/AssumeRoleCommand.js
+// node_modules/.pnpm/@aws-sdk+client-sts@3.405.0/node_modules/@aws-sdk/client-sts/dist-cjs/commands/AssumeRoleCommand.js
 var require_AssumeRoleCommand = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-sts@3.385.0/node_modules/@aws-sdk/client-sts/dist-cjs/commands/AssumeRoleCommand.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-sts@3.405.0/node_modules/@aws-sdk/client-sts/dist-cjs/commands/AssumeRoleCommand.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.AssumeRoleCommand = exports.$Command = void 0;
@@ -20215,9 +20398,9 @@ var require_AssumeRoleCommand = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-sts@3.385.0/node_modules/@aws-sdk/client-sts/dist-cjs/commands/AssumeRoleWithWebIdentityCommand.js
+// node_modules/.pnpm/@aws-sdk+client-sts@3.405.0/node_modules/@aws-sdk/client-sts/dist-cjs/commands/AssumeRoleWithWebIdentityCommand.js
 var require_AssumeRoleWithWebIdentityCommand = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-sts@3.385.0/node_modules/@aws-sdk/client-sts/dist-cjs/commands/AssumeRoleWithWebIdentityCommand.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-sts@3.405.0/node_modules/@aws-sdk/client-sts/dist-cjs/commands/AssumeRoleWithWebIdentityCommand.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.AssumeRoleWithWebIdentityCommand = exports.$Command = void 0;
@@ -20271,9 +20454,9 @@ var require_AssumeRoleWithWebIdentityCommand = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-sts@3.385.0/node_modules/@aws-sdk/client-sts/dist-cjs/defaultStsRoleAssumers.js
+// node_modules/.pnpm/@aws-sdk+client-sts@3.405.0/node_modules/@aws-sdk/client-sts/dist-cjs/defaultStsRoleAssumers.js
 var require_defaultStsRoleAssumers = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-sts@3.385.0/node_modules/@aws-sdk/client-sts/dist-cjs/defaultStsRoleAssumers.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-sts@3.405.0/node_modules/@aws-sdk/client-sts/dist-cjs/defaultStsRoleAssumers.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.decorateDefaultCredentialProvider = exports.getDefaultRoleAssumerWithWebIdentity = exports.getDefaultRoleAssumer = void 0;
@@ -20352,9 +20535,9 @@ var require_defaultStsRoleAssumers = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+credential-provider-env@3.378.0/node_modules/@aws-sdk/credential-provider-env/dist-cjs/fromEnv.js
+// node_modules/.pnpm/@aws-sdk+credential-provider-env@3.398.0/node_modules/@aws-sdk/credential-provider-env/dist-cjs/fromEnv.js
 var require_fromEnv = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+credential-provider-env@3.378.0/node_modules/@aws-sdk/credential-provider-env/dist-cjs/fromEnv.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+credential-provider-env@3.398.0/node_modules/@aws-sdk/credential-provider-env/dist-cjs/fromEnv.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.fromEnv = exports.ENV_EXPIRATION = exports.ENV_SESSION = exports.ENV_SECRET = exports.ENV_KEY = void 0;
@@ -20382,9 +20565,9 @@ var require_fromEnv = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+credential-provider-env@3.378.0/node_modules/@aws-sdk/credential-provider-env/dist-cjs/index.js
+// node_modules/.pnpm/@aws-sdk+credential-provider-env@3.398.0/node_modules/@aws-sdk/credential-provider-env/dist-cjs/index.js
 var require_dist_cjs37 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+credential-provider-env@3.378.0/node_modules/@aws-sdk/credential-provider-env/dist-cjs/index.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+credential-provider-env@3.398.0/node_modules/@aws-sdk/credential-provider-env/dist-cjs/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var tslib_1 = (init_tslib_es6(), __toCommonJS(tslib_es6_exports));
@@ -20392,14 +20575,22 @@ var require_dist_cjs37 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+shared-ini-file-loader@2.0.1/node_modules/@smithy/shared-ini-file-loader/dist-cjs/getHomeDir.js
+// node_modules/.pnpm/@smithy+shared-ini-file-loader@2.0.6/node_modules/@smithy/shared-ini-file-loader/dist-cjs/getHomeDir.js
 var require_getHomeDir = __commonJS({
-  "node_modules/.pnpm/@smithy+shared-ini-file-loader@2.0.1/node_modules/@smithy/shared-ini-file-loader/dist-cjs/getHomeDir.js"(exports) {
+  "node_modules/.pnpm/@smithy+shared-ini-file-loader@2.0.6/node_modules/@smithy/shared-ini-file-loader/dist-cjs/getHomeDir.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.getHomeDir = void 0;
     var os_1 = require("os");
     var path_1 = require("path");
+    var process_1 = require("process");
+    var homeDirCache = {};
+    var getHomeDirCacheKey = () => {
+      if (process_1.geteuid) {
+        return `${(0, process_1.geteuid)()}`;
+      }
+      return "DEFAULT";
+    };
     var getHomeDir = () => {
       const { HOME, USERPROFILE, HOMEPATH, HOMEDRIVE = `C:${path_1.sep}` } = process.env;
       if (HOME)
@@ -20408,15 +20599,18 @@ var require_getHomeDir = __commonJS({
         return USERPROFILE;
       if (HOMEPATH)
         return `${HOMEDRIVE}${HOMEPATH}`;
-      return (0, os_1.homedir)();
+      const homeDirCacheKey = getHomeDirCacheKey();
+      if (!homeDirCache[homeDirCacheKey])
+        homeDirCache[homeDirCacheKey] = (0, os_1.homedir)();
+      return homeDirCache[homeDirCacheKey];
     };
     exports.getHomeDir = getHomeDir;
   }
 });
 
-// node_modules/.pnpm/@smithy+shared-ini-file-loader@2.0.1/node_modules/@smithy/shared-ini-file-loader/dist-cjs/getProfileName.js
+// node_modules/.pnpm/@smithy+shared-ini-file-loader@2.0.6/node_modules/@smithy/shared-ini-file-loader/dist-cjs/getProfileName.js
 var require_getProfileName = __commonJS({
-  "node_modules/.pnpm/@smithy+shared-ini-file-loader@2.0.1/node_modules/@smithy/shared-ini-file-loader/dist-cjs/getProfileName.js"(exports) {
+  "node_modules/.pnpm/@smithy+shared-ini-file-loader@2.0.6/node_modules/@smithy/shared-ini-file-loader/dist-cjs/getProfileName.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.getProfileName = exports.DEFAULT_PROFILE = exports.ENV_PROFILE = void 0;
@@ -20427,9 +20621,9 @@ var require_getProfileName = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+shared-ini-file-loader@2.0.1/node_modules/@smithy/shared-ini-file-loader/dist-cjs/getSSOTokenFilepath.js
+// node_modules/.pnpm/@smithy+shared-ini-file-loader@2.0.6/node_modules/@smithy/shared-ini-file-loader/dist-cjs/getSSOTokenFilepath.js
 var require_getSSOTokenFilepath = __commonJS({
-  "node_modules/.pnpm/@smithy+shared-ini-file-loader@2.0.1/node_modules/@smithy/shared-ini-file-loader/dist-cjs/getSSOTokenFilepath.js"(exports) {
+  "node_modules/.pnpm/@smithy+shared-ini-file-loader@2.0.6/node_modules/@smithy/shared-ini-file-loader/dist-cjs/getSSOTokenFilepath.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.getSSOTokenFilepath = void 0;
@@ -20445,9 +20639,9 @@ var require_getSSOTokenFilepath = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+shared-ini-file-loader@2.0.1/node_modules/@smithy/shared-ini-file-loader/dist-cjs/getSSOTokenFromFile.js
+// node_modules/.pnpm/@smithy+shared-ini-file-loader@2.0.6/node_modules/@smithy/shared-ini-file-loader/dist-cjs/getSSOTokenFromFile.js
 var require_getSSOTokenFromFile = __commonJS({
-  "node_modules/.pnpm/@smithy+shared-ini-file-loader@2.0.1/node_modules/@smithy/shared-ini-file-loader/dist-cjs/getSSOTokenFromFile.js"(exports) {
+  "node_modules/.pnpm/@smithy+shared-ini-file-loader@2.0.6/node_modules/@smithy/shared-ini-file-loader/dist-cjs/getSSOTokenFromFile.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.getSSOTokenFromFile = void 0;
@@ -20463,9 +20657,9 @@ var require_getSSOTokenFromFile = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+shared-ini-file-loader@2.0.1/node_modules/@smithy/shared-ini-file-loader/dist-cjs/getConfigFilepath.js
+// node_modules/.pnpm/@smithy+shared-ini-file-loader@2.0.6/node_modules/@smithy/shared-ini-file-loader/dist-cjs/getConfigFilepath.js
 var require_getConfigFilepath = __commonJS({
-  "node_modules/.pnpm/@smithy+shared-ini-file-loader@2.0.1/node_modules/@smithy/shared-ini-file-loader/dist-cjs/getConfigFilepath.js"(exports) {
+  "node_modules/.pnpm/@smithy+shared-ini-file-loader@2.0.6/node_modules/@smithy/shared-ini-file-loader/dist-cjs/getConfigFilepath.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.getConfigFilepath = exports.ENV_CONFIG_PATH = void 0;
@@ -20477,9 +20671,9 @@ var require_getConfigFilepath = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+shared-ini-file-loader@2.0.1/node_modules/@smithy/shared-ini-file-loader/dist-cjs/getCredentialsFilepath.js
+// node_modules/.pnpm/@smithy+shared-ini-file-loader@2.0.6/node_modules/@smithy/shared-ini-file-loader/dist-cjs/getCredentialsFilepath.js
 var require_getCredentialsFilepath = __commonJS({
-  "node_modules/.pnpm/@smithy+shared-ini-file-loader@2.0.1/node_modules/@smithy/shared-ini-file-loader/dist-cjs/getCredentialsFilepath.js"(exports) {
+  "node_modules/.pnpm/@smithy+shared-ini-file-loader@2.0.6/node_modules/@smithy/shared-ini-file-loader/dist-cjs/getCredentialsFilepath.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.getCredentialsFilepath = exports.ENV_CREDENTIALS_PATH = void 0;
@@ -20491,9 +20685,9 @@ var require_getCredentialsFilepath = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+shared-ini-file-loader@2.0.1/node_modules/@smithy/shared-ini-file-loader/dist-cjs/getProfileData.js
+// node_modules/.pnpm/@smithy+shared-ini-file-loader@2.0.6/node_modules/@smithy/shared-ini-file-loader/dist-cjs/getProfileData.js
 var require_getProfileData = __commonJS({
-  "node_modules/.pnpm/@smithy+shared-ini-file-loader@2.0.1/node_modules/@smithy/shared-ini-file-loader/dist-cjs/getProfileData.js"(exports) {
+  "node_modules/.pnpm/@smithy+shared-ini-file-loader@2.0.6/node_modules/@smithy/shared-ini-file-loader/dist-cjs/getProfileData.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.getProfileData = void 0;
@@ -20505,9 +20699,9 @@ var require_getProfileData = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+shared-ini-file-loader@2.0.1/node_modules/@smithy/shared-ini-file-loader/dist-cjs/parseIni.js
+// node_modules/.pnpm/@smithy+shared-ini-file-loader@2.0.6/node_modules/@smithy/shared-ini-file-loader/dist-cjs/parseIni.js
 var require_parseIni = __commonJS({
-  "node_modules/.pnpm/@smithy+shared-ini-file-loader@2.0.1/node_modules/@smithy/shared-ini-file-loader/dist-cjs/parseIni.js"(exports) {
+  "node_modules/.pnpm/@smithy+shared-ini-file-loader@2.0.6/node_modules/@smithy/shared-ini-file-loader/dist-cjs/parseIni.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.parseIni = void 0;
@@ -20544,9 +20738,9 @@ var require_parseIni = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+shared-ini-file-loader@2.0.1/node_modules/@smithy/shared-ini-file-loader/dist-cjs/slurpFile.js
+// node_modules/.pnpm/@smithy+shared-ini-file-loader@2.0.6/node_modules/@smithy/shared-ini-file-loader/dist-cjs/slurpFile.js
 var require_slurpFile = __commonJS({
-  "node_modules/.pnpm/@smithy+shared-ini-file-loader@2.0.1/node_modules/@smithy/shared-ini-file-loader/dist-cjs/slurpFile.js"(exports) {
+  "node_modules/.pnpm/@smithy+shared-ini-file-loader@2.0.6/node_modules/@smithy/shared-ini-file-loader/dist-cjs/slurpFile.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.slurpFile = void 0;
@@ -20563,9 +20757,9 @@ var require_slurpFile = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+shared-ini-file-loader@2.0.1/node_modules/@smithy/shared-ini-file-loader/dist-cjs/loadSharedConfigFiles.js
+// node_modules/.pnpm/@smithy+shared-ini-file-loader@2.0.6/node_modules/@smithy/shared-ini-file-loader/dist-cjs/loadSharedConfigFiles.js
 var require_loadSharedConfigFiles = __commonJS({
-  "node_modules/.pnpm/@smithy+shared-ini-file-loader@2.0.1/node_modules/@smithy/shared-ini-file-loader/dist-cjs/loadSharedConfigFiles.js"(exports) {
+  "node_modules/.pnpm/@smithy+shared-ini-file-loader@2.0.6/node_modules/@smithy/shared-ini-file-loader/dist-cjs/loadSharedConfigFiles.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.loadSharedConfigFiles = void 0;
@@ -20594,9 +20788,9 @@ var require_loadSharedConfigFiles = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+shared-ini-file-loader@2.0.1/node_modules/@smithy/shared-ini-file-loader/dist-cjs/getSsoSessionData.js
+// node_modules/.pnpm/@smithy+shared-ini-file-loader@2.0.6/node_modules/@smithy/shared-ini-file-loader/dist-cjs/getSsoSessionData.js
 var require_getSsoSessionData = __commonJS({
-  "node_modules/.pnpm/@smithy+shared-ini-file-loader@2.0.1/node_modules/@smithy/shared-ini-file-loader/dist-cjs/getSsoSessionData.js"(exports) {
+  "node_modules/.pnpm/@smithy+shared-ini-file-loader@2.0.6/node_modules/@smithy/shared-ini-file-loader/dist-cjs/getSsoSessionData.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.getSsoSessionData = void 0;
@@ -20606,9 +20800,9 @@ var require_getSsoSessionData = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+shared-ini-file-loader@2.0.1/node_modules/@smithy/shared-ini-file-loader/dist-cjs/loadSsoSessionData.js
+// node_modules/.pnpm/@smithy+shared-ini-file-loader@2.0.6/node_modules/@smithy/shared-ini-file-loader/dist-cjs/loadSsoSessionData.js
 var require_loadSsoSessionData = __commonJS({
-  "node_modules/.pnpm/@smithy+shared-ini-file-loader@2.0.1/node_modules/@smithy/shared-ini-file-loader/dist-cjs/loadSsoSessionData.js"(exports) {
+  "node_modules/.pnpm/@smithy+shared-ini-file-loader@2.0.6/node_modules/@smithy/shared-ini-file-loader/dist-cjs/loadSsoSessionData.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.loadSsoSessionData = void 0;
@@ -20625,9 +20819,9 @@ var require_loadSsoSessionData = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+shared-ini-file-loader@2.0.1/node_modules/@smithy/shared-ini-file-loader/dist-cjs/mergeConfigFiles.js
+// node_modules/.pnpm/@smithy+shared-ini-file-loader@2.0.6/node_modules/@smithy/shared-ini-file-loader/dist-cjs/mergeConfigFiles.js
 var require_mergeConfigFiles = __commonJS({
-  "node_modules/.pnpm/@smithy+shared-ini-file-loader@2.0.1/node_modules/@smithy/shared-ini-file-loader/dist-cjs/mergeConfigFiles.js"(exports) {
+  "node_modules/.pnpm/@smithy+shared-ini-file-loader@2.0.6/node_modules/@smithy/shared-ini-file-loader/dist-cjs/mergeConfigFiles.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.mergeConfigFiles = void 0;
@@ -20648,9 +20842,9 @@ var require_mergeConfigFiles = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+shared-ini-file-loader@2.0.1/node_modules/@smithy/shared-ini-file-loader/dist-cjs/parseKnownFiles.js
+// node_modules/.pnpm/@smithy+shared-ini-file-loader@2.0.6/node_modules/@smithy/shared-ini-file-loader/dist-cjs/parseKnownFiles.js
 var require_parseKnownFiles = __commonJS({
-  "node_modules/.pnpm/@smithy+shared-ini-file-loader@2.0.1/node_modules/@smithy/shared-ini-file-loader/dist-cjs/parseKnownFiles.js"(exports) {
+  "node_modules/.pnpm/@smithy+shared-ini-file-loader@2.0.6/node_modules/@smithy/shared-ini-file-loader/dist-cjs/parseKnownFiles.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.parseKnownFiles = void 0;
@@ -20664,17 +20858,17 @@ var require_parseKnownFiles = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+shared-ini-file-loader@2.0.1/node_modules/@smithy/shared-ini-file-loader/dist-cjs/types.js
+// node_modules/.pnpm/@smithy+shared-ini-file-loader@2.0.6/node_modules/@smithy/shared-ini-file-loader/dist-cjs/types.js
 var require_types5 = __commonJS({
-  "node_modules/.pnpm/@smithy+shared-ini-file-loader@2.0.1/node_modules/@smithy/shared-ini-file-loader/dist-cjs/types.js"(exports) {
+  "node_modules/.pnpm/@smithy+shared-ini-file-loader@2.0.6/node_modules/@smithy/shared-ini-file-loader/dist-cjs/types.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@smithy+shared-ini-file-loader@2.0.1/node_modules/@smithy/shared-ini-file-loader/dist-cjs/index.js
+// node_modules/.pnpm/@smithy+shared-ini-file-loader@2.0.6/node_modules/@smithy/shared-ini-file-loader/dist-cjs/index.js
 var require_dist_cjs38 = __commonJS({
-  "node_modules/.pnpm/@smithy+shared-ini-file-loader@2.0.1/node_modules/@smithy/shared-ini-file-loader/dist-cjs/index.js"(exports) {
+  "node_modules/.pnpm/@smithy+shared-ini-file-loader@2.0.6/node_modules/@smithy/shared-ini-file-loader/dist-cjs/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var tslib_1 = (init_tslib_es6(), __toCommonJS(tslib_es6_exports));
@@ -20689,9 +20883,9 @@ var require_dist_cjs38 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+credential-provider-imds@2.0.1/node_modules/@smithy/credential-provider-imds/dist-cjs/remoteProvider/httpRequest.js
+// node_modules/.pnpm/@smithy+credential-provider-imds@2.0.7/node_modules/@smithy/credential-provider-imds/dist-cjs/remoteProvider/httpRequest.js
 var require_httpRequest2 = __commonJS({
-  "node_modules/.pnpm/@smithy+credential-provider-imds@2.0.1/node_modules/@smithy/credential-provider-imds/dist-cjs/remoteProvider/httpRequest.js"(exports) {
+  "node_modules/.pnpm/@smithy+credential-provider-imds@2.0.7/node_modules/@smithy/credential-provider-imds/dist-cjs/remoteProvider/httpRequest.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.httpRequest = void 0;
@@ -20736,9 +20930,9 @@ var require_httpRequest2 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+credential-provider-imds@2.0.1/node_modules/@smithy/credential-provider-imds/dist-cjs/remoteProvider/ImdsCredentials.js
+// node_modules/.pnpm/@smithy+credential-provider-imds@2.0.7/node_modules/@smithy/credential-provider-imds/dist-cjs/remoteProvider/ImdsCredentials.js
 var require_ImdsCredentials = __commonJS({
-  "node_modules/.pnpm/@smithy+credential-provider-imds@2.0.1/node_modules/@smithy/credential-provider-imds/dist-cjs/remoteProvider/ImdsCredentials.js"(exports) {
+  "node_modules/.pnpm/@smithy+credential-provider-imds@2.0.7/node_modules/@smithy/credential-provider-imds/dist-cjs/remoteProvider/ImdsCredentials.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.fromImdsCredentials = exports.isImdsCredentials = void 0;
@@ -20754,9 +20948,9 @@ var require_ImdsCredentials = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+credential-provider-imds@2.0.1/node_modules/@smithy/credential-provider-imds/dist-cjs/remoteProvider/RemoteProviderInit.js
+// node_modules/.pnpm/@smithy+credential-provider-imds@2.0.7/node_modules/@smithy/credential-provider-imds/dist-cjs/remoteProvider/RemoteProviderInit.js
 var require_RemoteProviderInit = __commonJS({
-  "node_modules/.pnpm/@smithy+credential-provider-imds@2.0.1/node_modules/@smithy/credential-provider-imds/dist-cjs/remoteProvider/RemoteProviderInit.js"(exports) {
+  "node_modules/.pnpm/@smithy+credential-provider-imds@2.0.7/node_modules/@smithy/credential-provider-imds/dist-cjs/remoteProvider/RemoteProviderInit.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.providerConfigFromInit = exports.DEFAULT_MAX_RETRIES = exports.DEFAULT_TIMEOUT = void 0;
@@ -20767,9 +20961,9 @@ var require_RemoteProviderInit = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+credential-provider-imds@2.0.1/node_modules/@smithy/credential-provider-imds/dist-cjs/remoteProvider/retry.js
+// node_modules/.pnpm/@smithy+credential-provider-imds@2.0.7/node_modules/@smithy/credential-provider-imds/dist-cjs/remoteProvider/retry.js
 var require_retry3 = __commonJS({
-  "node_modules/.pnpm/@smithy+credential-provider-imds@2.0.1/node_modules/@smithy/credential-provider-imds/dist-cjs/remoteProvider/retry.js"(exports) {
+  "node_modules/.pnpm/@smithy+credential-provider-imds@2.0.7/node_modules/@smithy/credential-provider-imds/dist-cjs/remoteProvider/retry.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.retry = void 0;
@@ -20784,9 +20978,9 @@ var require_retry3 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+credential-provider-imds@2.0.1/node_modules/@smithy/credential-provider-imds/dist-cjs/fromContainerMetadata.js
+// node_modules/.pnpm/@smithy+credential-provider-imds@2.0.7/node_modules/@smithy/credential-provider-imds/dist-cjs/fromContainerMetadata.js
 var require_fromContainerMetadata = __commonJS({
-  "node_modules/.pnpm/@smithy+credential-provider-imds@2.0.1/node_modules/@smithy/credential-provider-imds/dist-cjs/fromContainerMetadata.js"(exports) {
+  "node_modules/.pnpm/@smithy+credential-provider-imds@2.0.7/node_modules/@smithy/credential-provider-imds/dist-cjs/fromContainerMetadata.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.fromContainerMetadata = exports.ENV_CMDS_AUTH_TOKEN = exports.ENV_CMDS_RELATIVE_URI = exports.ENV_CMDS_FULL_URI = void 0;
@@ -20858,9 +21052,9 @@ var require_fromContainerMetadata = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+node-config-provider@2.0.1/node_modules/@smithy/node-config-provider/dist-cjs/fromEnv.js
+// node_modules/.pnpm/@smithy+node-config-provider@2.0.7/node_modules/@smithy/node-config-provider/dist-cjs/fromEnv.js
 var require_fromEnv2 = __commonJS({
-  "node_modules/.pnpm/@smithy+node-config-provider@2.0.1/node_modules/@smithy/node-config-provider/dist-cjs/fromEnv.js"(exports) {
+  "node_modules/.pnpm/@smithy+node-config-provider@2.0.7/node_modules/@smithy/node-config-provider/dist-cjs/fromEnv.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.fromEnv = void 0;
@@ -20880,9 +21074,9 @@ var require_fromEnv2 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+node-config-provider@2.0.1/node_modules/@smithy/node-config-provider/dist-cjs/fromSharedConfigFiles.js
+// node_modules/.pnpm/@smithy+node-config-provider@2.0.7/node_modules/@smithy/node-config-provider/dist-cjs/fromSharedConfigFiles.js
 var require_fromSharedConfigFiles = __commonJS({
-  "node_modules/.pnpm/@smithy+node-config-provider@2.0.1/node_modules/@smithy/node-config-provider/dist-cjs/fromSharedConfigFiles.js"(exports) {
+  "node_modules/.pnpm/@smithy+node-config-provider@2.0.7/node_modules/@smithy/node-config-provider/dist-cjs/fromSharedConfigFiles.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.fromSharedConfigFiles = void 0;
@@ -20908,9 +21102,9 @@ var require_fromSharedConfigFiles = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+node-config-provider@2.0.1/node_modules/@smithy/node-config-provider/dist-cjs/fromStatic.js
+// node_modules/.pnpm/@smithy+node-config-provider@2.0.7/node_modules/@smithy/node-config-provider/dist-cjs/fromStatic.js
 var require_fromStatic2 = __commonJS({
-  "node_modules/.pnpm/@smithy+node-config-provider@2.0.1/node_modules/@smithy/node-config-provider/dist-cjs/fromStatic.js"(exports) {
+  "node_modules/.pnpm/@smithy+node-config-provider@2.0.7/node_modules/@smithy/node-config-provider/dist-cjs/fromStatic.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.fromStatic = void 0;
@@ -20921,9 +21115,9 @@ var require_fromStatic2 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+node-config-provider@2.0.1/node_modules/@smithy/node-config-provider/dist-cjs/configLoader.js
+// node_modules/.pnpm/@smithy+node-config-provider@2.0.7/node_modules/@smithy/node-config-provider/dist-cjs/configLoader.js
 var require_configLoader = __commonJS({
-  "node_modules/.pnpm/@smithy+node-config-provider@2.0.1/node_modules/@smithy/node-config-provider/dist-cjs/configLoader.js"(exports) {
+  "node_modules/.pnpm/@smithy+node-config-provider@2.0.7/node_modules/@smithy/node-config-provider/dist-cjs/configLoader.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.loadConfig = void 0;
@@ -20936,9 +21130,9 @@ var require_configLoader = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+node-config-provider@2.0.1/node_modules/@smithy/node-config-provider/dist-cjs/index.js
+// node_modules/.pnpm/@smithy+node-config-provider@2.0.7/node_modules/@smithy/node-config-provider/dist-cjs/index.js
 var require_dist_cjs39 = __commonJS({
-  "node_modules/.pnpm/@smithy+node-config-provider@2.0.1/node_modules/@smithy/node-config-provider/dist-cjs/index.js"(exports) {
+  "node_modules/.pnpm/@smithy+node-config-provider@2.0.7/node_modules/@smithy/node-config-provider/dist-cjs/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var tslib_1 = (init_tslib_es6(), __toCommonJS(tslib_es6_exports));
@@ -20946,9 +21140,9 @@ var require_dist_cjs39 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+credential-provider-imds@2.0.1/node_modules/@smithy/credential-provider-imds/dist-cjs/config/Endpoint.js
+// node_modules/.pnpm/@smithy+credential-provider-imds@2.0.7/node_modules/@smithy/credential-provider-imds/dist-cjs/config/Endpoint.js
 var require_Endpoint = __commonJS({
-  "node_modules/.pnpm/@smithy+credential-provider-imds@2.0.1/node_modules/@smithy/credential-provider-imds/dist-cjs/config/Endpoint.js"(exports) {
+  "node_modules/.pnpm/@smithy+credential-provider-imds@2.0.7/node_modules/@smithy/credential-provider-imds/dist-cjs/config/Endpoint.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.Endpoint = void 0;
@@ -20960,9 +21154,9 @@ var require_Endpoint = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+credential-provider-imds@2.0.1/node_modules/@smithy/credential-provider-imds/dist-cjs/config/EndpointConfigOptions.js
+// node_modules/.pnpm/@smithy+credential-provider-imds@2.0.7/node_modules/@smithy/credential-provider-imds/dist-cjs/config/EndpointConfigOptions.js
 var require_EndpointConfigOptions = __commonJS({
-  "node_modules/.pnpm/@smithy+credential-provider-imds@2.0.1/node_modules/@smithy/credential-provider-imds/dist-cjs/config/EndpointConfigOptions.js"(exports) {
+  "node_modules/.pnpm/@smithy+credential-provider-imds@2.0.7/node_modules/@smithy/credential-provider-imds/dist-cjs/config/EndpointConfigOptions.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.ENDPOINT_CONFIG_OPTIONS = exports.CONFIG_ENDPOINT_NAME = exports.ENV_ENDPOINT_NAME = void 0;
@@ -20976,9 +21170,9 @@ var require_EndpointConfigOptions = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+credential-provider-imds@2.0.1/node_modules/@smithy/credential-provider-imds/dist-cjs/config/EndpointMode.js
+// node_modules/.pnpm/@smithy+credential-provider-imds@2.0.7/node_modules/@smithy/credential-provider-imds/dist-cjs/config/EndpointMode.js
 var require_EndpointMode = __commonJS({
-  "node_modules/.pnpm/@smithy+credential-provider-imds@2.0.1/node_modules/@smithy/credential-provider-imds/dist-cjs/config/EndpointMode.js"(exports) {
+  "node_modules/.pnpm/@smithy+credential-provider-imds@2.0.7/node_modules/@smithy/credential-provider-imds/dist-cjs/config/EndpointMode.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.EndpointMode = void 0;
@@ -20990,9 +21184,9 @@ var require_EndpointMode = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+credential-provider-imds@2.0.1/node_modules/@smithy/credential-provider-imds/dist-cjs/config/EndpointModeConfigOptions.js
+// node_modules/.pnpm/@smithy+credential-provider-imds@2.0.7/node_modules/@smithy/credential-provider-imds/dist-cjs/config/EndpointModeConfigOptions.js
 var require_EndpointModeConfigOptions = __commonJS({
-  "node_modules/.pnpm/@smithy+credential-provider-imds@2.0.1/node_modules/@smithy/credential-provider-imds/dist-cjs/config/EndpointModeConfigOptions.js"(exports) {
+  "node_modules/.pnpm/@smithy+credential-provider-imds@2.0.7/node_modules/@smithy/credential-provider-imds/dist-cjs/config/EndpointModeConfigOptions.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.ENDPOINT_MODE_CONFIG_OPTIONS = exports.CONFIG_ENDPOINT_MODE_NAME = exports.ENV_ENDPOINT_MODE_NAME = void 0;
@@ -21007,9 +21201,9 @@ var require_EndpointModeConfigOptions = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+credential-provider-imds@2.0.1/node_modules/@smithy/credential-provider-imds/dist-cjs/utils/getInstanceMetadataEndpoint.js
+// node_modules/.pnpm/@smithy+credential-provider-imds@2.0.7/node_modules/@smithy/credential-provider-imds/dist-cjs/utils/getInstanceMetadataEndpoint.js
 var require_getInstanceMetadataEndpoint = __commonJS({
-  "node_modules/.pnpm/@smithy+credential-provider-imds@2.0.1/node_modules/@smithy/credential-provider-imds/dist-cjs/utils/getInstanceMetadataEndpoint.js"(exports) {
+  "node_modules/.pnpm/@smithy+credential-provider-imds@2.0.7/node_modules/@smithy/credential-provider-imds/dist-cjs/utils/getInstanceMetadataEndpoint.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.getInstanceMetadataEndpoint = void 0;
@@ -21036,9 +21230,9 @@ var require_getInstanceMetadataEndpoint = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+credential-provider-imds@2.0.1/node_modules/@smithy/credential-provider-imds/dist-cjs/utils/getExtendedInstanceMetadataCredentials.js
+// node_modules/.pnpm/@smithy+credential-provider-imds@2.0.7/node_modules/@smithy/credential-provider-imds/dist-cjs/utils/getExtendedInstanceMetadataCredentials.js
 var require_getExtendedInstanceMetadataCredentials = __commonJS({
-  "node_modules/.pnpm/@smithy+credential-provider-imds@2.0.1/node_modules/@smithy/credential-provider-imds/dist-cjs/utils/getExtendedInstanceMetadataCredentials.js"(exports) {
+  "node_modules/.pnpm/@smithy+credential-provider-imds@2.0.7/node_modules/@smithy/credential-provider-imds/dist-cjs/utils/getExtendedInstanceMetadataCredentials.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.getExtendedInstanceMetadataCredentials = void 0;
@@ -21061,9 +21255,9 @@ var require_getExtendedInstanceMetadataCredentials = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+credential-provider-imds@2.0.1/node_modules/@smithy/credential-provider-imds/dist-cjs/utils/staticStabilityProvider.js
+// node_modules/.pnpm/@smithy+credential-provider-imds@2.0.7/node_modules/@smithy/credential-provider-imds/dist-cjs/utils/staticStabilityProvider.js
 var require_staticStabilityProvider = __commonJS({
-  "node_modules/.pnpm/@smithy+credential-provider-imds@2.0.1/node_modules/@smithy/credential-provider-imds/dist-cjs/utils/staticStabilityProvider.js"(exports) {
+  "node_modules/.pnpm/@smithy+credential-provider-imds@2.0.7/node_modules/@smithy/credential-provider-imds/dist-cjs/utils/staticStabilityProvider.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.staticStabilityProvider = void 0;
@@ -21094,9 +21288,9 @@ var require_staticStabilityProvider = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+credential-provider-imds@2.0.1/node_modules/@smithy/credential-provider-imds/dist-cjs/fromInstanceMetadata.js
+// node_modules/.pnpm/@smithy+credential-provider-imds@2.0.7/node_modules/@smithy/credential-provider-imds/dist-cjs/fromInstanceMetadata.js
 var require_fromInstanceMetadata = __commonJS({
-  "node_modules/.pnpm/@smithy+credential-provider-imds@2.0.1/node_modules/@smithy/credential-provider-imds/dist-cjs/fromInstanceMetadata.js"(exports) {
+  "node_modules/.pnpm/@smithy+credential-provider-imds@2.0.7/node_modules/@smithy/credential-provider-imds/dist-cjs/fromInstanceMetadata.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.fromInstanceMetadata = void 0;
@@ -21190,17 +21384,17 @@ var require_fromInstanceMetadata = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+credential-provider-imds@2.0.1/node_modules/@smithy/credential-provider-imds/dist-cjs/types.js
+// node_modules/.pnpm/@smithy+credential-provider-imds@2.0.7/node_modules/@smithy/credential-provider-imds/dist-cjs/types.js
 var require_types6 = __commonJS({
-  "node_modules/.pnpm/@smithy+credential-provider-imds@2.0.1/node_modules/@smithy/credential-provider-imds/dist-cjs/types.js"(exports) {
+  "node_modules/.pnpm/@smithy+credential-provider-imds@2.0.7/node_modules/@smithy/credential-provider-imds/dist-cjs/types.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@smithy+credential-provider-imds@2.0.1/node_modules/@smithy/credential-provider-imds/dist-cjs/index.js
+// node_modules/.pnpm/@smithy+credential-provider-imds@2.0.7/node_modules/@smithy/credential-provider-imds/dist-cjs/index.js
 var require_dist_cjs40 = __commonJS({
-  "node_modules/.pnpm/@smithy+credential-provider-imds@2.0.1/node_modules/@smithy/credential-provider-imds/dist-cjs/index.js"(exports) {
+  "node_modules/.pnpm/@smithy+credential-provider-imds@2.0.7/node_modules/@smithy/credential-provider-imds/dist-cjs/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.getInstanceMetadataEndpoint = exports.httpRequest = void 0;
@@ -21220,9 +21414,9 @@ var require_dist_cjs40 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+credential-provider-ini@3.385.0/node_modules/@aws-sdk/credential-provider-ini/dist-cjs/resolveCredentialSource.js
+// node_modules/.pnpm/@aws-sdk+credential-provider-ini@3.405.0/node_modules/@aws-sdk/credential-provider-ini/dist-cjs/resolveCredentialSource.js
 var require_resolveCredentialSource = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+credential-provider-ini@3.385.0/node_modules/@aws-sdk/credential-provider-ini/dist-cjs/resolveCredentialSource.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+credential-provider-ini@3.405.0/node_modules/@aws-sdk/credential-provider-ini/dist-cjs/resolveCredentialSource.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.resolveCredentialSource = void 0;
@@ -21245,9 +21439,9 @@ var require_resolveCredentialSource = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+credential-provider-ini@3.385.0/node_modules/@aws-sdk/credential-provider-ini/dist-cjs/resolveAssumeRoleCredentials.js
+// node_modules/.pnpm/@aws-sdk+credential-provider-ini@3.405.0/node_modules/@aws-sdk/credential-provider-ini/dist-cjs/resolveAssumeRoleCredentials.js
 var require_resolveAssumeRoleCredentials = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+credential-provider-ini@3.385.0/node_modules/@aws-sdk/credential-provider-ini/dist-cjs/resolveAssumeRoleCredentials.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+credential-provider-ini@3.405.0/node_modules/@aws-sdk/credential-provider-ini/dist-cjs/resolveAssumeRoleCredentials.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.resolveAssumeRoleCredentials = exports.isAssumeRoleProfile = void 0;
@@ -21292,9 +21486,9 @@ var require_resolveAssumeRoleCredentials = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+credential-provider-process@3.378.0/node_modules/@aws-sdk/credential-provider-process/dist-cjs/getValidatedProcessCredentials.js
+// node_modules/.pnpm/@aws-sdk+credential-provider-process@3.405.0/node_modules/@aws-sdk/credential-provider-process/dist-cjs/getValidatedProcessCredentials.js
 var require_getValidatedProcessCredentials = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+credential-provider-process@3.378.0/node_modules/@aws-sdk/credential-provider-process/dist-cjs/getValidatedProcessCredentials.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+credential-provider-process@3.405.0/node_modules/@aws-sdk/credential-provider-process/dist-cjs/getValidatedProcessCredentials.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.getValidatedProcessCredentials = void 0;
@@ -21323,9 +21517,9 @@ var require_getValidatedProcessCredentials = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+credential-provider-process@3.378.0/node_modules/@aws-sdk/credential-provider-process/dist-cjs/resolveProcessCredentials.js
+// node_modules/.pnpm/@aws-sdk+credential-provider-process@3.405.0/node_modules/@aws-sdk/credential-provider-process/dist-cjs/resolveProcessCredentials.js
 var require_resolveProcessCredentials = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+credential-provider-process@3.378.0/node_modules/@aws-sdk/credential-provider-process/dist-cjs/resolveProcessCredentials.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+credential-provider-process@3.405.0/node_modules/@aws-sdk/credential-provider-process/dist-cjs/resolveProcessCredentials.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.resolveProcessCredentials = void 0;
@@ -21362,9 +21556,9 @@ var require_resolveProcessCredentials = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+credential-provider-process@3.378.0/node_modules/@aws-sdk/credential-provider-process/dist-cjs/fromProcess.js
+// node_modules/.pnpm/@aws-sdk+credential-provider-process@3.405.0/node_modules/@aws-sdk/credential-provider-process/dist-cjs/fromProcess.js
 var require_fromProcess = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+credential-provider-process@3.378.0/node_modules/@aws-sdk/credential-provider-process/dist-cjs/fromProcess.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+credential-provider-process@3.405.0/node_modules/@aws-sdk/credential-provider-process/dist-cjs/fromProcess.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.fromProcess = void 0;
@@ -21378,9 +21572,9 @@ var require_fromProcess = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+credential-provider-process@3.378.0/node_modules/@aws-sdk/credential-provider-process/dist-cjs/index.js
+// node_modules/.pnpm/@aws-sdk+credential-provider-process@3.405.0/node_modules/@aws-sdk/credential-provider-process/dist-cjs/index.js
 var require_dist_cjs41 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+credential-provider-process@3.378.0/node_modules/@aws-sdk/credential-provider-process/dist-cjs/index.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+credential-provider-process@3.405.0/node_modules/@aws-sdk/credential-provider-process/dist-cjs/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var tslib_1 = (init_tslib_es6(), __toCommonJS(tslib_es6_exports));
@@ -21388,9 +21582,9 @@ var require_dist_cjs41 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+credential-provider-ini@3.385.0/node_modules/@aws-sdk/credential-provider-ini/dist-cjs/resolveProcessCredentials.js
+// node_modules/.pnpm/@aws-sdk+credential-provider-ini@3.405.0/node_modules/@aws-sdk/credential-provider-ini/dist-cjs/resolveProcessCredentials.js
 var require_resolveProcessCredentials2 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+credential-provider-ini@3.385.0/node_modules/@aws-sdk/credential-provider-ini/dist-cjs/resolveProcessCredentials.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+credential-provider-ini@3.405.0/node_modules/@aws-sdk/credential-provider-ini/dist-cjs/resolveProcessCredentials.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.resolveProcessCredentials = exports.isProcessProfile = void 0;
@@ -21405,9 +21599,9 @@ var require_resolveProcessCredentials2 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+credential-provider-sso@3.385.0/node_modules/@aws-sdk/credential-provider-sso/dist-cjs/isSsoProfile.js
+// node_modules/.pnpm/@aws-sdk+credential-provider-sso@3.405.0/node_modules/@aws-sdk/credential-provider-sso/dist-cjs/isSsoProfile.js
 var require_isSsoProfile = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+credential-provider-sso@3.385.0/node_modules/@aws-sdk/credential-provider-sso/dist-cjs/isSsoProfile.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+credential-provider-sso@3.405.0/node_modules/@aws-sdk/credential-provider-sso/dist-cjs/isSsoProfile.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.isSsoProfile = void 0;
@@ -21416,9 +21610,9 @@ var require_isSsoProfile = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-sso@3.382.0/node_modules/@aws-sdk/client-sso/dist-cjs/endpoint/EndpointParameters.js
+// node_modules/.pnpm/@aws-sdk+client-sso@3.405.0/node_modules/@aws-sdk/client-sso/dist-cjs/endpoint/EndpointParameters.js
 var require_EndpointParameters3 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-sso@3.382.0/node_modules/@aws-sdk/client-sso/dist-cjs/endpoint/EndpointParameters.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-sso@3.405.0/node_modules/@aws-sdk/client-sso/dist-cjs/endpoint/EndpointParameters.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.resolveClientEndpointParameters = void 0;
@@ -21434,13 +21628,13 @@ var require_EndpointParameters3 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-sso@3.382.0/node_modules/@aws-sdk/client-sso/package.json
+// node_modules/.pnpm/@aws-sdk+client-sso@3.405.0/node_modules/@aws-sdk/client-sso/package.json
 var require_package3 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-sso@3.382.0/node_modules/@aws-sdk/client-sso/package.json"(exports, module2) {
+  "node_modules/.pnpm/@aws-sdk+client-sso@3.405.0/node_modules/@aws-sdk/client-sso/package.json"(exports, module2) {
     module2.exports = {
       name: "@aws-sdk/client-sso",
       description: "AWS SDK for JavaScript Sso Client for Node.js, Browser and React Native",
-      version: "3.382.0",
+      version: "3.405.0",
       scripts: {
         build: "concurrently 'yarn:build:cjs' 'yarn:build:es' 'yarn:build:types'",
         "build:cjs": "tsc -p tsconfig.cjs.json",
@@ -21460,34 +21654,34 @@ var require_package3 = __commonJS({
       dependencies: {
         "@aws-crypto/sha256-browser": "3.0.0",
         "@aws-crypto/sha256-js": "3.0.0",
-        "@aws-sdk/middleware-host-header": "3.379.1",
-        "@aws-sdk/middleware-logger": "3.378.0",
-        "@aws-sdk/middleware-recursion-detection": "3.378.0",
-        "@aws-sdk/middleware-user-agent": "3.382.0",
-        "@aws-sdk/types": "3.378.0",
-        "@aws-sdk/util-endpoints": "3.382.0",
-        "@aws-sdk/util-user-agent-browser": "3.378.0",
-        "@aws-sdk/util-user-agent-node": "3.378.0",
-        "@smithy/config-resolver": "^2.0.1",
-        "@smithy/fetch-http-handler": "^2.0.1",
-        "@smithy/hash-node": "^2.0.1",
-        "@smithy/invalid-dependency": "^2.0.1",
-        "@smithy/middleware-content-length": "^2.0.1",
-        "@smithy/middleware-endpoint": "^2.0.1",
-        "@smithy/middleware-retry": "^2.0.1",
-        "@smithy/middleware-serde": "^2.0.1",
+        "@aws-sdk/middleware-host-header": "3.398.0",
+        "@aws-sdk/middleware-logger": "3.398.0",
+        "@aws-sdk/middleware-recursion-detection": "3.398.0",
+        "@aws-sdk/middleware-user-agent": "3.398.0",
+        "@aws-sdk/types": "3.398.0",
+        "@aws-sdk/util-endpoints": "3.398.0",
+        "@aws-sdk/util-user-agent-browser": "3.398.0",
+        "@aws-sdk/util-user-agent-node": "3.405.0",
+        "@smithy/config-resolver": "^2.0.5",
+        "@smithy/fetch-http-handler": "^2.0.5",
+        "@smithy/hash-node": "^2.0.5",
+        "@smithy/invalid-dependency": "^2.0.5",
+        "@smithy/middleware-content-length": "^2.0.5",
+        "@smithy/middleware-endpoint": "^2.0.5",
+        "@smithy/middleware-retry": "^2.0.5",
+        "@smithy/middleware-serde": "^2.0.5",
         "@smithy/middleware-stack": "^2.0.0",
-        "@smithy/node-config-provider": "^2.0.1",
-        "@smithy/node-http-handler": "^2.0.1",
-        "@smithy/protocol-http": "^2.0.1",
-        "@smithy/smithy-client": "^2.0.1",
-        "@smithy/types": "^2.0.2",
-        "@smithy/url-parser": "^2.0.1",
+        "@smithy/node-config-provider": "^2.0.6",
+        "@smithy/node-http-handler": "^2.0.5",
+        "@smithy/protocol-http": "^2.0.5",
+        "@smithy/smithy-client": "^2.0.5",
+        "@smithy/types": "^2.2.2",
+        "@smithy/url-parser": "^2.0.5",
         "@smithy/util-base64": "^2.0.0",
         "@smithy/util-body-length-browser": "^2.0.0",
-        "@smithy/util-body-length-node": "^2.0.0",
-        "@smithy/util-defaults-mode-browser": "^2.0.1",
-        "@smithy/util-defaults-mode-node": "^2.0.1",
+        "@smithy/util-body-length-node": "^2.1.0",
+        "@smithy/util-defaults-mode-browser": "^2.0.6",
+        "@smithy/util-defaults-mode-node": "^2.0.6",
         "@smithy/util-retry": "^2.0.0",
         "@smithy/util-utf8": "^2.0.0",
         tslib: "^2.5.0"
@@ -21536,9 +21730,9 @@ var require_package3 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+util-user-agent-node@3.378.0/node_modules/@aws-sdk/util-user-agent-node/dist-cjs/is-crt-available.js
+// node_modules/.pnpm/@aws-sdk+util-user-agent-node@3.405.0/node_modules/@aws-sdk/util-user-agent-node/dist-cjs/is-crt-available.js
 var require_is_crt_available = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+util-user-agent-node@3.378.0/node_modules/@aws-sdk/util-user-agent-node/dist-cjs/is-crt-available.js"(exports, module2) {
+  "node_modules/.pnpm/@aws-sdk+util-user-agent-node@3.405.0/node_modules/@aws-sdk/util-user-agent-node/dist-cjs/is-crt-available.js"(exports, module2) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.isCrtAvailable = void 0;
@@ -21556,9 +21750,9 @@ var require_is_crt_available = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+util-user-agent-node@3.378.0/node_modules/@aws-sdk/util-user-agent-node/dist-cjs/index.js
+// node_modules/.pnpm/@aws-sdk+util-user-agent-node@3.405.0/node_modules/@aws-sdk/util-user-agent-node/dist-cjs/index.js
 var require_dist_cjs42 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+util-user-agent-node@3.378.0/node_modules/@aws-sdk/util-user-agent-node/dist-cjs/index.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+util-user-agent-node@3.405.0/node_modules/@aws-sdk/util-user-agent-node/dist-cjs/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.defaultUserAgent = exports.UA_APP_ID_INI_NAME = exports.UA_APP_ID_ENV_NAME = void 0;
@@ -21604,9 +21798,9 @@ var require_dist_cjs42 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+hash-node@2.0.1/node_modules/@smithy/hash-node/dist-cjs/index.js
+// node_modules/.pnpm/@smithy+hash-node@2.0.5/node_modules/@smithy/hash-node/dist-cjs/index.js
 var require_dist_cjs43 = __commonJS({
-  "node_modules/.pnpm/@smithy+hash-node@2.0.1/node_modules/@smithy/hash-node/dist-cjs/index.js"(exports) {
+  "node_modules/.pnpm/@smithy+hash-node@2.0.5/node_modules/@smithy/hash-node/dist-cjs/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.Hash = void 0;
@@ -21646,9 +21840,9 @@ var require_dist_cjs43 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+util-body-length-node@2.0.0/node_modules/@smithy/util-body-length-node/dist-cjs/calculateBodyLength.js
+// node_modules/.pnpm/@smithy+util-body-length-node@2.1.0/node_modules/@smithy/util-body-length-node/dist-cjs/calculateBodyLength.js
 var require_calculateBodyLength = __commonJS({
-  "node_modules/.pnpm/@smithy+util-body-length-node@2.0.0/node_modules/@smithy/util-body-length-node/dist-cjs/calculateBodyLength.js"(exports) {
+  "node_modules/.pnpm/@smithy+util-body-length-node@2.1.0/node_modules/@smithy/util-body-length-node/dist-cjs/calculateBodyLength.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.calculateBodyLength = void 0;
@@ -21663,6 +21857,8 @@ var require_calculateBodyLength = __commonJS({
         return body.byteLength;
       } else if (typeof body.size === "number") {
         return body.size;
+      } else if (typeof body.start === "number" && typeof body.end === "number") {
+        return body.end + 1 - body.start;
       } else if (typeof body.path === "string" || Buffer.isBuffer(body.path)) {
         return (0, fs_1.lstatSync)(body.path).size;
       } else if (typeof body.fd === "number") {
@@ -21674,9 +21870,9 @@ var require_calculateBodyLength = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+util-body-length-node@2.0.0/node_modules/@smithy/util-body-length-node/dist-cjs/index.js
+// node_modules/.pnpm/@smithy+util-body-length-node@2.1.0/node_modules/@smithy/util-body-length-node/dist-cjs/index.js
 var require_dist_cjs44 = __commonJS({
-  "node_modules/.pnpm/@smithy+util-body-length-node@2.0.0/node_modules/@smithy/util-body-length-node/dist-cjs/index.js"(exports) {
+  "node_modules/.pnpm/@smithy+util-body-length-node@2.1.0/node_modules/@smithy/util-body-length-node/dist-cjs/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var tslib_1 = (init_tslib_es6(), __toCommonJS(tslib_es6_exports));
@@ -21684,9 +21880,9 @@ var require_dist_cjs44 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-sso@3.382.0/node_modules/@aws-sdk/client-sso/dist-cjs/endpoint/ruleset.js
+// node_modules/.pnpm/@aws-sdk+client-sso@3.405.0/node_modules/@aws-sdk/client-sso/dist-cjs/endpoint/ruleset.js
 var require_ruleset = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-sso@3.382.0/node_modules/@aws-sdk/client-sso/dist-cjs/endpoint/ruleset.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-sso@3.405.0/node_modules/@aws-sdk/client-sso/dist-cjs/endpoint/ruleset.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.ruleSet = void 0;
@@ -21714,9 +21910,9 @@ var require_ruleset = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-sso@3.382.0/node_modules/@aws-sdk/client-sso/dist-cjs/endpoint/endpointResolver.js
+// node_modules/.pnpm/@aws-sdk+client-sso@3.405.0/node_modules/@aws-sdk/client-sso/dist-cjs/endpoint/endpointResolver.js
 var require_endpointResolver = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-sso@3.382.0/node_modules/@aws-sdk/client-sso/dist-cjs/endpoint/endpointResolver.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-sso@3.405.0/node_modules/@aws-sdk/client-sso/dist-cjs/endpoint/endpointResolver.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.defaultEndpointResolver = void 0;
@@ -21732,9 +21928,9 @@ var require_endpointResolver = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-sso@3.382.0/node_modules/@aws-sdk/client-sso/dist-cjs/runtimeConfig.shared.js
+// node_modules/.pnpm/@aws-sdk+client-sso@3.405.0/node_modules/@aws-sdk/client-sso/dist-cjs/runtimeConfig.shared.js
 var require_runtimeConfig_shared = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-sso@3.382.0/node_modules/@aws-sdk/client-sso/dist-cjs/runtimeConfig.shared.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-sso@3.405.0/node_modules/@aws-sdk/client-sso/dist-cjs/runtimeConfig.shared.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.getRuntimeConfig = void 0;
@@ -21749,6 +21945,7 @@ var require_runtimeConfig_shared = __commonJS({
       base64Encoder: config?.base64Encoder ?? util_base64_1.toBase64,
       disableHostPrefix: config?.disableHostPrefix ?? false,
       endpointProvider: config?.endpointProvider ?? endpointResolver_1.defaultEndpointResolver,
+      extensions: config?.extensions ?? [],
       logger: config?.logger ?? new smithy_client_1.NoOpLogger(),
       serviceId: config?.serviceId ?? "SSO",
       urlParser: config?.urlParser ?? url_parser_1.parseUrl,
@@ -21759,9 +21956,9 @@ var require_runtimeConfig_shared = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+util-defaults-mode-node@2.0.1/node_modules/@smithy/util-defaults-mode-node/dist-cjs/constants.js
+// node_modules/.pnpm/@smithy+util-defaults-mode-node@2.0.7/node_modules/@smithy/util-defaults-mode-node/dist-cjs/constants.js
 var require_constants7 = __commonJS({
-  "node_modules/.pnpm/@smithy+util-defaults-mode-node@2.0.1/node_modules/@smithy/util-defaults-mode-node/dist-cjs/constants.js"(exports) {
+  "node_modules/.pnpm/@smithy+util-defaults-mode-node@2.0.7/node_modules/@smithy/util-defaults-mode-node/dist-cjs/constants.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.IMDS_REGION_PATH = exports.DEFAULTS_MODE_OPTIONS = exports.ENV_IMDS_DISABLED = exports.AWS_DEFAULT_REGION_ENV = exports.AWS_REGION_ENV = exports.AWS_EXECUTION_ENV = void 0;
@@ -21774,9 +21971,9 @@ var require_constants7 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+util-defaults-mode-node@2.0.1/node_modules/@smithy/util-defaults-mode-node/dist-cjs/defaultsModeConfig.js
+// node_modules/.pnpm/@smithy+util-defaults-mode-node@2.0.7/node_modules/@smithy/util-defaults-mode-node/dist-cjs/defaultsModeConfig.js
 var require_defaultsModeConfig = __commonJS({
-  "node_modules/.pnpm/@smithy+util-defaults-mode-node@2.0.1/node_modules/@smithy/util-defaults-mode-node/dist-cjs/defaultsModeConfig.js"(exports) {
+  "node_modules/.pnpm/@smithy+util-defaults-mode-node@2.0.7/node_modules/@smithy/util-defaults-mode-node/dist-cjs/defaultsModeConfig.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.NODE_DEFAULTS_MODE_CONFIG_OPTIONS = void 0;
@@ -21794,9 +21991,9 @@ var require_defaultsModeConfig = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+util-defaults-mode-node@2.0.1/node_modules/@smithy/util-defaults-mode-node/dist-cjs/resolveDefaultsModeConfig.js
+// node_modules/.pnpm/@smithy+util-defaults-mode-node@2.0.7/node_modules/@smithy/util-defaults-mode-node/dist-cjs/resolveDefaultsModeConfig.js
 var require_resolveDefaultsModeConfig = __commonJS({
-  "node_modules/.pnpm/@smithy+util-defaults-mode-node@2.0.1/node_modules/@smithy/util-defaults-mode-node/dist-cjs/resolveDefaultsModeConfig.js"(exports) {
+  "node_modules/.pnpm/@smithy+util-defaults-mode-node@2.0.7/node_modules/@smithy/util-defaults-mode-node/dist-cjs/resolveDefaultsModeConfig.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.resolveDefaultsModeConfig = void 0;
@@ -21855,9 +22052,9 @@ var require_resolveDefaultsModeConfig = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+util-defaults-mode-node@2.0.1/node_modules/@smithy/util-defaults-mode-node/dist-cjs/index.js
+// node_modules/.pnpm/@smithy+util-defaults-mode-node@2.0.7/node_modules/@smithy/util-defaults-mode-node/dist-cjs/index.js
 var require_dist_cjs45 = __commonJS({
-  "node_modules/.pnpm/@smithy+util-defaults-mode-node@2.0.1/node_modules/@smithy/util-defaults-mode-node/dist-cjs/index.js"(exports) {
+  "node_modules/.pnpm/@smithy+util-defaults-mode-node@2.0.7/node_modules/@smithy/util-defaults-mode-node/dist-cjs/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var tslib_1 = (init_tslib_es6(), __toCommonJS(tslib_es6_exports));
@@ -21865,9 +22062,9 @@ var require_dist_cjs45 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-sso@3.382.0/node_modules/@aws-sdk/client-sso/dist-cjs/runtimeConfig.js
+// node_modules/.pnpm/@aws-sdk+client-sso@3.405.0/node_modules/@aws-sdk/client-sso/dist-cjs/runtimeConfig.js
 var require_runtimeConfig = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-sso@3.382.0/node_modules/@aws-sdk/client-sso/dist-cjs/runtimeConfig.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-sso@3.405.0/node_modules/@aws-sdk/client-sso/dist-cjs/runtimeConfig.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.getRuntimeConfig = void 0;
@@ -21914,9 +22111,31 @@ var require_runtimeConfig = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-sso@3.382.0/node_modules/@aws-sdk/client-sso/dist-cjs/SSOClient.js
+// node_modules/.pnpm/@aws-sdk+client-sso@3.405.0/node_modules/@aws-sdk/client-sso/dist-cjs/runtimeExtensions.js
+var require_runtimeExtensions = __commonJS({
+  "node_modules/.pnpm/@aws-sdk+client-sso@3.405.0/node_modules/@aws-sdk/client-sso/dist-cjs/runtimeExtensions.js"(exports) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    exports.resolveRuntimeExtensions = void 0;
+    var smithy_client_1 = require_dist_cjs35();
+    var asPartial = (t2) => t2;
+    var resolveRuntimeExtensions = (runtimeConfig, extensions) => {
+      const extensionConfiguration = {
+        ...asPartial((0, smithy_client_1.getDefaultExtensionConfiguration)(runtimeConfig))
+      };
+      extensions.forEach((extension) => extension.configure(extensionConfiguration));
+      return {
+        ...runtimeConfig,
+        ...(0, smithy_client_1.resolveDefaultRuntimeConfig)(extensionConfiguration)
+      };
+    };
+    exports.resolveRuntimeExtensions = resolveRuntimeExtensions;
+  }
+});
+
+// node_modules/.pnpm/@aws-sdk+client-sso@3.405.0/node_modules/@aws-sdk/client-sso/dist-cjs/SSOClient.js
 var require_SSOClient = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-sso@3.382.0/node_modules/@aws-sdk/client-sso/dist-cjs/SSOClient.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-sso@3.405.0/node_modules/@aws-sdk/client-sso/dist-cjs/SSOClient.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.SSOClient = exports.__Client = void 0;
@@ -21934,17 +22153,19 @@ var require_SSOClient = __commonJS({
     } });
     var EndpointParameters_1 = require_EndpointParameters3();
     var runtimeConfig_1 = require_runtimeConfig();
+    var runtimeExtensions_1 = require_runtimeExtensions();
     var SSOClient = class extends smithy_client_1.Client {
-      constructor(configuration) {
-        const _config_0 = (0, runtimeConfig_1.getRuntimeConfig)(configuration);
+      constructor(...[configuration]) {
+        const _config_0 = (0, runtimeConfig_1.getRuntimeConfig)(configuration || {});
         const _config_1 = (0, EndpointParameters_1.resolveClientEndpointParameters)(_config_0);
         const _config_2 = (0, config_resolver_1.resolveRegionConfig)(_config_1);
         const _config_3 = (0, middleware_endpoint_1.resolveEndpointConfig)(_config_2);
         const _config_4 = (0, middleware_retry_1.resolveRetryConfig)(_config_3);
         const _config_5 = (0, middleware_host_header_1.resolveHostHeaderConfig)(_config_4);
         const _config_6 = (0, middleware_user_agent_1.resolveUserAgentConfig)(_config_5);
-        super(_config_6);
-        this.config = _config_6;
+        const _config_7 = (0, runtimeExtensions_1.resolveRuntimeExtensions)(_config_6, configuration?.extensions || []);
+        super(_config_7);
+        this.config = _config_7;
         this.middlewareStack.use((0, middleware_retry_1.getRetryPlugin)(this.config));
         this.middlewareStack.use((0, middleware_content_length_1.getContentLengthPlugin)(this.config));
         this.middlewareStack.use((0, middleware_host_header_1.getHostHeaderPlugin)(this.config));
@@ -21960,9 +22181,9 @@ var require_SSOClient = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-sso@3.382.0/node_modules/@aws-sdk/client-sso/dist-cjs/models/SSOServiceException.js
+// node_modules/.pnpm/@aws-sdk+client-sso@3.405.0/node_modules/@aws-sdk/client-sso/dist-cjs/models/SSOServiceException.js
 var require_SSOServiceException = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-sso@3.382.0/node_modules/@aws-sdk/client-sso/dist-cjs/models/SSOServiceException.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-sso@3.405.0/node_modules/@aws-sdk/client-sso/dist-cjs/models/SSOServiceException.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.SSOServiceException = exports.__ServiceException = void 0;
@@ -21980,9 +22201,9 @@ var require_SSOServiceException = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-sso@3.382.0/node_modules/@aws-sdk/client-sso/dist-cjs/models/models_0.js
+// node_modules/.pnpm/@aws-sdk+client-sso@3.405.0/node_modules/@aws-sdk/client-sso/dist-cjs/models/models_0.js
 var require_models_02 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-sso@3.382.0/node_modules/@aws-sdk/client-sso/dist-cjs/models/models_0.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-sso@3.405.0/node_modules/@aws-sdk/client-sso/dist-cjs/models/models_0.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.LogoutRequestFilterSensitiveLog = exports.ListAccountsRequestFilterSensitiveLog = exports.ListAccountRolesRequestFilterSensitiveLog = exports.GetRoleCredentialsResponseFilterSensitiveLog = exports.RoleCredentialsFilterSensitiveLog = exports.GetRoleCredentialsRequestFilterSensitiveLog = exports.UnauthorizedException = exports.TooManyRequestsException = exports.ResourceNotFoundException = exports.InvalidRequestException = void 0;
@@ -22074,9 +22295,9 @@ var require_models_02 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-sso@3.382.0/node_modules/@aws-sdk/client-sso/dist-cjs/protocols/Aws_restJson1.js
+// node_modules/.pnpm/@aws-sdk+client-sso@3.405.0/node_modules/@aws-sdk/client-sso/dist-cjs/protocols/Aws_restJson1.js
 var require_Aws_restJson1 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-sso@3.382.0/node_modules/@aws-sdk/client-sso/dist-cjs/protocols/Aws_restJson1.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-sso@3.405.0/node_modules/@aws-sdk/client-sso/dist-cjs/protocols/Aws_restJson1.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.de_LogoutCommand = exports.de_ListAccountsCommand = exports.de_ListAccountRolesCommand = exports.de_GetRoleCredentialsCommand = exports.se_LogoutCommand = exports.se_ListAccountsCommand = exports.se_ListAccountRolesCommand = exports.se_GetRoleCredentialsCommand = void 0;
@@ -22443,9 +22664,9 @@ var require_Aws_restJson1 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-sso@3.382.0/node_modules/@aws-sdk/client-sso/dist-cjs/commands/GetRoleCredentialsCommand.js
+// node_modules/.pnpm/@aws-sdk+client-sso@3.405.0/node_modules/@aws-sdk/client-sso/dist-cjs/commands/GetRoleCredentialsCommand.js
 var require_GetRoleCredentialsCommand = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-sso@3.382.0/node_modules/@aws-sdk/client-sso/dist-cjs/commands/GetRoleCredentialsCommand.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-sso@3.405.0/node_modules/@aws-sdk/client-sso/dist-cjs/commands/GetRoleCredentialsCommand.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.GetRoleCredentialsCommand = exports.$Command = void 0;
@@ -22498,9 +22719,9 @@ var require_GetRoleCredentialsCommand = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-sso@3.382.0/node_modules/@aws-sdk/client-sso/dist-cjs/commands/ListAccountRolesCommand.js
+// node_modules/.pnpm/@aws-sdk+client-sso@3.405.0/node_modules/@aws-sdk/client-sso/dist-cjs/commands/ListAccountRolesCommand.js
 var require_ListAccountRolesCommand = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-sso@3.382.0/node_modules/@aws-sdk/client-sso/dist-cjs/commands/ListAccountRolesCommand.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-sso@3.405.0/node_modules/@aws-sdk/client-sso/dist-cjs/commands/ListAccountRolesCommand.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.ListAccountRolesCommand = exports.$Command = void 0;
@@ -22553,9 +22774,9 @@ var require_ListAccountRolesCommand = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-sso@3.382.0/node_modules/@aws-sdk/client-sso/dist-cjs/commands/ListAccountsCommand.js
+// node_modules/.pnpm/@aws-sdk+client-sso@3.405.0/node_modules/@aws-sdk/client-sso/dist-cjs/commands/ListAccountsCommand.js
 var require_ListAccountsCommand = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-sso@3.382.0/node_modules/@aws-sdk/client-sso/dist-cjs/commands/ListAccountsCommand.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-sso@3.405.0/node_modules/@aws-sdk/client-sso/dist-cjs/commands/ListAccountsCommand.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.ListAccountsCommand = exports.$Command = void 0;
@@ -22608,9 +22829,9 @@ var require_ListAccountsCommand = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-sso@3.382.0/node_modules/@aws-sdk/client-sso/dist-cjs/commands/LogoutCommand.js
+// node_modules/.pnpm/@aws-sdk+client-sso@3.405.0/node_modules/@aws-sdk/client-sso/dist-cjs/commands/LogoutCommand.js
 var require_LogoutCommand = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-sso@3.382.0/node_modules/@aws-sdk/client-sso/dist-cjs/commands/LogoutCommand.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-sso@3.405.0/node_modules/@aws-sdk/client-sso/dist-cjs/commands/LogoutCommand.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.LogoutCommand = exports.$Command = void 0;
@@ -22663,9 +22884,9 @@ var require_LogoutCommand = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-sso@3.382.0/node_modules/@aws-sdk/client-sso/dist-cjs/SSO.js
+// node_modules/.pnpm/@aws-sdk+client-sso@3.405.0/node_modules/@aws-sdk/client-sso/dist-cjs/SSO.js
 var require_SSO = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-sso@3.382.0/node_modules/@aws-sdk/client-sso/dist-cjs/SSO.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-sso@3.405.0/node_modules/@aws-sdk/client-sso/dist-cjs/SSO.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.SSO = void 0;
@@ -22688,9 +22909,9 @@ var require_SSO = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-sso@3.382.0/node_modules/@aws-sdk/client-sso/dist-cjs/commands/index.js
+// node_modules/.pnpm/@aws-sdk+client-sso@3.405.0/node_modules/@aws-sdk/client-sso/dist-cjs/commands/index.js
 var require_commands = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-sso@3.382.0/node_modules/@aws-sdk/client-sso/dist-cjs/commands/index.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-sso@3.405.0/node_modules/@aws-sdk/client-sso/dist-cjs/commands/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var tslib_1 = (init_tslib_es6(), __toCommonJS(tslib_es6_exports));
@@ -22701,17 +22922,17 @@ var require_commands = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-sso@3.382.0/node_modules/@aws-sdk/client-sso/dist-cjs/pagination/Interfaces.js
+// node_modules/.pnpm/@aws-sdk+client-sso@3.405.0/node_modules/@aws-sdk/client-sso/dist-cjs/pagination/Interfaces.js
 var require_Interfaces = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-sso@3.382.0/node_modules/@aws-sdk/client-sso/dist-cjs/pagination/Interfaces.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-sso@3.405.0/node_modules/@aws-sdk/client-sso/dist-cjs/pagination/Interfaces.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-sso@3.382.0/node_modules/@aws-sdk/client-sso/dist-cjs/pagination/ListAccountRolesPaginator.js
+// node_modules/.pnpm/@aws-sdk+client-sso@3.405.0/node_modules/@aws-sdk/client-sso/dist-cjs/pagination/ListAccountRolesPaginator.js
 var require_ListAccountRolesPaginator = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-sso@3.382.0/node_modules/@aws-sdk/client-sso/dist-cjs/pagination/ListAccountRolesPaginator.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-sso@3.405.0/node_modules/@aws-sdk/client-sso/dist-cjs/pagination/ListAccountRolesPaginator.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.paginateListAccountRoles = void 0;
@@ -22743,9 +22964,9 @@ var require_ListAccountRolesPaginator = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-sso@3.382.0/node_modules/@aws-sdk/client-sso/dist-cjs/pagination/ListAccountsPaginator.js
+// node_modules/.pnpm/@aws-sdk+client-sso@3.405.0/node_modules/@aws-sdk/client-sso/dist-cjs/pagination/ListAccountsPaginator.js
 var require_ListAccountsPaginator = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-sso@3.382.0/node_modules/@aws-sdk/client-sso/dist-cjs/pagination/ListAccountsPaginator.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-sso@3.405.0/node_modules/@aws-sdk/client-sso/dist-cjs/pagination/ListAccountsPaginator.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.paginateListAccounts = void 0;
@@ -22777,9 +22998,9 @@ var require_ListAccountsPaginator = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-sso@3.382.0/node_modules/@aws-sdk/client-sso/dist-cjs/pagination/index.js
+// node_modules/.pnpm/@aws-sdk+client-sso@3.405.0/node_modules/@aws-sdk/client-sso/dist-cjs/pagination/index.js
 var require_pagination3 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-sso@3.382.0/node_modules/@aws-sdk/client-sso/dist-cjs/pagination/index.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-sso@3.405.0/node_modules/@aws-sdk/client-sso/dist-cjs/pagination/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var tslib_1 = (init_tslib_es6(), __toCommonJS(tslib_es6_exports));
@@ -22789,9 +23010,9 @@ var require_pagination3 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-sso@3.382.0/node_modules/@aws-sdk/client-sso/dist-cjs/models/index.js
+// node_modules/.pnpm/@aws-sdk+client-sso@3.405.0/node_modules/@aws-sdk/client-sso/dist-cjs/models/index.js
 var require_models = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-sso@3.382.0/node_modules/@aws-sdk/client-sso/dist-cjs/models/index.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-sso@3.405.0/node_modules/@aws-sdk/client-sso/dist-cjs/models/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var tslib_1 = (init_tslib_es6(), __toCommonJS(tslib_es6_exports));
@@ -22799,9 +23020,9 @@ var require_models = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-sso@3.382.0/node_modules/@aws-sdk/client-sso/dist-cjs/index.js
+// node_modules/.pnpm/@aws-sdk+client-sso@3.405.0/node_modules/@aws-sdk/client-sso/dist-cjs/index.js
 var require_dist_cjs46 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-sso@3.382.0/node_modules/@aws-sdk/client-sso/dist-cjs/index.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-sso@3.405.0/node_modules/@aws-sdk/client-sso/dist-cjs/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.SSOServiceException = void 0;
@@ -22818,9 +23039,9 @@ var require_dist_cjs46 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+token-providers@3.385.0/node_modules/@aws-sdk/token-providers/dist-cjs/client-sso-oidc-bundle/dist-node.js
-var require_dist_node11 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+token-providers@3.385.0/node_modules/@aws-sdk/token-providers/dist-cjs/client-sso-oidc-bundle/dist-node.js"(exports) {
+// node_modules/.pnpm/@aws-sdk+token-providers@3.405.0/node_modules/@aws-sdk/token-providers/dist-cjs/bundle/client-sso-oidc-node.js
+var require_client_sso_oidc_node = __commonJS({
+  "node_modules/.pnpm/@aws-sdk+token-providers@3.405.0/node_modules/@aws-sdk/token-providers/dist-cjs/bundle/client-sso-oidc-node.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.UnsupportedGrantTypeException = exports.UnauthorizedClientException = exports.SlowDownException = exports.SSOOIDCClient = exports.InvalidScopeException = exports.InvalidRequestException = exports.InvalidClientException = exports.InternalServerException = exports.ExpiredTokenException = exports.CreateTokenCommand = exports.AuthorizationPendingException = exports.AccessDeniedException = void 0;
@@ -22842,102 +23063,7 @@ var require_dist_node11 = __commonJS({
         defaultSigningName: "awsssooidc"
       };
     };
-    var package_default = {
-      name: "@aws-sdk/client-sso-oidc",
-      description: "AWS SDK for JavaScript Sso Oidc Client for Node.js, Browser and React Native",
-      version: "3.382.0",
-      scripts: {
-        build: "concurrently 'yarn:build:cjs' 'yarn:build:es' 'yarn:build:types'",
-        "build:cjs": "tsc -p tsconfig.cjs.json",
-        "build:docs": "typedoc",
-        "build:es": "tsc -p tsconfig.es.json",
-        "build:include:deps": "lerna run --scope $npm_package_name --include-dependencies build",
-        "build:types": "tsc -p tsconfig.types.json",
-        "build:types:downlevel": "downlevel-dts dist-types dist-types/ts3.4",
-        clean: "rimraf ./dist-* && rimraf *.tsbuildinfo",
-        "extract:docs": "api-extractor run --local",
-        "generate:client": "node ../../scripts/generate-clients/single-service --solo sso-oidc"
-      },
-      main: "./dist-cjs/index.js",
-      types: "./dist-types/index.d.ts",
-      module: "./dist-es/index.js",
-      sideEffects: false,
-      dependencies: {
-        "@aws-crypto/sha256-browser": "3.0.0",
-        "@aws-crypto/sha256-js": "3.0.0",
-        "@aws-sdk/middleware-host-header": "*",
-        "@aws-sdk/middleware-logger": "*",
-        "@aws-sdk/middleware-recursion-detection": "*",
-        "@aws-sdk/middleware-user-agent": "*",
-        "@aws-sdk/types": "*",
-        "@aws-sdk/util-endpoints": "*",
-        "@aws-sdk/util-user-agent-browser": "*",
-        "@aws-sdk/util-user-agent-node": "*",
-        "@smithy/config-resolver": "^2.0.1",
-        "@smithy/fetch-http-handler": "^2.0.1",
-        "@smithy/hash-node": "^2.0.1",
-        "@smithy/invalid-dependency": "^2.0.1",
-        "@smithy/middleware-content-length": "^2.0.1",
-        "@smithy/middleware-endpoint": "^2.0.1",
-        "@smithy/middleware-retry": "^2.0.1",
-        "@smithy/middleware-serde": "^2.0.1",
-        "@smithy/middleware-stack": "^2.0.0",
-        "@smithy/node-config-provider": "^2.0.1",
-        "@smithy/node-http-handler": "^2.0.1",
-        "@smithy/protocol-http": "^2.0.1",
-        "@smithy/smithy-client": "^2.0.1",
-        "@smithy/types": "^2.0.2",
-        "@smithy/url-parser": "^2.0.1",
-        "@smithy/util-base64": "^2.0.0",
-        "@smithy/util-body-length-browser": "^2.0.0",
-        "@smithy/util-body-length-node": "^2.0.0",
-        "@smithy/util-defaults-mode-browser": "^2.0.1",
-        "@smithy/util-defaults-mode-node": "^2.0.1",
-        "@smithy/util-retry": "^2.0.0",
-        "@smithy/util-utf8": "^2.0.0",
-        tslib: "^2.5.0"
-      },
-      devDependencies: {
-        "@smithy/service-client-documentation-generator": "^2.0.0",
-        "@tsconfig/node14": "1.0.3",
-        "@types/node": "^14.14.31",
-        concurrently: "7.0.0",
-        "downlevel-dts": "0.10.1",
-        rimraf: "3.0.2",
-        typedoc: "0.23.23",
-        typescript: "~4.9.5"
-      },
-      engines: {
-        node: ">=14.0.0"
-      },
-      typesVersions: {
-        "<4.0": {
-          "dist-types/*": [
-            "dist-types/ts3.4/*"
-          ]
-        }
-      },
-      files: [
-        "dist-*/**"
-      ],
-      author: {
-        name: "AWS SDK for JavaScript Team",
-        url: "https://aws.amazon.com/javascript/"
-      },
-      license: "Apache-2.0",
-      browser: {
-        "./dist-es/runtimeConfig": "./dist-es/runtimeConfig.browser"
-      },
-      "react-native": {
-        "./dist-es/runtimeConfig": "./dist-es/runtimeConfig.native"
-      },
-      homepage: "https://github.com/aws/aws-sdk-js-v3/tree/main/clients/client-sso-oidc",
-      repository: {
-        type: "git",
-        url: "https://github.com/aws/aws-sdk-js-v3.git",
-        directory: "clients/client-sso-oidc"
-      }
-    };
+    var package_default = { version: "3.387.0" };
     var util_user_agent_node_1 = require_dist_cjs42();
     var config_resolver_2 = require_dist_cjs21();
     var hash_node_1 = require_dist_cjs43();
@@ -23023,8 +23149,8 @@ var require_dist_node11 = __commonJS({
       };
     };
     var SSOOIDCClient = class extends smithy_client_1.Client {
-      constructor(configuration) {
-        const _config_0 = getRuntimeConfig2(configuration);
+      constructor(...[configuration]) {
+        const _config_0 = getRuntimeConfig2(configuration || {});
         const _config_1 = resolveClientEndpointParameters(_config_0);
         const _config_2 = (0, config_resolver_1.resolveRegionConfig)(_config_1);
         const _config_3 = (0, middleware_endpoint_1.resolveEndpointConfig)(_config_2);
@@ -23045,13 +23171,14 @@ var require_dist_node11 = __commonJS({
       }
     };
     exports.SSOOIDCClient = SSOOIDCClient;
+    var smithy_client_5 = require_dist_cjs35();
     var middleware_endpoint_2 = require_dist_cjs26();
     var middleware_serde_1 = require_dist_cjs25();
-    var smithy_client_5 = require_dist_cjs35();
-    var protocol_http_1 = require_dist_cjs2();
     var smithy_client_6 = require_dist_cjs35();
+    var protocol_http_1 = require_dist_cjs2();
     var smithy_client_7 = require_dist_cjs35();
-    var SSOOIDCServiceException = class _SSOOIDCServiceException extends smithy_client_7.ServiceException {
+    var smithy_client_8 = require_dist_cjs35();
+    var SSOOIDCServiceException = class _SSOOIDCServiceException extends smithy_client_8.ServiceException {
       constructor(options) {
         super(options);
         Object.setPrototypeOf(this, _SSOOIDCServiceException.prototype);
@@ -23221,6 +23348,20 @@ var require_dist_node11 = __commonJS({
       }
     };
     exports.UnsupportedGrantTypeException = UnsupportedGrantTypeException;
+    var InvalidClientMetadataException = class _InvalidClientMetadataException extends SSOOIDCServiceException {
+      constructor(opts) {
+        super({
+          name: "InvalidClientMetadataException",
+          $fault: "client",
+          ...opts
+        });
+        this.name = "InvalidClientMetadataException";
+        this.$fault = "client";
+        Object.setPrototypeOf(this, _InvalidClientMetadataException.prototype);
+        this.error = opts.error;
+        this.error_description = opts.error_description;
+      }
+    };
     var se_CreateTokenCommand = async (input, context2) => {
       const { hostname, protocol = "https", port, path: basePath } = await context2.endpoint();
       const headers = {
@@ -23228,7 +23369,7 @@ var require_dist_node11 = __commonJS({
       };
       const resolvedPath = `${(basePath === null || basePath === void 0 ? void 0 : basePath.endsWith("/")) ? basePath.slice(0, -1) : basePath || ""}/token`;
       let body;
-      body = JSON.stringify((0, smithy_client_6.take)(input, {
+      body = JSON.stringify((0, smithy_client_7.take)(input, {
         clientId: [],
         clientSecret: [],
         code: [],
@@ -23236,7 +23377,51 @@ var require_dist_node11 = __commonJS({
         grantType: [],
         redirectUri: [],
         refreshToken: [],
-        scope: (_) => (0, smithy_client_6._json)(_)
+        scope: (_) => (0, smithy_client_7._json)(_)
+      }));
+      return new protocol_http_1.HttpRequest({
+        protocol,
+        hostname,
+        port,
+        method: "POST",
+        headers,
+        path: resolvedPath,
+        body
+      });
+    };
+    var se_RegisterClientCommand = async (input, context2) => {
+      const { hostname, protocol = "https", port, path: basePath } = await context2.endpoint();
+      const headers = {
+        "content-type": "application/json"
+      };
+      const resolvedPath = `${(basePath === null || basePath === void 0 ? void 0 : basePath.endsWith("/")) ? basePath.slice(0, -1) : basePath || ""}/client/register`;
+      let body;
+      body = JSON.stringify((0, smithy_client_7.take)(input, {
+        clientName: [],
+        clientType: [],
+        scopes: (_) => (0, smithy_client_7._json)(_)
+      }));
+      return new protocol_http_1.HttpRequest({
+        protocol,
+        hostname,
+        port,
+        method: "POST",
+        headers,
+        path: resolvedPath,
+        body
+      });
+    };
+    var se_StartDeviceAuthorizationCommand = async (input, context2) => {
+      const { hostname, protocol = "https", port, path: basePath } = await context2.endpoint();
+      const headers = {
+        "content-type": "application/json"
+      };
+      const resolvedPath = `${(basePath === null || basePath === void 0 ? void 0 : basePath.endsWith("/")) ? basePath.slice(0, -1) : basePath || ""}/device_authorization`;
+      let body;
+      body = JSON.stringify((0, smithy_client_7.take)(input, {
+        clientId: [],
+        clientSecret: [],
+        startUrl: []
       }));
       return new protocol_http_1.HttpRequest({
         protocol,
@@ -23252,16 +23437,16 @@ var require_dist_node11 = __commonJS({
       if (output.statusCode !== 200 && output.statusCode >= 300) {
         return de_CreateTokenCommandError(output, context2);
       }
-      const contents = (0, smithy_client_6.map)({
+      const contents = (0, smithy_client_7.map)({
         $metadata: deserializeMetadata(output)
       });
-      const data = (0, smithy_client_6.expectNonNull)((0, smithy_client_6.expectObject)(await parseBody(output.body, context2)), "body");
-      const doc = (0, smithy_client_6.take)(data, {
-        accessToken: smithy_client_6.expectString,
-        expiresIn: smithy_client_6.expectInt32,
-        idToken: smithy_client_6.expectString,
-        refreshToken: smithy_client_6.expectString,
-        tokenType: smithy_client_6.expectString
+      const data = (0, smithy_client_7.expectNonNull)((0, smithy_client_7.expectObject)(await parseBody(output.body, context2)), "body");
+      const doc = (0, smithy_client_7.take)(data, {
+        accessToken: smithy_client_7.expectString,
+        expiresIn: smithy_client_7.expectInt32,
+        idToken: smithy_client_7.expectString,
+        refreshToken: smithy_client_7.expectString,
+        tokenType: smithy_client_7.expectString
       });
       Object.assign(contents, doc);
       return contents;
@@ -23315,160 +23500,271 @@ var require_dist_node11 = __commonJS({
           });
       }
     };
-    var throwDefaultError = (0, smithy_client_6.withBaseException)(SSOOIDCServiceException);
+    var de_RegisterClientCommand = async (output, context2) => {
+      if (output.statusCode !== 200 && output.statusCode >= 300) {
+        return de_RegisterClientCommandError(output, context2);
+      }
+      const contents = (0, smithy_client_7.map)({
+        $metadata: deserializeMetadata(output)
+      });
+      const data = (0, smithy_client_7.expectNonNull)((0, smithy_client_7.expectObject)(await parseBody(output.body, context2)), "body");
+      const doc = (0, smithy_client_7.take)(data, {
+        authorizationEndpoint: smithy_client_7.expectString,
+        clientId: smithy_client_7.expectString,
+        clientIdIssuedAt: smithy_client_7.expectLong,
+        clientSecret: smithy_client_7.expectString,
+        clientSecretExpiresAt: smithy_client_7.expectLong,
+        tokenEndpoint: smithy_client_7.expectString
+      });
+      Object.assign(contents, doc);
+      return contents;
+    };
+    var de_RegisterClientCommandError = async (output, context2) => {
+      const parsedOutput = {
+        ...output,
+        body: await parseErrorBody(output.body, context2)
+      };
+      const errorCode = loadRestJsonErrorCode(output, parsedOutput.body);
+      switch (errorCode) {
+        case "InternalServerException":
+        case "com.amazonaws.ssooidc#InternalServerException":
+          throw await de_InternalServerExceptionRes(parsedOutput, context2);
+        case "InvalidClientMetadataException":
+        case "com.amazonaws.ssooidc#InvalidClientMetadataException":
+          throw await de_InvalidClientMetadataExceptionRes(parsedOutput, context2);
+        case "InvalidRequestException":
+        case "com.amazonaws.ssooidc#InvalidRequestException":
+          throw await de_InvalidRequestExceptionRes(parsedOutput, context2);
+        case "InvalidScopeException":
+        case "com.amazonaws.ssooidc#InvalidScopeException":
+          throw await de_InvalidScopeExceptionRes(parsedOutput, context2);
+        default:
+          const parsedBody = parsedOutput.body;
+          return throwDefaultError({
+            output,
+            parsedBody,
+            errorCode
+          });
+      }
+    };
+    var de_StartDeviceAuthorizationCommand = async (output, context2) => {
+      if (output.statusCode !== 200 && output.statusCode >= 300) {
+        return de_StartDeviceAuthorizationCommandError(output, context2);
+      }
+      const contents = (0, smithy_client_7.map)({
+        $metadata: deserializeMetadata(output)
+      });
+      const data = (0, smithy_client_7.expectNonNull)((0, smithy_client_7.expectObject)(await parseBody(output.body, context2)), "body");
+      const doc = (0, smithy_client_7.take)(data, {
+        deviceCode: smithy_client_7.expectString,
+        expiresIn: smithy_client_7.expectInt32,
+        interval: smithy_client_7.expectInt32,
+        userCode: smithy_client_7.expectString,
+        verificationUri: smithy_client_7.expectString,
+        verificationUriComplete: smithy_client_7.expectString
+      });
+      Object.assign(contents, doc);
+      return contents;
+    };
+    var de_StartDeviceAuthorizationCommandError = async (output, context2) => {
+      const parsedOutput = {
+        ...output,
+        body: await parseErrorBody(output.body, context2)
+      };
+      const errorCode = loadRestJsonErrorCode(output, parsedOutput.body);
+      switch (errorCode) {
+        case "InternalServerException":
+        case "com.amazonaws.ssooidc#InternalServerException":
+          throw await de_InternalServerExceptionRes(parsedOutput, context2);
+        case "InvalidClientException":
+        case "com.amazonaws.ssooidc#InvalidClientException":
+          throw await de_InvalidClientExceptionRes(parsedOutput, context2);
+        case "InvalidRequestException":
+        case "com.amazonaws.ssooidc#InvalidRequestException":
+          throw await de_InvalidRequestExceptionRes(parsedOutput, context2);
+        case "SlowDownException":
+        case "com.amazonaws.ssooidc#SlowDownException":
+          throw await de_SlowDownExceptionRes(parsedOutput, context2);
+        case "UnauthorizedClientException":
+        case "com.amazonaws.ssooidc#UnauthorizedClientException":
+          throw await de_UnauthorizedClientExceptionRes(parsedOutput, context2);
+        default:
+          const parsedBody = parsedOutput.body;
+          return throwDefaultError({
+            output,
+            parsedBody,
+            errorCode
+          });
+      }
+    };
+    var throwDefaultError = (0, smithy_client_7.withBaseException)(SSOOIDCServiceException);
     var de_AccessDeniedExceptionRes = async (parsedOutput, context2) => {
-      const contents = (0, smithy_client_6.map)({});
+      const contents = (0, smithy_client_7.map)({});
       const data = parsedOutput.body;
-      const doc = (0, smithy_client_6.take)(data, {
-        error: smithy_client_6.expectString,
-        error_description: smithy_client_6.expectString
+      const doc = (0, smithy_client_7.take)(data, {
+        error: smithy_client_7.expectString,
+        error_description: smithy_client_7.expectString
       });
       Object.assign(contents, doc);
       const exception = new AccessDeniedException({
         $metadata: deserializeMetadata(parsedOutput),
         ...contents
       });
-      return (0, smithy_client_6.decorateServiceException)(exception, parsedOutput.body);
+      return (0, smithy_client_7.decorateServiceException)(exception, parsedOutput.body);
     };
     var de_AuthorizationPendingExceptionRes = async (parsedOutput, context2) => {
-      const contents = (0, smithy_client_6.map)({});
+      const contents = (0, smithy_client_7.map)({});
       const data = parsedOutput.body;
-      const doc = (0, smithy_client_6.take)(data, {
-        error: smithy_client_6.expectString,
-        error_description: smithy_client_6.expectString
+      const doc = (0, smithy_client_7.take)(data, {
+        error: smithy_client_7.expectString,
+        error_description: smithy_client_7.expectString
       });
       Object.assign(contents, doc);
       const exception = new AuthorizationPendingException({
         $metadata: deserializeMetadata(parsedOutput),
         ...contents
       });
-      return (0, smithy_client_6.decorateServiceException)(exception, parsedOutput.body);
+      return (0, smithy_client_7.decorateServiceException)(exception, parsedOutput.body);
     };
     var de_ExpiredTokenExceptionRes = async (parsedOutput, context2) => {
-      const contents = (0, smithy_client_6.map)({});
+      const contents = (0, smithy_client_7.map)({});
       const data = parsedOutput.body;
-      const doc = (0, smithy_client_6.take)(data, {
-        error: smithy_client_6.expectString,
-        error_description: smithy_client_6.expectString
+      const doc = (0, smithy_client_7.take)(data, {
+        error: smithy_client_7.expectString,
+        error_description: smithy_client_7.expectString
       });
       Object.assign(contents, doc);
       const exception = new ExpiredTokenException({
         $metadata: deserializeMetadata(parsedOutput),
         ...contents
       });
-      return (0, smithy_client_6.decorateServiceException)(exception, parsedOutput.body);
+      return (0, smithy_client_7.decorateServiceException)(exception, parsedOutput.body);
     };
     var de_InternalServerExceptionRes = async (parsedOutput, context2) => {
-      const contents = (0, smithy_client_6.map)({});
+      const contents = (0, smithy_client_7.map)({});
       const data = parsedOutput.body;
-      const doc = (0, smithy_client_6.take)(data, {
-        error: smithy_client_6.expectString,
-        error_description: smithy_client_6.expectString
+      const doc = (0, smithy_client_7.take)(data, {
+        error: smithy_client_7.expectString,
+        error_description: smithy_client_7.expectString
       });
       Object.assign(contents, doc);
       const exception = new InternalServerException({
         $metadata: deserializeMetadata(parsedOutput),
         ...contents
       });
-      return (0, smithy_client_6.decorateServiceException)(exception, parsedOutput.body);
+      return (0, smithy_client_7.decorateServiceException)(exception, parsedOutput.body);
     };
     var de_InvalidClientExceptionRes = async (parsedOutput, context2) => {
-      const contents = (0, smithy_client_6.map)({});
+      const contents = (0, smithy_client_7.map)({});
       const data = parsedOutput.body;
-      const doc = (0, smithy_client_6.take)(data, {
-        error: smithy_client_6.expectString,
-        error_description: smithy_client_6.expectString
+      const doc = (0, smithy_client_7.take)(data, {
+        error: smithy_client_7.expectString,
+        error_description: smithy_client_7.expectString
       });
       Object.assign(contents, doc);
       const exception = new InvalidClientException({
         $metadata: deserializeMetadata(parsedOutput),
         ...contents
       });
-      return (0, smithy_client_6.decorateServiceException)(exception, parsedOutput.body);
+      return (0, smithy_client_7.decorateServiceException)(exception, parsedOutput.body);
+    };
+    var de_InvalidClientMetadataExceptionRes = async (parsedOutput, context2) => {
+      const contents = (0, smithy_client_7.map)({});
+      const data = parsedOutput.body;
+      const doc = (0, smithy_client_7.take)(data, {
+        error: smithy_client_7.expectString,
+        error_description: smithy_client_7.expectString
+      });
+      Object.assign(contents, doc);
+      const exception = new InvalidClientMetadataException({
+        $metadata: deserializeMetadata(parsedOutput),
+        ...contents
+      });
+      return (0, smithy_client_7.decorateServiceException)(exception, parsedOutput.body);
     };
     var de_InvalidGrantExceptionRes = async (parsedOutput, context2) => {
-      const contents = (0, smithy_client_6.map)({});
+      const contents = (0, smithy_client_7.map)({});
       const data = parsedOutput.body;
-      const doc = (0, smithy_client_6.take)(data, {
-        error: smithy_client_6.expectString,
-        error_description: smithy_client_6.expectString
+      const doc = (0, smithy_client_7.take)(data, {
+        error: smithy_client_7.expectString,
+        error_description: smithy_client_7.expectString
       });
       Object.assign(contents, doc);
       const exception = new InvalidGrantException({
         $metadata: deserializeMetadata(parsedOutput),
         ...contents
       });
-      return (0, smithy_client_6.decorateServiceException)(exception, parsedOutput.body);
+      return (0, smithy_client_7.decorateServiceException)(exception, parsedOutput.body);
     };
     var de_InvalidRequestExceptionRes = async (parsedOutput, context2) => {
-      const contents = (0, smithy_client_6.map)({});
+      const contents = (0, smithy_client_7.map)({});
       const data = parsedOutput.body;
-      const doc = (0, smithy_client_6.take)(data, {
-        error: smithy_client_6.expectString,
-        error_description: smithy_client_6.expectString
+      const doc = (0, smithy_client_7.take)(data, {
+        error: smithy_client_7.expectString,
+        error_description: smithy_client_7.expectString
       });
       Object.assign(contents, doc);
       const exception = new InvalidRequestException({
         $metadata: deserializeMetadata(parsedOutput),
         ...contents
       });
-      return (0, smithy_client_6.decorateServiceException)(exception, parsedOutput.body);
+      return (0, smithy_client_7.decorateServiceException)(exception, parsedOutput.body);
     };
     var de_InvalidScopeExceptionRes = async (parsedOutput, context2) => {
-      const contents = (0, smithy_client_6.map)({});
+      const contents = (0, smithy_client_7.map)({});
       const data = parsedOutput.body;
-      const doc = (0, smithy_client_6.take)(data, {
-        error: smithy_client_6.expectString,
-        error_description: smithy_client_6.expectString
+      const doc = (0, smithy_client_7.take)(data, {
+        error: smithy_client_7.expectString,
+        error_description: smithy_client_7.expectString
       });
       Object.assign(contents, doc);
       const exception = new InvalidScopeException({
         $metadata: deserializeMetadata(parsedOutput),
         ...contents
       });
-      return (0, smithy_client_6.decorateServiceException)(exception, parsedOutput.body);
+      return (0, smithy_client_7.decorateServiceException)(exception, parsedOutput.body);
     };
     var de_SlowDownExceptionRes = async (parsedOutput, context2) => {
-      const contents = (0, smithy_client_6.map)({});
+      const contents = (0, smithy_client_7.map)({});
       const data = parsedOutput.body;
-      const doc = (0, smithy_client_6.take)(data, {
-        error: smithy_client_6.expectString,
-        error_description: smithy_client_6.expectString
+      const doc = (0, smithy_client_7.take)(data, {
+        error: smithy_client_7.expectString,
+        error_description: smithy_client_7.expectString
       });
       Object.assign(contents, doc);
       const exception = new SlowDownException({
         $metadata: deserializeMetadata(parsedOutput),
         ...contents
       });
-      return (0, smithy_client_6.decorateServiceException)(exception, parsedOutput.body);
+      return (0, smithy_client_7.decorateServiceException)(exception, parsedOutput.body);
     };
     var de_UnauthorizedClientExceptionRes = async (parsedOutput, context2) => {
-      const contents = (0, smithy_client_6.map)({});
+      const contents = (0, smithy_client_7.map)({});
       const data = parsedOutput.body;
-      const doc = (0, smithy_client_6.take)(data, {
-        error: smithy_client_6.expectString,
-        error_description: smithy_client_6.expectString
+      const doc = (0, smithy_client_7.take)(data, {
+        error: smithy_client_7.expectString,
+        error_description: smithy_client_7.expectString
       });
       Object.assign(contents, doc);
       const exception = new UnauthorizedClientException({
         $metadata: deserializeMetadata(parsedOutput),
         ...contents
       });
-      return (0, smithy_client_6.decorateServiceException)(exception, parsedOutput.body);
+      return (0, smithy_client_7.decorateServiceException)(exception, parsedOutput.body);
     };
     var de_UnsupportedGrantTypeExceptionRes = async (parsedOutput, context2) => {
-      const contents = (0, smithy_client_6.map)({});
+      const contents = (0, smithy_client_7.map)({});
       const data = parsedOutput.body;
-      const doc = (0, smithy_client_6.take)(data, {
-        error: smithy_client_6.expectString,
-        error_description: smithy_client_6.expectString
+      const doc = (0, smithy_client_7.take)(data, {
+        error: smithy_client_7.expectString,
+        error_description: smithy_client_7.expectString
       });
       Object.assign(contents, doc);
       const exception = new UnsupportedGrantTypeException({
         $metadata: deserializeMetadata(parsedOutput),
         ...contents
       });
-      return (0, smithy_client_6.decorateServiceException)(exception, parsedOutput.body);
+      return (0, smithy_client_7.decorateServiceException)(exception, parsedOutput.body);
     };
     var deserializeMetadata = (output) => {
       var _a, _b;
@@ -23479,7 +23775,7 @@ var require_dist_node11 = __commonJS({
         cfId: output.headers["x-amz-cf-id"]
       };
     };
-    var collectBodyString = (streamBody, context2) => (0, smithy_client_6.collectBody)(streamBody, context2).then((body) => context2.utf8Encoder(body));
+    var collectBodyString = (streamBody, context2) => (0, smithy_client_7.collectBody)(streamBody, context2).then((body) => context2.utf8Encoder(body));
     var parseBody = (streamBody, context2) => collectBodyString(streamBody, context2).then((encoded) => {
       if (encoded.length) {
         return JSON.parse(encoded);
@@ -23521,7 +23817,7 @@ var require_dist_node11 = __commonJS({
         return sanitizeErrorCode(data["__type"]);
       }
     };
-    var CreateTokenCommand = class _CreateTokenCommand extends smithy_client_5.Command {
+    var CreateTokenCommand = class _CreateTokenCommand extends smithy_client_6.Command {
       constructor(input) {
         super();
         this.input = input;
@@ -23559,12 +23855,100 @@ var require_dist_node11 = __commonJS({
       }
     };
     exports.CreateTokenCommand = CreateTokenCommand;
+    var middleware_endpoint_3 = require_dist_cjs26();
+    var middleware_serde_2 = require_dist_cjs25();
+    var smithy_client_9 = require_dist_cjs35();
+    var RegisterClientCommand = class _RegisterClientCommand extends smithy_client_9.Command {
+      constructor(input) {
+        super();
+        this.input = input;
+      }
+      static getEndpointParameterInstructions() {
+        return {
+          UseFIPS: { type: "builtInParams", name: "useFipsEndpoint" },
+          Endpoint: { type: "builtInParams", name: "endpoint" },
+          Region: { type: "builtInParams", name: "region" },
+          UseDualStack: { type: "builtInParams", name: "useDualstackEndpoint" }
+        };
+      }
+      resolveMiddleware(clientStack, configuration, options) {
+        this.middlewareStack.use((0, middleware_serde_2.getSerdePlugin)(configuration, this.serialize, this.deserialize));
+        this.middlewareStack.use((0, middleware_endpoint_3.getEndpointPlugin)(configuration, _RegisterClientCommand.getEndpointParameterInstructions()));
+        const stack = clientStack.concat(this.middlewareStack);
+        const { logger } = configuration;
+        const clientName = "SSOOIDCClient";
+        const commandName = "RegisterClientCommand";
+        const handlerExecutionContext = {
+          logger,
+          clientName,
+          commandName,
+          inputFilterSensitiveLog: (_) => _,
+          outputFilterSensitiveLog: (_) => _
+        };
+        const { requestHandler } = configuration;
+        return stack.resolve((request) => requestHandler.handle(request.request, options || {}), handlerExecutionContext);
+      }
+      serialize(input, context2) {
+        return se_RegisterClientCommand(input, context2);
+      }
+      deserialize(output, context2) {
+        return de_RegisterClientCommand(output, context2);
+      }
+    };
+    var middleware_endpoint_4 = require_dist_cjs26();
+    var middleware_serde_3 = require_dist_cjs25();
+    var smithy_client_10 = require_dist_cjs35();
+    var StartDeviceAuthorizationCommand = class _StartDeviceAuthorizationCommand extends smithy_client_10.Command {
+      constructor(input) {
+        super();
+        this.input = input;
+      }
+      static getEndpointParameterInstructions() {
+        return {
+          UseFIPS: { type: "builtInParams", name: "useFipsEndpoint" },
+          Endpoint: { type: "builtInParams", name: "endpoint" },
+          Region: { type: "builtInParams", name: "region" },
+          UseDualStack: { type: "builtInParams", name: "useDualstackEndpoint" }
+        };
+      }
+      resolveMiddleware(clientStack, configuration, options) {
+        this.middlewareStack.use((0, middleware_serde_3.getSerdePlugin)(configuration, this.serialize, this.deserialize));
+        this.middlewareStack.use((0, middleware_endpoint_4.getEndpointPlugin)(configuration, _StartDeviceAuthorizationCommand.getEndpointParameterInstructions()));
+        const stack = clientStack.concat(this.middlewareStack);
+        const { logger } = configuration;
+        const clientName = "SSOOIDCClient";
+        const commandName = "StartDeviceAuthorizationCommand";
+        const handlerExecutionContext = {
+          logger,
+          clientName,
+          commandName,
+          inputFilterSensitiveLog: (_) => _,
+          outputFilterSensitiveLog: (_) => _
+        };
+        const { requestHandler } = configuration;
+        return stack.resolve((request) => requestHandler.handle(request.request, options || {}), handlerExecutionContext);
+      }
+      serialize(input, context2) {
+        return se_StartDeviceAuthorizationCommand(input, context2);
+      }
+      deserialize(output, context2) {
+        return de_StartDeviceAuthorizationCommand(output, context2);
+      }
+    };
+    var commands = {
+      CreateTokenCommand,
+      RegisterClientCommand,
+      StartDeviceAuthorizationCommand
+    };
+    var SSOOIDC = class extends SSOOIDCClient {
+    };
+    (0, smithy_client_5.createAggregatedClient)(commands, SSOOIDC);
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+token-providers@3.385.0/node_modules/@aws-sdk/token-providers/dist-cjs/constants.js
+// node_modules/.pnpm/@aws-sdk+token-providers@3.405.0/node_modules/@aws-sdk/token-providers/dist-cjs/constants.js
 var require_constants8 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+token-providers@3.385.0/node_modules/@aws-sdk/token-providers/dist-cjs/constants.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+token-providers@3.405.0/node_modules/@aws-sdk/token-providers/dist-cjs/constants.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.REFRESH_MESSAGE = exports.EXPIRE_WINDOW_MS = void 0;
@@ -23573,19 +23957,19 @@ var require_constants8 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+token-providers@3.385.0/node_modules/@aws-sdk/token-providers/dist-cjs/getSsoOidcClient.js
+// node_modules/.pnpm/@aws-sdk+token-providers@3.405.0/node_modules/@aws-sdk/token-providers/dist-cjs/getSsoOidcClient.js
 var require_getSsoOidcClient = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+token-providers@3.385.0/node_modules/@aws-sdk/token-providers/dist-cjs/getSsoOidcClient.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+token-providers@3.405.0/node_modules/@aws-sdk/token-providers/dist-cjs/getSsoOidcClient.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.getSsoOidcClient = void 0;
-    var dist_node_1 = require_dist_node11();
+    var client_sso_oidc_node_1 = require_client_sso_oidc_node();
     var ssoOidcClientsHash = {};
     var getSsoOidcClient = (ssoRegion) => {
       if (ssoOidcClientsHash[ssoRegion]) {
         return ssoOidcClientsHash[ssoRegion];
       }
-      const ssoOidcClient = new dist_node_1.SSOOIDCClient({ region: ssoRegion });
+      const ssoOidcClient = new client_sso_oidc_node_1.SSOOIDCClient({ region: ssoRegion });
       ssoOidcClientsHash[ssoRegion] = ssoOidcClient;
       return ssoOidcClient;
     };
@@ -23593,17 +23977,17 @@ var require_getSsoOidcClient = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+token-providers@3.385.0/node_modules/@aws-sdk/token-providers/dist-cjs/getNewSsoOidcToken.js
+// node_modules/.pnpm/@aws-sdk+token-providers@3.405.0/node_modules/@aws-sdk/token-providers/dist-cjs/getNewSsoOidcToken.js
 var require_getNewSsoOidcToken = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+token-providers@3.385.0/node_modules/@aws-sdk/token-providers/dist-cjs/getNewSsoOidcToken.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+token-providers@3.405.0/node_modules/@aws-sdk/token-providers/dist-cjs/getNewSsoOidcToken.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.getNewSsoOidcToken = void 0;
-    var dist_node_1 = require_dist_node11();
+    var client_sso_oidc_node_1 = require_client_sso_oidc_node();
     var getSsoOidcClient_1 = require_getSsoOidcClient();
     var getNewSsoOidcToken = (ssoToken, ssoRegion) => {
       const ssoOidcClient = (0, getSsoOidcClient_1.getSsoOidcClient)(ssoRegion);
-      return ssoOidcClient.send(new dist_node_1.CreateTokenCommand({
+      return ssoOidcClient.send(new client_sso_oidc_node_1.CreateTokenCommand({
         clientId: ssoToken.clientId,
         clientSecret: ssoToken.clientSecret,
         refreshToken: ssoToken.refreshToken,
@@ -23614,9 +23998,9 @@ var require_getNewSsoOidcToken = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+token-providers@3.385.0/node_modules/@aws-sdk/token-providers/dist-cjs/validateTokenExpiry.js
+// node_modules/.pnpm/@aws-sdk+token-providers@3.405.0/node_modules/@aws-sdk/token-providers/dist-cjs/validateTokenExpiry.js
 var require_validateTokenExpiry = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+token-providers@3.385.0/node_modules/@aws-sdk/token-providers/dist-cjs/validateTokenExpiry.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+token-providers@3.405.0/node_modules/@aws-sdk/token-providers/dist-cjs/validateTokenExpiry.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.validateTokenExpiry = void 0;
@@ -23631,9 +24015,9 @@ var require_validateTokenExpiry = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+token-providers@3.385.0/node_modules/@aws-sdk/token-providers/dist-cjs/validateTokenKey.js
+// node_modules/.pnpm/@aws-sdk+token-providers@3.405.0/node_modules/@aws-sdk/token-providers/dist-cjs/validateTokenKey.js
 var require_validateTokenKey = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+token-providers@3.385.0/node_modules/@aws-sdk/token-providers/dist-cjs/validateTokenKey.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+token-providers@3.405.0/node_modules/@aws-sdk/token-providers/dist-cjs/validateTokenKey.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.validateTokenKey = void 0;
@@ -23648,9 +24032,9 @@ var require_validateTokenKey = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+token-providers@3.385.0/node_modules/@aws-sdk/token-providers/dist-cjs/writeSSOTokenToFile.js
+// node_modules/.pnpm/@aws-sdk+token-providers@3.405.0/node_modules/@aws-sdk/token-providers/dist-cjs/writeSSOTokenToFile.js
 var require_writeSSOTokenToFile = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+token-providers@3.385.0/node_modules/@aws-sdk/token-providers/dist-cjs/writeSSOTokenToFile.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+token-providers@3.405.0/node_modules/@aws-sdk/token-providers/dist-cjs/writeSSOTokenToFile.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.writeSSOTokenToFile = void 0;
@@ -23666,9 +24050,9 @@ var require_writeSSOTokenToFile = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+token-providers@3.385.0/node_modules/@aws-sdk/token-providers/dist-cjs/fromSso.js
+// node_modules/.pnpm/@aws-sdk+token-providers@3.405.0/node_modules/@aws-sdk/token-providers/dist-cjs/fromSso.js
 var require_fromSso = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+token-providers@3.385.0/node_modules/@aws-sdk/token-providers/dist-cjs/fromSso.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+token-providers@3.405.0/node_modules/@aws-sdk/token-providers/dist-cjs/fromSso.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.fromSso = void 0;
@@ -23750,9 +24134,9 @@ var require_fromSso = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+token-providers@3.385.0/node_modules/@aws-sdk/token-providers/dist-cjs/fromStatic.js
+// node_modules/.pnpm/@aws-sdk+token-providers@3.405.0/node_modules/@aws-sdk/token-providers/dist-cjs/fromStatic.js
 var require_fromStatic3 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+token-providers@3.385.0/node_modules/@aws-sdk/token-providers/dist-cjs/fromStatic.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+token-providers@3.405.0/node_modules/@aws-sdk/token-providers/dist-cjs/fromStatic.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.fromStatic = void 0;
@@ -23767,9 +24151,9 @@ var require_fromStatic3 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+token-providers@3.385.0/node_modules/@aws-sdk/token-providers/dist-cjs/nodeProvider.js
+// node_modules/.pnpm/@aws-sdk+token-providers@3.405.0/node_modules/@aws-sdk/token-providers/dist-cjs/nodeProvider.js
 var require_nodeProvider = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+token-providers@3.385.0/node_modules/@aws-sdk/token-providers/dist-cjs/nodeProvider.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+token-providers@3.405.0/node_modules/@aws-sdk/token-providers/dist-cjs/nodeProvider.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.nodeProvider = void 0;
@@ -23782,22 +24166,22 @@ var require_nodeProvider = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+token-providers@3.385.0/node_modules/@aws-sdk/token-providers/dist-cjs/index.js
+// node_modules/.pnpm/@aws-sdk+token-providers@3.405.0/node_modules/@aws-sdk/token-providers/dist-cjs/index.js
 var require_dist_cjs47 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+token-providers@3.385.0/node_modules/@aws-sdk/token-providers/dist-cjs/index.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+token-providers@3.405.0/node_modules/@aws-sdk/token-providers/dist-cjs/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var tslib_1 = (init_tslib_es6(), __toCommonJS(tslib_es6_exports));
-    tslib_1.__exportStar(require_dist_node11(), exports);
+    tslib_1.__exportStar(require_client_sso_oidc_node(), exports);
     tslib_1.__exportStar(require_fromSso(), exports);
     tslib_1.__exportStar(require_fromStatic3(), exports);
     tslib_1.__exportStar(require_nodeProvider(), exports);
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+credential-provider-sso@3.385.0/node_modules/@aws-sdk/credential-provider-sso/dist-cjs/resolveSSOCredentials.js
+// node_modules/.pnpm/@aws-sdk+credential-provider-sso@3.405.0/node_modules/@aws-sdk/credential-provider-sso/dist-cjs/resolveSSOCredentials.js
 var require_resolveSSOCredentials = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+credential-provider-sso@3.385.0/node_modules/@aws-sdk/credential-provider-sso/dist-cjs/resolveSSOCredentials.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+credential-provider-sso@3.405.0/node_modules/@aws-sdk/credential-provider-sso/dist-cjs/resolveSSOCredentials.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.resolveSSOCredentials = void 0;
@@ -23805,7 +24189,6 @@ var require_resolveSSOCredentials = __commonJS({
     var token_providers_1 = require_dist_cjs47();
     var property_provider_1 = require_dist_cjs6();
     var shared_ini_file_loader_1 = require_dist_cjs38();
-    var EXPIRE_WINDOW_MS = 15 * 60 * 1e3;
     var SHOULD_FAIL_CREDENTIAL_CHAIN = false;
     var resolveSSOCredentials = async ({ ssoStartUrl, ssoSession, ssoAccountId, ssoRegion, ssoRoleName, ssoClient, profile }) => {
       let token;
@@ -23827,7 +24210,7 @@ var require_resolveSSOCredentials = __commonJS({
           throw new property_provider_1.CredentialsProviderError(`The SSO session associated with this profile is invalid. ${refreshMessage}`, SHOULD_FAIL_CREDENTIAL_CHAIN);
         }
       }
-      if (new Date(token.expiresAt).getTime() - Date.now() <= EXPIRE_WINDOW_MS) {
+      if (new Date(token.expiresAt).getTime() - Date.now() <= 0) {
         throw new property_provider_1.CredentialsProviderError(`The SSO session associated with this profile has expired. ${refreshMessage}`, SHOULD_FAIL_CREDENTIAL_CHAIN);
       }
       const { accessToken } = token;
@@ -23852,9 +24235,9 @@ var require_resolveSSOCredentials = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+credential-provider-sso@3.385.0/node_modules/@aws-sdk/credential-provider-sso/dist-cjs/validateSsoProfile.js
+// node_modules/.pnpm/@aws-sdk+credential-provider-sso@3.405.0/node_modules/@aws-sdk/credential-provider-sso/dist-cjs/validateSsoProfile.js
 var require_validateSsoProfile = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+credential-provider-sso@3.385.0/node_modules/@aws-sdk/credential-provider-sso/dist-cjs/validateSsoProfile.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+credential-provider-sso@3.405.0/node_modules/@aws-sdk/credential-provider-sso/dist-cjs/validateSsoProfile.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.validateSsoProfile = void 0;
@@ -23871,9 +24254,9 @@ Reference: https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-sso.ht
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+credential-provider-sso@3.385.0/node_modules/@aws-sdk/credential-provider-sso/dist-cjs/fromSSO.js
+// node_modules/.pnpm/@aws-sdk+credential-provider-sso@3.405.0/node_modules/@aws-sdk/credential-provider-sso/dist-cjs/fromSSO.js
 var require_fromSSO = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+credential-provider-sso@3.385.0/node_modules/@aws-sdk/credential-provider-sso/dist-cjs/fromSSO.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+credential-provider-sso@3.405.0/node_modules/@aws-sdk/credential-provider-sso/dist-cjs/fromSSO.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.fromSSO = void 0;
@@ -23935,17 +24318,17 @@ var require_fromSSO = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+credential-provider-sso@3.385.0/node_modules/@aws-sdk/credential-provider-sso/dist-cjs/types.js
+// node_modules/.pnpm/@aws-sdk+credential-provider-sso@3.405.0/node_modules/@aws-sdk/credential-provider-sso/dist-cjs/types.js
 var require_types7 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+credential-provider-sso@3.385.0/node_modules/@aws-sdk/credential-provider-sso/dist-cjs/types.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+credential-provider-sso@3.405.0/node_modules/@aws-sdk/credential-provider-sso/dist-cjs/types.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+credential-provider-sso@3.385.0/node_modules/@aws-sdk/credential-provider-sso/dist-cjs/index.js
+// node_modules/.pnpm/@aws-sdk+credential-provider-sso@3.405.0/node_modules/@aws-sdk/credential-provider-sso/dist-cjs/index.js
 var require_dist_cjs48 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+credential-provider-sso@3.385.0/node_modules/@aws-sdk/credential-provider-sso/dist-cjs/index.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+credential-provider-sso@3.405.0/node_modules/@aws-sdk/credential-provider-sso/dist-cjs/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var tslib_1 = (init_tslib_es6(), __toCommonJS(tslib_es6_exports));
@@ -23956,9 +24339,9 @@ var require_dist_cjs48 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+credential-provider-ini@3.385.0/node_modules/@aws-sdk/credential-provider-ini/dist-cjs/resolveSsoCredentials.js
+// node_modules/.pnpm/@aws-sdk+credential-provider-ini@3.405.0/node_modules/@aws-sdk/credential-provider-ini/dist-cjs/resolveSsoCredentials.js
 var require_resolveSsoCredentials = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+credential-provider-ini@3.385.0/node_modules/@aws-sdk/credential-provider-ini/dist-cjs/resolveSsoCredentials.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+credential-provider-ini@3.405.0/node_modules/@aws-sdk/credential-provider-ini/dist-cjs/resolveSsoCredentials.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.resolveSsoCredentials = exports.isSsoProfile = void 0;
@@ -23981,9 +24364,9 @@ var require_resolveSsoCredentials = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+credential-provider-ini@3.385.0/node_modules/@aws-sdk/credential-provider-ini/dist-cjs/resolveStaticCredentials.js
+// node_modules/.pnpm/@aws-sdk+credential-provider-ini@3.405.0/node_modules/@aws-sdk/credential-provider-ini/dist-cjs/resolveStaticCredentials.js
 var require_resolveStaticCredentials = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+credential-provider-ini@3.385.0/node_modules/@aws-sdk/credential-provider-ini/dist-cjs/resolveStaticCredentials.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+credential-provider-ini@3.405.0/node_modules/@aws-sdk/credential-provider-ini/dist-cjs/resolveStaticCredentials.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.resolveStaticCredentials = exports.isStaticCredsProfile = void 0;
@@ -23998,9 +24381,9 @@ var require_resolveStaticCredentials = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+credential-provider-web-identity@3.378.0/node_modules/@aws-sdk/credential-provider-web-identity/dist-cjs/fromWebToken.js
+// node_modules/.pnpm/@aws-sdk+credential-provider-web-identity@3.398.0/node_modules/@aws-sdk/credential-provider-web-identity/dist-cjs/fromWebToken.js
 var require_fromWebToken = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+credential-provider-web-identity@3.378.0/node_modules/@aws-sdk/credential-provider-web-identity/dist-cjs/fromWebToken.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+credential-provider-web-identity@3.398.0/node_modules/@aws-sdk/credential-provider-web-identity/dist-cjs/fromWebToken.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.fromWebToken = void 0;
@@ -24024,9 +24407,9 @@ var require_fromWebToken = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+credential-provider-web-identity@3.378.0/node_modules/@aws-sdk/credential-provider-web-identity/dist-cjs/fromTokenFile.js
+// node_modules/.pnpm/@aws-sdk+credential-provider-web-identity@3.398.0/node_modules/@aws-sdk/credential-provider-web-identity/dist-cjs/fromTokenFile.js
 var require_fromTokenFile = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+credential-provider-web-identity@3.378.0/node_modules/@aws-sdk/credential-provider-web-identity/dist-cjs/fromTokenFile.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+credential-provider-web-identity@3.398.0/node_modules/@aws-sdk/credential-provider-web-identity/dist-cjs/fromTokenFile.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.fromTokenFile = void 0;
@@ -24055,9 +24438,9 @@ var require_fromTokenFile = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+credential-provider-web-identity@3.378.0/node_modules/@aws-sdk/credential-provider-web-identity/dist-cjs/index.js
+// node_modules/.pnpm/@aws-sdk+credential-provider-web-identity@3.398.0/node_modules/@aws-sdk/credential-provider-web-identity/dist-cjs/index.js
 var require_dist_cjs49 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+credential-provider-web-identity@3.378.0/node_modules/@aws-sdk/credential-provider-web-identity/dist-cjs/index.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+credential-provider-web-identity@3.398.0/node_modules/@aws-sdk/credential-provider-web-identity/dist-cjs/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var tslib_1 = (init_tslib_es6(), __toCommonJS(tslib_es6_exports));
@@ -24066,9 +24449,9 @@ var require_dist_cjs49 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+credential-provider-ini@3.385.0/node_modules/@aws-sdk/credential-provider-ini/dist-cjs/resolveWebIdentityCredentials.js
+// node_modules/.pnpm/@aws-sdk+credential-provider-ini@3.405.0/node_modules/@aws-sdk/credential-provider-ini/dist-cjs/resolveWebIdentityCredentials.js
 var require_resolveWebIdentityCredentials = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+credential-provider-ini@3.385.0/node_modules/@aws-sdk/credential-provider-ini/dist-cjs/resolveWebIdentityCredentials.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+credential-provider-ini@3.405.0/node_modules/@aws-sdk/credential-provider-ini/dist-cjs/resolveWebIdentityCredentials.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.resolveWebIdentityCredentials = exports.isWebIdentityProfile = void 0;
@@ -24085,9 +24468,9 @@ var require_resolveWebIdentityCredentials = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+credential-provider-ini@3.385.0/node_modules/@aws-sdk/credential-provider-ini/dist-cjs/resolveProfileData.js
+// node_modules/.pnpm/@aws-sdk+credential-provider-ini@3.405.0/node_modules/@aws-sdk/credential-provider-ini/dist-cjs/resolveProfileData.js
 var require_resolveProfileData = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+credential-provider-ini@3.385.0/node_modules/@aws-sdk/credential-provider-ini/dist-cjs/resolveProfileData.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+credential-provider-ini@3.405.0/node_modules/@aws-sdk/credential-provider-ini/dist-cjs/resolveProfileData.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.resolveProfileData = void 0;
@@ -24123,9 +24506,9 @@ var require_resolveProfileData = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+credential-provider-ini@3.385.0/node_modules/@aws-sdk/credential-provider-ini/dist-cjs/fromIni.js
+// node_modules/.pnpm/@aws-sdk+credential-provider-ini@3.405.0/node_modules/@aws-sdk/credential-provider-ini/dist-cjs/fromIni.js
 var require_fromIni = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+credential-provider-ini@3.385.0/node_modules/@aws-sdk/credential-provider-ini/dist-cjs/fromIni.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+credential-provider-ini@3.405.0/node_modules/@aws-sdk/credential-provider-ini/dist-cjs/fromIni.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.fromIni = void 0;
@@ -24139,9 +24522,9 @@ var require_fromIni = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+credential-provider-ini@3.385.0/node_modules/@aws-sdk/credential-provider-ini/dist-cjs/index.js
+// node_modules/.pnpm/@aws-sdk+credential-provider-ini@3.405.0/node_modules/@aws-sdk/credential-provider-ini/dist-cjs/index.js
 var require_dist_cjs50 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+credential-provider-ini@3.385.0/node_modules/@aws-sdk/credential-provider-ini/dist-cjs/index.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+credential-provider-ini@3.405.0/node_modules/@aws-sdk/credential-provider-ini/dist-cjs/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var tslib_1 = (init_tslib_es6(), __toCommonJS(tslib_es6_exports));
@@ -24149,9 +24532,9 @@ var require_dist_cjs50 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+credential-provider-node@3.385.0/node_modules/@aws-sdk/credential-provider-node/dist-cjs/remoteProvider.js
+// node_modules/.pnpm/@aws-sdk+credential-provider-node@3.405.0/node_modules/@aws-sdk/credential-provider-node/dist-cjs/remoteProvider.js
 var require_remoteProvider = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+credential-provider-node@3.385.0/node_modules/@aws-sdk/credential-provider-node/dist-cjs/remoteProvider.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+credential-provider-node@3.405.0/node_modules/@aws-sdk/credential-provider-node/dist-cjs/remoteProvider.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.remoteProvider = exports.ENV_IMDS_DISABLED = void 0;
@@ -24173,9 +24556,9 @@ var require_remoteProvider = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+credential-provider-node@3.385.0/node_modules/@aws-sdk/credential-provider-node/dist-cjs/defaultProvider.js
+// node_modules/.pnpm/@aws-sdk+credential-provider-node@3.405.0/node_modules/@aws-sdk/credential-provider-node/dist-cjs/defaultProvider.js
 var require_defaultProvider = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+credential-provider-node@3.385.0/node_modules/@aws-sdk/credential-provider-node/dist-cjs/defaultProvider.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+credential-provider-node@3.405.0/node_modules/@aws-sdk/credential-provider-node/dist-cjs/defaultProvider.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.defaultProvider = void 0;
@@ -24194,9 +24577,9 @@ var require_defaultProvider = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+credential-provider-node@3.385.0/node_modules/@aws-sdk/credential-provider-node/dist-cjs/index.js
+// node_modules/.pnpm/@aws-sdk+credential-provider-node@3.405.0/node_modules/@aws-sdk/credential-provider-node/dist-cjs/index.js
 var require_dist_cjs51 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+credential-provider-node@3.385.0/node_modules/@aws-sdk/credential-provider-node/dist-cjs/index.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+credential-provider-node@3.405.0/node_modules/@aws-sdk/credential-provider-node/dist-cjs/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var tslib_1 = (init_tslib_es6(), __toCommonJS(tslib_es6_exports));
@@ -24204,9 +24587,9 @@ var require_dist_cjs51 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-sts@3.385.0/node_modules/@aws-sdk/client-sts/dist-cjs/endpoint/ruleset.js
+// node_modules/.pnpm/@aws-sdk+client-sts@3.405.0/node_modules/@aws-sdk/client-sts/dist-cjs/endpoint/ruleset.js
 var require_ruleset2 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-sts@3.385.0/node_modules/@aws-sdk/client-sts/dist-cjs/endpoint/ruleset.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-sts@3.405.0/node_modules/@aws-sdk/client-sts/dist-cjs/endpoint/ruleset.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.ruleSet = void 0;
@@ -24251,9 +24634,9 @@ var require_ruleset2 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-sts@3.385.0/node_modules/@aws-sdk/client-sts/dist-cjs/endpoint/endpointResolver.js
+// node_modules/.pnpm/@aws-sdk+client-sts@3.405.0/node_modules/@aws-sdk/client-sts/dist-cjs/endpoint/endpointResolver.js
 var require_endpointResolver2 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-sts@3.385.0/node_modules/@aws-sdk/client-sts/dist-cjs/endpoint/endpointResolver.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-sts@3.405.0/node_modules/@aws-sdk/client-sts/dist-cjs/endpoint/endpointResolver.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.defaultEndpointResolver = void 0;
@@ -24269,9 +24652,9 @@ var require_endpointResolver2 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-sts@3.385.0/node_modules/@aws-sdk/client-sts/dist-cjs/runtimeConfig.shared.js
+// node_modules/.pnpm/@aws-sdk+client-sts@3.405.0/node_modules/@aws-sdk/client-sts/dist-cjs/runtimeConfig.shared.js
 var require_runtimeConfig_shared2 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-sts@3.385.0/node_modules/@aws-sdk/client-sts/dist-cjs/runtimeConfig.shared.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-sts@3.405.0/node_modules/@aws-sdk/client-sts/dist-cjs/runtimeConfig.shared.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.getRuntimeConfig = void 0;
@@ -24286,6 +24669,7 @@ var require_runtimeConfig_shared2 = __commonJS({
       base64Encoder: config?.base64Encoder ?? util_base64_1.toBase64,
       disableHostPrefix: config?.disableHostPrefix ?? false,
       endpointProvider: config?.endpointProvider ?? endpointResolver_1.defaultEndpointResolver,
+      extensions: config?.extensions ?? [],
       logger: config?.logger ?? new smithy_client_1.NoOpLogger(),
       serviceId: config?.serviceId ?? "STS",
       urlParser: config?.urlParser ?? url_parser_1.parseUrl,
@@ -24296,9 +24680,9 @@ var require_runtimeConfig_shared2 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-sts@3.385.0/node_modules/@aws-sdk/client-sts/dist-cjs/runtimeConfig.js
+// node_modules/.pnpm/@aws-sdk+client-sts@3.405.0/node_modules/@aws-sdk/client-sts/dist-cjs/runtimeConfig.js
 var require_runtimeConfig2 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-sts@3.385.0/node_modules/@aws-sdk/client-sts/dist-cjs/runtimeConfig.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-sts@3.405.0/node_modules/@aws-sdk/client-sts/dist-cjs/runtimeConfig.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.getRuntimeConfig = void 0;
@@ -24348,9 +24732,31 @@ var require_runtimeConfig2 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-sts@3.385.0/node_modules/@aws-sdk/client-sts/dist-cjs/STSClient.js
+// node_modules/.pnpm/@aws-sdk+client-sts@3.405.0/node_modules/@aws-sdk/client-sts/dist-cjs/runtimeExtensions.js
+var require_runtimeExtensions2 = __commonJS({
+  "node_modules/.pnpm/@aws-sdk+client-sts@3.405.0/node_modules/@aws-sdk/client-sts/dist-cjs/runtimeExtensions.js"(exports) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    exports.resolveRuntimeExtensions = void 0;
+    var smithy_client_1 = require_dist_cjs35();
+    var asPartial = (t2) => t2;
+    var resolveRuntimeExtensions = (runtimeConfig, extensions) => {
+      const extensionConfiguration = {
+        ...asPartial((0, smithy_client_1.getDefaultExtensionConfiguration)(runtimeConfig))
+      };
+      extensions.forEach((extension) => extension.configure(extensionConfiguration));
+      return {
+        ...runtimeConfig,
+        ...(0, smithy_client_1.resolveDefaultRuntimeConfig)(extensionConfiguration)
+      };
+    };
+    exports.resolveRuntimeExtensions = resolveRuntimeExtensions;
+  }
+});
+
+// node_modules/.pnpm/@aws-sdk+client-sts@3.405.0/node_modules/@aws-sdk/client-sts/dist-cjs/STSClient.js
 var require_STSClient = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-sts@3.385.0/node_modules/@aws-sdk/client-sts/dist-cjs/STSClient.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-sts@3.405.0/node_modules/@aws-sdk/client-sts/dist-cjs/STSClient.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.STSClient = exports.__Client = void 0;
@@ -24369,9 +24775,10 @@ var require_STSClient = __commonJS({
     } });
     var EndpointParameters_1 = require_EndpointParameters2();
     var runtimeConfig_1 = require_runtimeConfig2();
+    var runtimeExtensions_1 = require_runtimeExtensions2();
     var STSClient = class _STSClient extends smithy_client_1.Client {
-      constructor(configuration) {
-        const _config_0 = (0, runtimeConfig_1.getRuntimeConfig)(configuration);
+      constructor(...[configuration]) {
+        const _config_0 = (0, runtimeConfig_1.getRuntimeConfig)(configuration || {});
         const _config_1 = (0, EndpointParameters_1.resolveClientEndpointParameters)(_config_0);
         const _config_2 = (0, config_resolver_1.resolveRegionConfig)(_config_1);
         const _config_3 = (0, middleware_endpoint_1.resolveEndpointConfig)(_config_2);
@@ -24379,8 +24786,9 @@ var require_STSClient = __commonJS({
         const _config_5 = (0, middleware_host_header_1.resolveHostHeaderConfig)(_config_4);
         const _config_6 = (0, middleware_sdk_sts_1.resolveStsAuthConfig)(_config_5, { stsClientCtor: _STSClient });
         const _config_7 = (0, middleware_user_agent_1.resolveUserAgentConfig)(_config_6);
-        super(_config_7);
-        this.config = _config_7;
+        const _config_8 = (0, runtimeExtensions_1.resolveRuntimeExtensions)(_config_7, configuration?.extensions || []);
+        super(_config_8);
+        this.config = _config_8;
         this.middlewareStack.use((0, middleware_retry_1.getRetryPlugin)(this.config));
         this.middlewareStack.use((0, middleware_content_length_1.getContentLengthPlugin)(this.config));
         this.middlewareStack.use((0, middleware_host_header_1.getHostHeaderPlugin)(this.config));
@@ -24396,9 +24804,9 @@ var require_STSClient = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-sts@3.385.0/node_modules/@aws-sdk/client-sts/dist-cjs/commands/AssumeRoleWithSAMLCommand.js
+// node_modules/.pnpm/@aws-sdk+client-sts@3.405.0/node_modules/@aws-sdk/client-sts/dist-cjs/commands/AssumeRoleWithSAMLCommand.js
 var require_AssumeRoleWithSAMLCommand = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-sts@3.385.0/node_modules/@aws-sdk/client-sts/dist-cjs/commands/AssumeRoleWithSAMLCommand.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-sts@3.405.0/node_modules/@aws-sdk/client-sts/dist-cjs/commands/AssumeRoleWithSAMLCommand.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.AssumeRoleWithSAMLCommand = exports.$Command = void 0;
@@ -24452,9 +24860,9 @@ var require_AssumeRoleWithSAMLCommand = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-sts@3.385.0/node_modules/@aws-sdk/client-sts/dist-cjs/commands/DecodeAuthorizationMessageCommand.js
+// node_modules/.pnpm/@aws-sdk+client-sts@3.405.0/node_modules/@aws-sdk/client-sts/dist-cjs/commands/DecodeAuthorizationMessageCommand.js
 var require_DecodeAuthorizationMessageCommand = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-sts@3.385.0/node_modules/@aws-sdk/client-sts/dist-cjs/commands/DecodeAuthorizationMessageCommand.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-sts@3.405.0/node_modules/@aws-sdk/client-sts/dist-cjs/commands/DecodeAuthorizationMessageCommand.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.DecodeAuthorizationMessageCommand = exports.$Command = void 0;
@@ -24509,9 +24917,9 @@ var require_DecodeAuthorizationMessageCommand = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-sts@3.385.0/node_modules/@aws-sdk/client-sts/dist-cjs/commands/GetAccessKeyInfoCommand.js
+// node_modules/.pnpm/@aws-sdk+client-sts@3.405.0/node_modules/@aws-sdk/client-sts/dist-cjs/commands/GetAccessKeyInfoCommand.js
 var require_GetAccessKeyInfoCommand = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-sts@3.385.0/node_modules/@aws-sdk/client-sts/dist-cjs/commands/GetAccessKeyInfoCommand.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-sts@3.405.0/node_modules/@aws-sdk/client-sts/dist-cjs/commands/GetAccessKeyInfoCommand.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.GetAccessKeyInfoCommand = exports.$Command = void 0;
@@ -24566,9 +24974,9 @@ var require_GetAccessKeyInfoCommand = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-sts@3.385.0/node_modules/@aws-sdk/client-sts/dist-cjs/commands/GetCallerIdentityCommand.js
+// node_modules/.pnpm/@aws-sdk+client-sts@3.405.0/node_modules/@aws-sdk/client-sts/dist-cjs/commands/GetCallerIdentityCommand.js
 var require_GetCallerIdentityCommand = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-sts@3.385.0/node_modules/@aws-sdk/client-sts/dist-cjs/commands/GetCallerIdentityCommand.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-sts@3.405.0/node_modules/@aws-sdk/client-sts/dist-cjs/commands/GetCallerIdentityCommand.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.GetCallerIdentityCommand = exports.$Command = void 0;
@@ -24623,9 +25031,9 @@ var require_GetCallerIdentityCommand = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-sts@3.385.0/node_modules/@aws-sdk/client-sts/dist-cjs/commands/GetFederationTokenCommand.js
+// node_modules/.pnpm/@aws-sdk+client-sts@3.405.0/node_modules/@aws-sdk/client-sts/dist-cjs/commands/GetFederationTokenCommand.js
 var require_GetFederationTokenCommand = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-sts@3.385.0/node_modules/@aws-sdk/client-sts/dist-cjs/commands/GetFederationTokenCommand.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-sts@3.405.0/node_modules/@aws-sdk/client-sts/dist-cjs/commands/GetFederationTokenCommand.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.GetFederationTokenCommand = exports.$Command = void 0;
@@ -24681,9 +25089,9 @@ var require_GetFederationTokenCommand = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-sts@3.385.0/node_modules/@aws-sdk/client-sts/dist-cjs/commands/GetSessionTokenCommand.js
+// node_modules/.pnpm/@aws-sdk+client-sts@3.405.0/node_modules/@aws-sdk/client-sts/dist-cjs/commands/GetSessionTokenCommand.js
 var require_GetSessionTokenCommand = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-sts@3.385.0/node_modules/@aws-sdk/client-sts/dist-cjs/commands/GetSessionTokenCommand.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-sts@3.405.0/node_modules/@aws-sdk/client-sts/dist-cjs/commands/GetSessionTokenCommand.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.GetSessionTokenCommand = exports.$Command = void 0;
@@ -24739,9 +25147,9 @@ var require_GetSessionTokenCommand = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-sts@3.385.0/node_modules/@aws-sdk/client-sts/dist-cjs/STS.js
+// node_modules/.pnpm/@aws-sdk+client-sts@3.405.0/node_modules/@aws-sdk/client-sts/dist-cjs/STS.js
 var require_STS = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-sts@3.385.0/node_modules/@aws-sdk/client-sts/dist-cjs/STS.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-sts@3.405.0/node_modules/@aws-sdk/client-sts/dist-cjs/STS.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.STS = void 0;
@@ -24772,9 +25180,9 @@ var require_STS = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-sts@3.385.0/node_modules/@aws-sdk/client-sts/dist-cjs/commands/index.js
+// node_modules/.pnpm/@aws-sdk+client-sts@3.405.0/node_modules/@aws-sdk/client-sts/dist-cjs/commands/index.js
 var require_commands2 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-sts@3.385.0/node_modules/@aws-sdk/client-sts/dist-cjs/commands/index.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-sts@3.405.0/node_modules/@aws-sdk/client-sts/dist-cjs/commands/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var tslib_1 = (init_tslib_es6(), __toCommonJS(tslib_es6_exports));
@@ -24789,9 +25197,9 @@ var require_commands2 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-sts@3.385.0/node_modules/@aws-sdk/client-sts/dist-cjs/models/index.js
+// node_modules/.pnpm/@aws-sdk+client-sts@3.405.0/node_modules/@aws-sdk/client-sts/dist-cjs/models/index.js
 var require_models2 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-sts@3.385.0/node_modules/@aws-sdk/client-sts/dist-cjs/models/index.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-sts@3.405.0/node_modules/@aws-sdk/client-sts/dist-cjs/models/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var tslib_1 = (init_tslib_es6(), __toCommonJS(tslib_es6_exports));
@@ -24799,9 +25207,9 @@ var require_models2 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-sts@3.385.0/node_modules/@aws-sdk/client-sts/dist-cjs/defaultRoleAssumers.js
+// node_modules/.pnpm/@aws-sdk+client-sts@3.405.0/node_modules/@aws-sdk/client-sts/dist-cjs/defaultRoleAssumers.js
 var require_defaultRoleAssumers = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-sts@3.385.0/node_modules/@aws-sdk/client-sts/dist-cjs/defaultRoleAssumers.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-sts@3.405.0/node_modules/@aws-sdk/client-sts/dist-cjs/defaultRoleAssumers.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.decorateDefaultCredentialProvider = exports.getDefaultRoleAssumerWithWebIdentity = exports.getDefaultRoleAssumer = void 0;
@@ -24833,9 +25241,9 @@ var require_defaultRoleAssumers = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-sts@3.385.0/node_modules/@aws-sdk/client-sts/dist-cjs/index.js
+// node_modules/.pnpm/@aws-sdk+client-sts@3.405.0/node_modules/@aws-sdk/client-sts/dist-cjs/index.js
 var require_dist_cjs52 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-sts@3.385.0/node_modules/@aws-sdk/client-sts/dist-cjs/index.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-sts@3.405.0/node_modules/@aws-sdk/client-sts/dist-cjs/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.STSServiceException = void 0;
@@ -24852,9 +25260,9 @@ var require_dist_cjs52 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/endpoint/ruleset.js
+// node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/endpoint/ruleset.js
 var require_ruleset3 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/endpoint/ruleset.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/endpoint/ruleset.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.ruleSet = void 0;
@@ -24886,9 +25294,9 @@ var require_ruleset3 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/endpoint/endpointResolver.js
+// node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/endpoint/endpointResolver.js
 var require_endpointResolver3 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/endpoint/endpointResolver.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/endpoint/endpointResolver.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.defaultEndpointResolver = void 0;
@@ -24904,9 +25312,9 @@ var require_endpointResolver3 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/runtimeConfig.shared.js
+// node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/runtimeConfig.shared.js
 var require_runtimeConfig_shared3 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/runtimeConfig.shared.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/runtimeConfig.shared.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.getRuntimeConfig = void 0;
@@ -24921,6 +25329,7 @@ var require_runtimeConfig_shared3 = __commonJS({
       base64Encoder: config?.base64Encoder ?? util_base64_1.toBase64,
       disableHostPrefix: config?.disableHostPrefix ?? false,
       endpointProvider: config?.endpointProvider ?? endpointResolver_1.defaultEndpointResolver,
+      extensions: config?.extensions ?? [],
       logger: config?.logger ?? new smithy_client_1.NoOpLogger(),
       serviceId: config?.serviceId ?? "ECR",
       urlParser: config?.urlParser ?? url_parser_1.parseUrl,
@@ -24931,9 +25340,9 @@ var require_runtimeConfig_shared3 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/runtimeConfig.js
+// node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/runtimeConfig.js
 var require_runtimeConfig3 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/runtimeConfig.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/runtimeConfig.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.getRuntimeConfig = void 0;
@@ -24983,9 +25392,31 @@ var require_runtimeConfig3 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/ECRClient.js
+// node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/runtimeExtensions.js
+var require_runtimeExtensions3 = __commonJS({
+  "node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/runtimeExtensions.js"(exports) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    exports.resolveRuntimeExtensions = void 0;
+    var smithy_client_1 = require_dist_cjs35();
+    var asPartial = (t2) => t2;
+    var resolveRuntimeExtensions = (runtimeConfig, extensions) => {
+      const extensionConfiguration = {
+        ...asPartial((0, smithy_client_1.getDefaultExtensionConfiguration)(runtimeConfig))
+      };
+      extensions.forEach((extension) => extension.configure(extensionConfiguration));
+      return {
+        ...runtimeConfig,
+        ...(0, smithy_client_1.resolveDefaultRuntimeConfig)(extensionConfiguration)
+      };
+    };
+    exports.resolveRuntimeExtensions = resolveRuntimeExtensions;
+  }
+});
+
+// node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/ECRClient.js
 var require_ECRClient = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/ECRClient.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/ECRClient.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.ECRClient = exports.__Client = void 0;
@@ -25004,9 +25435,10 @@ var require_ECRClient = __commonJS({
     } });
     var EndpointParameters_1 = require_EndpointParameters();
     var runtimeConfig_1 = require_runtimeConfig3();
+    var runtimeExtensions_1 = require_runtimeExtensions3();
     var ECRClient2 = class extends smithy_client_1.Client {
-      constructor(configuration) {
-        const _config_0 = (0, runtimeConfig_1.getRuntimeConfig)(configuration);
+      constructor(...[configuration]) {
+        const _config_0 = (0, runtimeConfig_1.getRuntimeConfig)(configuration || {});
         const _config_1 = (0, EndpointParameters_1.resolveClientEndpointParameters)(_config_0);
         const _config_2 = (0, config_resolver_1.resolveRegionConfig)(_config_1);
         const _config_3 = (0, middleware_endpoint_1.resolveEndpointConfig)(_config_2);
@@ -25014,8 +25446,9 @@ var require_ECRClient = __commonJS({
         const _config_5 = (0, middleware_host_header_1.resolveHostHeaderConfig)(_config_4);
         const _config_6 = (0, middleware_signing_1.resolveAwsAuthConfig)(_config_5);
         const _config_7 = (0, middleware_user_agent_1.resolveUserAgentConfig)(_config_6);
-        super(_config_7);
-        this.config = _config_7;
+        const _config_8 = (0, runtimeExtensions_1.resolveRuntimeExtensions)(_config_7, configuration?.extensions || []);
+        super(_config_8);
+        this.config = _config_8;
         this.middlewareStack.use((0, middleware_retry_1.getRetryPlugin)(this.config));
         this.middlewareStack.use((0, middleware_content_length_1.getContentLengthPlugin)(this.config));
         this.middlewareStack.use((0, middleware_host_header_1.getHostHeaderPlugin)(this.config));
@@ -25032,9 +25465,9 @@ var require_ECRClient = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/models/ECRServiceException.js
+// node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/models/ECRServiceException.js
 var require_ECRServiceException = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/models/ECRServiceException.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/models/ECRServiceException.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.ECRServiceException = exports.__ServiceException = void 0;
@@ -25052,9 +25485,9 @@ var require_ECRServiceException = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/models/models_0.js
+// node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/models/models_0.js
 var require_models_03 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/models/models_0.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/models/models_0.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.InvalidLayerPartException = exports.LifecyclePolicyPreviewInProgressException = exports.UnsupportedImageTypeException = exports.ReferencedImagesNotFoundException = exports.ImageTagAlreadyExistsException = exports.ImageDigestDoesNotMatchException = exports.ImageAlreadyExistsException = exports.ScanType = exports.LifecyclePolicyPreviewNotFoundException = exports.LifecyclePolicyPreviewStatus = exports.ImageActionType = exports.LayersNotFoundException = exports.LayerInaccessibleException = exports.RepositoryFilterType = exports.ScanNotFoundException = exports.ScanStatus = exports.FindingSeverity = exports.TagStatus = exports.ImageNotFoundException = exports.ReplicationStatus = exports.RepositoryPolicyNotFoundException = exports.RepositoryNotEmptyException = exports.RegistryPolicyNotFoundException = exports.PullThroughCacheRuleNotFoundException = exports.LifecyclePolicyNotFoundException = exports.TooManyTagsException = exports.RepositoryAlreadyExistsException = exports.InvalidTagParameterException = exports.ImageTagMutability = exports.EncryptionType = exports.UnsupportedUpstreamRegistryException = exports.PullThroughCacheRuleAlreadyExistsException = exports.LimitExceededException = exports.UploadNotFoundException = exports.LayerPartTooSmallException = exports.LayerAlreadyExistsException = exports.KmsException = exports.InvalidLayerException = exports.EmptyUploadException = exports.ValidationException = exports.ScanFrequency = exports.ScanningRepositoryFilterType = exports.ScanningConfigurationFailureCode = exports.ImageFailureCode = exports.ServerException = exports.RepositoryNotFoundException = exports.InvalidParameterException = exports.LayerAvailability = exports.LayerFailureCode = void 0;
@@ -25576,9 +26009,9 @@ var require_models_03 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/protocols/Aws_json1_1.js
+// node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/protocols/Aws_json1_1.js
 var require_Aws_json1_1 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/protocols/Aws_json1_1.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/protocols/Aws_json1_1.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.de_DeletePullThroughCacheRuleCommand = exports.de_DeleteLifecyclePolicyCommand = exports.de_CreateRepositoryCommand = exports.de_CreatePullThroughCacheRuleCommand = exports.de_CompleteLayerUploadCommand = exports.de_BatchGetRepositoryScanningConfigurationCommand = exports.de_BatchGetImageCommand = exports.de_BatchDeleteImageCommand = exports.de_BatchCheckLayerAvailabilityCommand = exports.se_UploadLayerPartCommand = exports.se_UntagResourceCommand = exports.se_TagResourceCommand = exports.se_StartLifecyclePolicyPreviewCommand = exports.se_StartImageScanCommand = exports.se_SetRepositoryPolicyCommand = exports.se_PutReplicationConfigurationCommand = exports.se_PutRegistryScanningConfigurationCommand = exports.se_PutRegistryPolicyCommand = exports.se_PutLifecyclePolicyCommand = exports.se_PutImageTagMutabilityCommand = exports.se_PutImageScanningConfigurationCommand = exports.se_PutImageCommand = exports.se_ListTagsForResourceCommand = exports.se_ListImagesCommand = exports.se_InitiateLayerUploadCommand = exports.se_GetRepositoryPolicyCommand = exports.se_GetRegistryScanningConfigurationCommand = exports.se_GetRegistryPolicyCommand = exports.se_GetLifecyclePolicyPreviewCommand = exports.se_GetLifecyclePolicyCommand = exports.se_GetDownloadUrlForLayerCommand = exports.se_GetAuthorizationTokenCommand = exports.se_DescribeRepositoriesCommand = exports.se_DescribeRegistryCommand = exports.se_DescribePullThroughCacheRulesCommand = exports.se_DescribeImageScanFindingsCommand = exports.se_DescribeImagesCommand = exports.se_DescribeImageReplicationStatusCommand = exports.se_DeleteRepositoryPolicyCommand = exports.se_DeleteRepositoryCommand = exports.se_DeleteRegistryPolicyCommand = exports.se_DeletePullThroughCacheRuleCommand = exports.se_DeleteLifecyclePolicyCommand = exports.se_CreateRepositoryCommand = exports.se_CreatePullThroughCacheRuleCommand = exports.se_CompleteLayerUploadCommand = exports.se_BatchGetRepositoryScanningConfigurationCommand = exports.se_BatchGetImageCommand = exports.se_BatchDeleteImageCommand = exports.se_BatchCheckLayerAvailabilityCommand = void 0;
@@ -28301,9 +28734,9 @@ var require_Aws_json1_1 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/BatchCheckLayerAvailabilityCommand.js
+// node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/BatchCheckLayerAvailabilityCommand.js
 var require_BatchCheckLayerAvailabilityCommand = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/BatchCheckLayerAvailabilityCommand.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/BatchCheckLayerAvailabilityCommand.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.BatchCheckLayerAvailabilityCommand = exports.$Command = void 0;
@@ -28355,9 +28788,9 @@ var require_BatchCheckLayerAvailabilityCommand = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/BatchDeleteImageCommand.js
+// node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/BatchDeleteImageCommand.js
 var require_BatchDeleteImageCommand = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/BatchDeleteImageCommand.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/BatchDeleteImageCommand.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.BatchDeleteImageCommand = exports.$Command = void 0;
@@ -28409,9 +28842,9 @@ var require_BatchDeleteImageCommand = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/BatchGetImageCommand.js
+// node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/BatchGetImageCommand.js
 var require_BatchGetImageCommand = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/BatchGetImageCommand.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/BatchGetImageCommand.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.BatchGetImageCommand = exports.$Command = void 0;
@@ -28463,9 +28896,9 @@ var require_BatchGetImageCommand = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/BatchGetRepositoryScanningConfigurationCommand.js
+// node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/BatchGetRepositoryScanningConfigurationCommand.js
 var require_BatchGetRepositoryScanningConfigurationCommand = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/BatchGetRepositoryScanningConfigurationCommand.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/BatchGetRepositoryScanningConfigurationCommand.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.BatchGetRepositoryScanningConfigurationCommand = exports.$Command = void 0;
@@ -28517,9 +28950,9 @@ var require_BatchGetRepositoryScanningConfigurationCommand = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/CompleteLayerUploadCommand.js
+// node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/CompleteLayerUploadCommand.js
 var require_CompleteLayerUploadCommand = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/CompleteLayerUploadCommand.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/CompleteLayerUploadCommand.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.CompleteLayerUploadCommand = exports.$Command = void 0;
@@ -28571,9 +29004,9 @@ var require_CompleteLayerUploadCommand = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/CreatePullThroughCacheRuleCommand.js
+// node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/CreatePullThroughCacheRuleCommand.js
 var require_CreatePullThroughCacheRuleCommand = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/CreatePullThroughCacheRuleCommand.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/CreatePullThroughCacheRuleCommand.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.CreatePullThroughCacheRuleCommand = exports.$Command = void 0;
@@ -28625,9 +29058,9 @@ var require_CreatePullThroughCacheRuleCommand = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/CreateRepositoryCommand.js
+// node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/CreateRepositoryCommand.js
 var require_CreateRepositoryCommand = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/CreateRepositoryCommand.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/CreateRepositoryCommand.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.CreateRepositoryCommand = exports.$Command = void 0;
@@ -28679,9 +29112,9 @@ var require_CreateRepositoryCommand = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/DeleteLifecyclePolicyCommand.js
+// node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/DeleteLifecyclePolicyCommand.js
 var require_DeleteLifecyclePolicyCommand = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/DeleteLifecyclePolicyCommand.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/DeleteLifecyclePolicyCommand.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.DeleteLifecyclePolicyCommand = exports.$Command = void 0;
@@ -28733,9 +29166,9 @@ var require_DeleteLifecyclePolicyCommand = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/DeletePullThroughCacheRuleCommand.js
+// node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/DeletePullThroughCacheRuleCommand.js
 var require_DeletePullThroughCacheRuleCommand = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/DeletePullThroughCacheRuleCommand.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/DeletePullThroughCacheRuleCommand.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.DeletePullThroughCacheRuleCommand = exports.$Command = void 0;
@@ -28787,9 +29220,9 @@ var require_DeletePullThroughCacheRuleCommand = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/DeleteRegistryPolicyCommand.js
+// node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/DeleteRegistryPolicyCommand.js
 var require_DeleteRegistryPolicyCommand = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/DeleteRegistryPolicyCommand.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/DeleteRegistryPolicyCommand.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.DeleteRegistryPolicyCommand = exports.$Command = void 0;
@@ -28841,9 +29274,9 @@ var require_DeleteRegistryPolicyCommand = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/DeleteRepositoryCommand.js
+// node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/DeleteRepositoryCommand.js
 var require_DeleteRepositoryCommand = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/DeleteRepositoryCommand.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/DeleteRepositoryCommand.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.DeleteRepositoryCommand = exports.$Command = void 0;
@@ -28895,9 +29328,9 @@ var require_DeleteRepositoryCommand = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/DeleteRepositoryPolicyCommand.js
+// node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/DeleteRepositoryPolicyCommand.js
 var require_DeleteRepositoryPolicyCommand = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/DeleteRepositoryPolicyCommand.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/DeleteRepositoryPolicyCommand.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.DeleteRepositoryPolicyCommand = exports.$Command = void 0;
@@ -28949,9 +29382,9 @@ var require_DeleteRepositoryPolicyCommand = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/DescribeImageReplicationStatusCommand.js
+// node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/DescribeImageReplicationStatusCommand.js
 var require_DescribeImageReplicationStatusCommand = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/DescribeImageReplicationStatusCommand.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/DescribeImageReplicationStatusCommand.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.DescribeImageReplicationStatusCommand = exports.$Command = void 0;
@@ -29003,9 +29436,9 @@ var require_DescribeImageReplicationStatusCommand = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/DescribeImageScanFindingsCommand.js
+// node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/DescribeImageScanFindingsCommand.js
 var require_DescribeImageScanFindingsCommand = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/DescribeImageScanFindingsCommand.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/DescribeImageScanFindingsCommand.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.DescribeImageScanFindingsCommand = exports.$Command = void 0;
@@ -29057,9 +29490,9 @@ var require_DescribeImageScanFindingsCommand = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/DescribeImagesCommand.js
+// node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/DescribeImagesCommand.js
 var require_DescribeImagesCommand = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/DescribeImagesCommand.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/DescribeImagesCommand.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.DescribeImagesCommand = exports.$Command = void 0;
@@ -29111,9 +29544,9 @@ var require_DescribeImagesCommand = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/DescribePullThroughCacheRulesCommand.js
+// node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/DescribePullThroughCacheRulesCommand.js
 var require_DescribePullThroughCacheRulesCommand = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/DescribePullThroughCacheRulesCommand.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/DescribePullThroughCacheRulesCommand.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.DescribePullThroughCacheRulesCommand = exports.$Command = void 0;
@@ -29165,9 +29598,9 @@ var require_DescribePullThroughCacheRulesCommand = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/DescribeRegistryCommand.js
+// node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/DescribeRegistryCommand.js
 var require_DescribeRegistryCommand = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/DescribeRegistryCommand.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/DescribeRegistryCommand.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.DescribeRegistryCommand = exports.$Command = void 0;
@@ -29219,9 +29652,9 @@ var require_DescribeRegistryCommand = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/DescribeRepositoriesCommand.js
+// node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/DescribeRepositoriesCommand.js
 var require_DescribeRepositoriesCommand = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/DescribeRepositoriesCommand.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/DescribeRepositoriesCommand.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.DescribeRepositoriesCommand = exports.$Command = void 0;
@@ -29273,9 +29706,9 @@ var require_DescribeRepositoriesCommand = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/GetAuthorizationTokenCommand.js
+// node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/GetAuthorizationTokenCommand.js
 var require_GetAuthorizationTokenCommand = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/GetAuthorizationTokenCommand.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/GetAuthorizationTokenCommand.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.GetAuthorizationTokenCommand = exports.$Command = void 0;
@@ -29327,9 +29760,9 @@ var require_GetAuthorizationTokenCommand = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/GetDownloadUrlForLayerCommand.js
+// node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/GetDownloadUrlForLayerCommand.js
 var require_GetDownloadUrlForLayerCommand = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/GetDownloadUrlForLayerCommand.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/GetDownloadUrlForLayerCommand.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.GetDownloadUrlForLayerCommand = exports.$Command = void 0;
@@ -29381,9 +29814,9 @@ var require_GetDownloadUrlForLayerCommand = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/GetLifecyclePolicyCommand.js
+// node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/GetLifecyclePolicyCommand.js
 var require_GetLifecyclePolicyCommand = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/GetLifecyclePolicyCommand.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/GetLifecyclePolicyCommand.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.GetLifecyclePolicyCommand = exports.$Command = void 0;
@@ -29435,9 +29868,9 @@ var require_GetLifecyclePolicyCommand = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/GetLifecyclePolicyPreviewCommand.js
+// node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/GetLifecyclePolicyPreviewCommand.js
 var require_GetLifecyclePolicyPreviewCommand = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/GetLifecyclePolicyPreviewCommand.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/GetLifecyclePolicyPreviewCommand.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.GetLifecyclePolicyPreviewCommand = exports.$Command = void 0;
@@ -29489,9 +29922,9 @@ var require_GetLifecyclePolicyPreviewCommand = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/GetRegistryPolicyCommand.js
+// node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/GetRegistryPolicyCommand.js
 var require_GetRegistryPolicyCommand = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/GetRegistryPolicyCommand.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/GetRegistryPolicyCommand.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.GetRegistryPolicyCommand = exports.$Command = void 0;
@@ -29543,9 +29976,9 @@ var require_GetRegistryPolicyCommand = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/GetRegistryScanningConfigurationCommand.js
+// node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/GetRegistryScanningConfigurationCommand.js
 var require_GetRegistryScanningConfigurationCommand = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/GetRegistryScanningConfigurationCommand.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/GetRegistryScanningConfigurationCommand.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.GetRegistryScanningConfigurationCommand = exports.$Command = void 0;
@@ -29597,9 +30030,9 @@ var require_GetRegistryScanningConfigurationCommand = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/GetRepositoryPolicyCommand.js
+// node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/GetRepositoryPolicyCommand.js
 var require_GetRepositoryPolicyCommand = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/GetRepositoryPolicyCommand.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/GetRepositoryPolicyCommand.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.GetRepositoryPolicyCommand = exports.$Command = void 0;
@@ -29651,9 +30084,9 @@ var require_GetRepositoryPolicyCommand = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/InitiateLayerUploadCommand.js
+// node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/InitiateLayerUploadCommand.js
 var require_InitiateLayerUploadCommand = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/InitiateLayerUploadCommand.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/InitiateLayerUploadCommand.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.InitiateLayerUploadCommand = exports.$Command = void 0;
@@ -29705,9 +30138,9 @@ var require_InitiateLayerUploadCommand = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/ListImagesCommand.js
+// node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/ListImagesCommand.js
 var require_ListImagesCommand = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/ListImagesCommand.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/ListImagesCommand.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.ListImagesCommand = exports.$Command = void 0;
@@ -29759,9 +30192,9 @@ var require_ListImagesCommand = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/ListTagsForResourceCommand.js
+// node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/ListTagsForResourceCommand.js
 var require_ListTagsForResourceCommand = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/ListTagsForResourceCommand.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/ListTagsForResourceCommand.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.ListTagsForResourceCommand = exports.$Command = void 0;
@@ -29813,9 +30246,9 @@ var require_ListTagsForResourceCommand = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/PutImageCommand.js
+// node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/PutImageCommand.js
 var require_PutImageCommand = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/PutImageCommand.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/PutImageCommand.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.PutImageCommand = exports.$Command = void 0;
@@ -29867,9 +30300,9 @@ var require_PutImageCommand = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/PutImageScanningConfigurationCommand.js
+// node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/PutImageScanningConfigurationCommand.js
 var require_PutImageScanningConfigurationCommand = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/PutImageScanningConfigurationCommand.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/PutImageScanningConfigurationCommand.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.PutImageScanningConfigurationCommand = exports.$Command = void 0;
@@ -29921,9 +30354,9 @@ var require_PutImageScanningConfigurationCommand = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/PutImageTagMutabilityCommand.js
+// node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/PutImageTagMutabilityCommand.js
 var require_PutImageTagMutabilityCommand = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/PutImageTagMutabilityCommand.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/PutImageTagMutabilityCommand.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.PutImageTagMutabilityCommand = exports.$Command = void 0;
@@ -29975,9 +30408,9 @@ var require_PutImageTagMutabilityCommand = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/PutLifecyclePolicyCommand.js
+// node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/PutLifecyclePolicyCommand.js
 var require_PutLifecyclePolicyCommand = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/PutLifecyclePolicyCommand.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/PutLifecyclePolicyCommand.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.PutLifecyclePolicyCommand = exports.$Command = void 0;
@@ -30029,9 +30462,9 @@ var require_PutLifecyclePolicyCommand = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/PutRegistryPolicyCommand.js
+// node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/PutRegistryPolicyCommand.js
 var require_PutRegistryPolicyCommand = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/PutRegistryPolicyCommand.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/PutRegistryPolicyCommand.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.PutRegistryPolicyCommand = exports.$Command = void 0;
@@ -30083,9 +30516,9 @@ var require_PutRegistryPolicyCommand = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/PutRegistryScanningConfigurationCommand.js
+// node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/PutRegistryScanningConfigurationCommand.js
 var require_PutRegistryScanningConfigurationCommand = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/PutRegistryScanningConfigurationCommand.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/PutRegistryScanningConfigurationCommand.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.PutRegistryScanningConfigurationCommand = exports.$Command = void 0;
@@ -30137,9 +30570,9 @@ var require_PutRegistryScanningConfigurationCommand = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/PutReplicationConfigurationCommand.js
+// node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/PutReplicationConfigurationCommand.js
 var require_PutReplicationConfigurationCommand = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/PutReplicationConfigurationCommand.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/PutReplicationConfigurationCommand.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.PutReplicationConfigurationCommand = exports.$Command = void 0;
@@ -30191,9 +30624,9 @@ var require_PutReplicationConfigurationCommand = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/SetRepositoryPolicyCommand.js
+// node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/SetRepositoryPolicyCommand.js
 var require_SetRepositoryPolicyCommand = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/SetRepositoryPolicyCommand.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/SetRepositoryPolicyCommand.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.SetRepositoryPolicyCommand = exports.$Command = void 0;
@@ -30245,9 +30678,9 @@ var require_SetRepositoryPolicyCommand = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/StartImageScanCommand.js
+// node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/StartImageScanCommand.js
 var require_StartImageScanCommand = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/StartImageScanCommand.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/StartImageScanCommand.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.StartImageScanCommand = exports.$Command = void 0;
@@ -30299,9 +30732,9 @@ var require_StartImageScanCommand = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/StartLifecyclePolicyPreviewCommand.js
+// node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/StartLifecyclePolicyPreviewCommand.js
 var require_StartLifecyclePolicyPreviewCommand = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/StartLifecyclePolicyPreviewCommand.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/StartLifecyclePolicyPreviewCommand.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.StartLifecyclePolicyPreviewCommand = exports.$Command = void 0;
@@ -30353,9 +30786,9 @@ var require_StartLifecyclePolicyPreviewCommand = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/TagResourceCommand.js
+// node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/TagResourceCommand.js
 var require_TagResourceCommand = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/TagResourceCommand.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/TagResourceCommand.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.TagResourceCommand = exports.$Command = void 0;
@@ -30407,9 +30840,9 @@ var require_TagResourceCommand = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/UntagResourceCommand.js
+// node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/UntagResourceCommand.js
 var require_UntagResourceCommand = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/UntagResourceCommand.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/UntagResourceCommand.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.UntagResourceCommand = exports.$Command = void 0;
@@ -30461,9 +30894,9 @@ var require_UntagResourceCommand = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/UploadLayerPartCommand.js
+// node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/UploadLayerPartCommand.js
 var require_UploadLayerPartCommand = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/UploadLayerPartCommand.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/UploadLayerPartCommand.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.UploadLayerPartCommand = exports.$Command = void 0;
@@ -30515,9 +30948,9 @@ var require_UploadLayerPartCommand = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/ECR.js
+// node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/ECR.js
 var require_ECR = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/ECR.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/ECR.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.ECR = void 0;
@@ -30614,9 +31047,9 @@ var require_ECR = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/index.js
+// node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/index.js
 var require_commands3 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/index.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/commands/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var tslib_1 = (init_tslib_es6(), __toCommonJS(tslib_es6_exports));
@@ -30664,9 +31097,9 @@ var require_commands3 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/pagination/DescribeImageScanFindingsPaginator.js
+// node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/pagination/DescribeImageScanFindingsPaginator.js
 var require_DescribeImageScanFindingsPaginator = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/pagination/DescribeImageScanFindingsPaginator.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/pagination/DescribeImageScanFindingsPaginator.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.paginateDescribeImageScanFindings = void 0;
@@ -30698,9 +31131,9 @@ var require_DescribeImageScanFindingsPaginator = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/pagination/DescribeImagesPaginator.js
+// node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/pagination/DescribeImagesPaginator.js
 var require_DescribeImagesPaginator = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/pagination/DescribeImagesPaginator.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/pagination/DescribeImagesPaginator.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.paginateDescribeImages = void 0;
@@ -30732,9 +31165,9 @@ var require_DescribeImagesPaginator = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/pagination/DescribePullThroughCacheRulesPaginator.js
+// node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/pagination/DescribePullThroughCacheRulesPaginator.js
 var require_DescribePullThroughCacheRulesPaginator = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/pagination/DescribePullThroughCacheRulesPaginator.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/pagination/DescribePullThroughCacheRulesPaginator.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.paginateDescribePullThroughCacheRules = void 0;
@@ -30766,9 +31199,9 @@ var require_DescribePullThroughCacheRulesPaginator = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/pagination/DescribeRepositoriesPaginator.js
+// node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/pagination/DescribeRepositoriesPaginator.js
 var require_DescribeRepositoriesPaginator = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/pagination/DescribeRepositoriesPaginator.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/pagination/DescribeRepositoriesPaginator.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.paginateDescribeRepositories = void 0;
@@ -30800,9 +31233,9 @@ var require_DescribeRepositoriesPaginator = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/pagination/GetLifecyclePolicyPreviewPaginator.js
+// node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/pagination/GetLifecyclePolicyPreviewPaginator.js
 var require_GetLifecyclePolicyPreviewPaginator = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/pagination/GetLifecyclePolicyPreviewPaginator.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/pagination/GetLifecyclePolicyPreviewPaginator.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.paginateGetLifecyclePolicyPreview = void 0;
@@ -30834,17 +31267,17 @@ var require_GetLifecyclePolicyPreviewPaginator = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/pagination/Interfaces.js
+// node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/pagination/Interfaces.js
 var require_Interfaces2 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/pagination/Interfaces.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/pagination/Interfaces.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/pagination/ListImagesPaginator.js
+// node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/pagination/ListImagesPaginator.js
 var require_ListImagesPaginator = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/pagination/ListImagesPaginator.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/pagination/ListImagesPaginator.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.paginateListImages = void 0;
@@ -30876,9 +31309,9 @@ var require_ListImagesPaginator = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/pagination/index.js
+// node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/pagination/index.js
 var require_pagination4 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/pagination/index.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/pagination/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var tslib_1 = (init_tslib_es6(), __toCommonJS(tslib_es6_exports));
@@ -30892,9 +31325,9 @@ var require_pagination4 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+util-waiter@2.0.1/node_modules/@smithy/util-waiter/dist-cjs/utils/sleep.js
+// node_modules/.pnpm/@smithy+util-waiter@2.0.5/node_modules/@smithy/util-waiter/dist-cjs/utils/sleep.js
 var require_sleep = __commonJS({
-  "node_modules/.pnpm/@smithy+util-waiter@2.0.1/node_modules/@smithy/util-waiter/dist-cjs/utils/sleep.js"(exports) {
+  "node_modules/.pnpm/@smithy+util-waiter@2.0.5/node_modules/@smithy/util-waiter/dist-cjs/utils/sleep.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.sleep = void 0;
@@ -30905,9 +31338,9 @@ var require_sleep = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+util-waiter@2.0.1/node_modules/@smithy/util-waiter/dist-cjs/waiter.js
+// node_modules/.pnpm/@smithy+util-waiter@2.0.5/node_modules/@smithy/util-waiter/dist-cjs/waiter.js
 var require_waiter3 = __commonJS({
-  "node_modules/.pnpm/@smithy+util-waiter@2.0.1/node_modules/@smithy/util-waiter/dist-cjs/waiter.js"(exports) {
+  "node_modules/.pnpm/@smithy+util-waiter@2.0.5/node_modules/@smithy/util-waiter/dist-cjs/waiter.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.checkExceptions = exports.WaiterState = exports.waiterServiceDefaults = void 0;
@@ -30947,9 +31380,9 @@ var require_waiter3 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+util-waiter@2.0.1/node_modules/@smithy/util-waiter/dist-cjs/poller.js
+// node_modules/.pnpm/@smithy+util-waiter@2.0.5/node_modules/@smithy/util-waiter/dist-cjs/poller.js
 var require_poller = __commonJS({
-  "node_modules/.pnpm/@smithy+util-waiter@2.0.1/node_modules/@smithy/util-waiter/dist-cjs/poller.js"(exports) {
+  "node_modules/.pnpm/@smithy+util-waiter@2.0.5/node_modules/@smithy/util-waiter/dist-cjs/poller.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.runPolling = void 0;
@@ -30991,9 +31424,9 @@ var require_poller = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+util-waiter@2.0.1/node_modules/@smithy/util-waiter/dist-cjs/utils/validate.js
+// node_modules/.pnpm/@smithy+util-waiter@2.0.5/node_modules/@smithy/util-waiter/dist-cjs/utils/validate.js
 var require_validate = __commonJS({
-  "node_modules/.pnpm/@smithy+util-waiter@2.0.1/node_modules/@smithy/util-waiter/dist-cjs/utils/validate.js"(exports) {
+  "node_modules/.pnpm/@smithy+util-waiter@2.0.5/node_modules/@smithy/util-waiter/dist-cjs/utils/validate.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.validateWaiterOptions = void 0;
@@ -31014,9 +31447,9 @@ var require_validate = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+util-waiter@2.0.1/node_modules/@smithy/util-waiter/dist-cjs/utils/index.js
+// node_modules/.pnpm/@smithy+util-waiter@2.0.5/node_modules/@smithy/util-waiter/dist-cjs/utils/index.js
 var require_utils6 = __commonJS({
-  "node_modules/.pnpm/@smithy+util-waiter@2.0.1/node_modules/@smithy/util-waiter/dist-cjs/utils/index.js"(exports) {
+  "node_modules/.pnpm/@smithy+util-waiter@2.0.5/node_modules/@smithy/util-waiter/dist-cjs/utils/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var tslib_1 = (init_tslib_es6(), __toCommonJS(tslib_es6_exports));
@@ -31025,9 +31458,9 @@ var require_utils6 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+util-waiter@2.0.1/node_modules/@smithy/util-waiter/dist-cjs/createWaiter.js
+// node_modules/.pnpm/@smithy+util-waiter@2.0.5/node_modules/@smithy/util-waiter/dist-cjs/createWaiter.js
 var require_createWaiter = __commonJS({
-  "node_modules/.pnpm/@smithy+util-waiter@2.0.1/node_modules/@smithy/util-waiter/dist-cjs/createWaiter.js"(exports) {
+  "node_modules/.pnpm/@smithy+util-waiter@2.0.5/node_modules/@smithy/util-waiter/dist-cjs/createWaiter.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.createWaiter = void 0;
@@ -31058,9 +31491,9 @@ var require_createWaiter = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@smithy+util-waiter@2.0.1/node_modules/@smithy/util-waiter/dist-cjs/index.js
+// node_modules/.pnpm/@smithy+util-waiter@2.0.5/node_modules/@smithy/util-waiter/dist-cjs/index.js
 var require_dist_cjs53 = __commonJS({
-  "node_modules/.pnpm/@smithy+util-waiter@2.0.1/node_modules/@smithy/util-waiter/dist-cjs/index.js"(exports) {
+  "node_modules/.pnpm/@smithy+util-waiter@2.0.5/node_modules/@smithy/util-waiter/dist-cjs/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var tslib_1 = (init_tslib_es6(), __toCommonJS(tslib_es6_exports));
@@ -31069,9 +31502,9 @@ var require_dist_cjs53 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/waiters/waitForImageScanComplete.js
+// node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/waiters/waitForImageScanComplete.js
 var require_waitForImageScanComplete = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/waiters/waitForImageScanComplete.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/waiters/waitForImageScanComplete.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.waitUntilImageScanComplete = exports.waitForImageScanComplete = void 0;
@@ -31119,9 +31552,9 @@ var require_waitForImageScanComplete = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/waiters/waitForLifecyclePolicyPreviewComplete.js
+// node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/waiters/waitForLifecyclePolicyPreviewComplete.js
 var require_waitForLifecyclePolicyPreviewComplete = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/waiters/waitForLifecyclePolicyPreviewComplete.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/waiters/waitForLifecyclePolicyPreviewComplete.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.waitUntilLifecyclePolicyPreviewComplete = exports.waitForLifecyclePolicyPreviewComplete = void 0;
@@ -31169,9 +31602,9 @@ var require_waitForLifecyclePolicyPreviewComplete = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/waiters/index.js
+// node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/waiters/index.js
 var require_waiters = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/waiters/index.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/waiters/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var tslib_1 = (init_tslib_es6(), __toCommonJS(tslib_es6_exports));
@@ -31180,9 +31613,9 @@ var require_waiters = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/models/index.js
+// node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/models/index.js
 var require_models3 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/models/index.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/models/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var tslib_1 = (init_tslib_es6(), __toCommonJS(tslib_es6_exports));
@@ -31190,9 +31623,9 @@ var require_models3 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/index.js
+// node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/index.js
 var require_dist_cjs54 = __commonJS({
-  "node_modules/.pnpm/@aws-sdk+client-ecr@3.385.0/node_modules/@aws-sdk/client-ecr/dist-cjs/index.js"(exports) {
+  "node_modules/.pnpm/@aws-sdk+client-ecr@3.405.0/node_modules/@aws-sdk/client-ecr/dist-cjs/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.ECRServiceException = void 0;
@@ -31211,7 +31644,7 @@ var require_dist_cjs54 = __commonJS({
 });
 
 // node_modules/.pnpm/@octokit+endpoint@9.0.0/node_modules/@octokit/endpoint/dist-node/index.js
-var require_dist_node12 = __commonJS({
+var require_dist_node11 = __commonJS({
   "node_modules/.pnpm/@octokit+endpoint@9.0.0/node_modules/@octokit/endpoint/dist-node/index.js"(exports, module2) {
     "use strict";
     var __defProp2 = Object.defineProperty;
@@ -31539,7 +31972,7 @@ var require_dist_node12 = __commonJS({
 });
 
 // node_modules/.pnpm/@octokit+request-error@5.0.0/node_modules/@octokit/request-error/dist-node/index.js
-var require_dist_node13 = __commonJS({
+var require_dist_node12 = __commonJS({
   "node_modules/.pnpm/@octokit+request-error@5.0.0/node_modules/@octokit/request-error/dist-node/index.js"(exports, module2) {
     "use strict";
     var __create2 = Object.create;
@@ -31631,7 +32064,7 @@ var require_dist_node13 = __commonJS({
 });
 
 // node_modules/.pnpm/@octokit+request@8.1.1/node_modules/@octokit/request/dist-node/index.js
-var require_dist_node14 = __commonJS({
+var require_dist_node13 = __commonJS({
   "node_modules/.pnpm/@octokit+request@8.1.1/node_modules/@octokit/request/dist-node/index.js"(exports, module2) {
     "use strict";
     var __defProp2 = Object.defineProperty;
@@ -31656,11 +32089,11 @@ var require_dist_node14 = __commonJS({
       request: () => request
     });
     module2.exports = __toCommonJS2(dist_src_exports);
-    var import_endpoint = require_dist_node12();
+    var import_endpoint = require_dist_node11();
     var import_universal_user_agent = require_dist_node();
     var VERSION = "8.1.1";
     var import_is_plain_object = require_is_plain_object();
-    var import_request_error = require_dist_node13();
+    var import_request_error = require_dist_node12();
     function getBufferResponse(response) {
       return response.arrayBuffer();
     }
@@ -31816,7 +32249,7 @@ var require_dist_node14 = __commonJS({
 });
 
 // node_modules/.pnpm/@octokit+graphql@7.0.1/node_modules/@octokit/graphql/dist-node/index.js
-var require_dist_node15 = __commonJS({
+var require_dist_node14 = __commonJS({
   "node_modules/.pnpm/@octokit+graphql@7.0.1/node_modules/@octokit/graphql/dist-node/index.js"(exports, module2) {
     "use strict";
     var __defProp2 = Object.defineProperty;
@@ -31843,11 +32276,11 @@ var require_dist_node15 = __commonJS({
       withCustomRequest: () => withCustomRequest
     });
     module2.exports = __toCommonJS2(dist_src_exports);
-    var import_request3 = require_dist_node14();
+    var import_request3 = require_dist_node13();
     var import_universal_user_agent = require_dist_node();
     var VERSION = "7.0.1";
-    var import_request2 = require_dist_node14();
-    var import_request4 = require_dist_node14();
+    var import_request2 = require_dist_node13();
+    var import_request4 = require_dist_node13();
     function _buildMessageForResponseErrors(data) {
       return `Request failed due to following response errors:
 ` + data.errors.map((e2) => ` - ${e2.message}`).join("\n");
@@ -31954,7 +32387,7 @@ var require_dist_node15 = __commonJS({
 });
 
 // node_modules/.pnpm/@octokit+auth-token@4.0.0/node_modules/@octokit/auth-token/dist-node/index.js
-var require_dist_node16 = __commonJS({
+var require_dist_node15 = __commonJS({
   "node_modules/.pnpm/@octokit+auth-token@4.0.0/node_modules/@octokit/auth-token/dist-node/index.js"(exports, module2) {
     "use strict";
     var __defProp2 = Object.defineProperty;
@@ -32025,7 +32458,7 @@ var require_dist_node16 = __commonJS({
 });
 
 // node_modules/.pnpm/@octokit+core@5.0.0/node_modules/@octokit/core/dist-node/index.js
-var require_dist_node17 = __commonJS({
+var require_dist_node16 = __commonJS({
   "node_modules/.pnpm/@octokit+core@5.0.0/node_modules/@octokit/core/dist-node/index.js"(exports, module2) {
     "use strict";
     var __defProp2 = Object.defineProperty;
@@ -32052,9 +32485,9 @@ var require_dist_node17 = __commonJS({
     module2.exports = __toCommonJS2(dist_src_exports);
     var import_universal_user_agent = require_dist_node();
     var import_before_after_hook = require_before_after_hook();
-    var import_request2 = require_dist_node14();
-    var import_graphql = require_dist_node15();
-    var import_auth_token = require_dist_node16();
+    var import_request2 = require_dist_node13();
+    var import_graphql = require_dist_node14();
+    var import_auth_token = require_dist_node15();
     var VERSION = "5.0.0";
     var Octokit2 = class {
       static {
@@ -32184,7 +32617,7 @@ var require_dist_node17 = __commonJS({
 });
 
 // node_modules/.pnpm/@octokit+plugin-request-log@4.0.0_@octokit+core@5.0.0/node_modules/@octokit/plugin-request-log/dist-node/index.js
-var require_dist_node18 = __commonJS({
+var require_dist_node17 = __commonJS({
   "node_modules/.pnpm/@octokit+plugin-request-log@4.0.0_@octokit+core@5.0.0/node_modules/@octokit/plugin-request-log/dist-node/index.js"(exports, module2) {
     "use strict";
     var __defProp2 = Object.defineProperty;
@@ -32234,7 +32667,7 @@ var require_dist_node18 = __commonJS({
 });
 
 // node_modules/.pnpm/@octokit+plugin-paginate-rest@8.0.0_@octokit+core@5.0.0/node_modules/@octokit/plugin-paginate-rest/dist-node/index.js
-var require_dist_node19 = __commonJS({
+var require_dist_node18 = __commonJS({
   "node_modules/.pnpm/@octokit+plugin-paginate-rest@8.0.0_@octokit+core@5.0.0/node_modules/@octokit/plugin-paginate-rest/dist-node/index.js"(exports, module2) {
     "use strict";
     var __defProp2 = Object.defineProperty;
@@ -32604,7 +33037,7 @@ var require_dist_node19 = __commonJS({
 });
 
 // node_modules/.pnpm/@octokit+plugin-rest-endpoint-methods@9.0.0_@octokit+core@5.0.0/node_modules/@octokit/plugin-rest-endpoint-methods/dist-node/index.js
-var require_dist_node20 = __commonJS({
+var require_dist_node19 = __commonJS({
   "node_modules/.pnpm/@octokit+plugin-rest-endpoint-methods@9.0.0_@octokit+core@5.0.0/node_modules/@octokit/plugin-rest-endpoint-methods/dist-node/index.js"(exports, module2) {
     "use strict";
     var __defProp2 = Object.defineProperty;
@@ -34608,7 +35041,7 @@ var require_dist_node20 = __commonJS({
 });
 
 // node_modules/.pnpm/@octokit+rest@20.0.1/node_modules/@octokit/rest/dist-node/index.js
-var require_dist_node21 = __commonJS({
+var require_dist_node20 = __commonJS({
   "node_modules/.pnpm/@octokit+rest@20.0.1/node_modules/@octokit/rest/dist-node/index.js"(exports, module2) {
     "use strict";
     var __defProp2 = Object.defineProperty;
@@ -34633,10 +35066,10 @@ var require_dist_node21 = __commonJS({
       Octokit: () => Octokit2
     });
     module2.exports = __toCommonJS2(dist_src_exports);
-    var import_core2 = require_dist_node17();
-    var import_plugin_request_log = require_dist_node18();
-    var import_plugin_paginate_rest = require_dist_node19();
-    var import_plugin_rest_endpoint_methods = require_dist_node20();
+    var import_core2 = require_dist_node16();
+    var import_plugin_request_log = require_dist_node17();
+    var import_plugin_paginate_rest = require_dist_node18();
+    var import_plugin_rest_endpoint_methods = require_dist_node19();
     var VERSION = "20.0.1";
     var Octokit2 = import_core2.Octokit.plugin(
       import_plugin_request_log.requestLog,
@@ -39287,7 +39720,7 @@ var import_node_process = require("node:process");
 var import_core = __toESM(require_core());
 var import_github = __toESM(require_github());
 var import_client_ecr = __toESM(require_dist_cjs54());
-var import_rest = __toESM(require_dist_node21());
+var import_rest = __toESM(require_dist_node20());
 
 // node_modules/.pnpm/node-fetch@3.3.2/node_modules/node-fetch/src/index.js
 var import_node_http2 = __toESM(require("node:http"), 1);
