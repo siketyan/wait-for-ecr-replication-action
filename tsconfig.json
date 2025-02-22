@@ -3,7 +3,5 @@
     "module": "CommonJS",
     "target": "ES2022"
   },
-  "exclude": [
-    "node_modules"
-  ]
+  "exclude": ["node_modules"]
 }

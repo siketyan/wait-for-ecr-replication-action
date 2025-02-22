@@ -5,7 +5,7 @@ import { context } from '@actions/github';
 import {
   DescribeImageReplicationStatusCommand,
   ECRClient,
-  ReplicationStatus,
+  type ReplicationStatus,
 } from '@aws-sdk/client-ecr';
 import { Octokit } from '@octokit/rest';
 import fetch from 'node-fetch';
@@ -44,9 +44,9 @@ const getInputRequired = (name: string) =>
       );
     }
 
-    repositoryName = match.groups['repo'];
-    registryId = match.groups['registry'];
-    region = match.groups['region'];
+    repositoryName = match.groups.repo;
+    registryId = match.groups.registry;
+    region = match.groups.region;
   }
 
   const octokit = new Octokit({
@@ -102,7 +102,7 @@ const getInputRequired = (name: string) =>
 
     console.log(`⏳ Retrying in ${interval} seconds`);
     await new Promise((resolve) =>
-      setTimeout(resolve, parseInt(interval) * 1000),
+      setTimeout(resolve, Number.parseInt(interval) * 1000),
     );
   }
 
