@@ -23,7 +23,7 @@
     "node-fetch": "^3.3.2"
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.9.4",
+    "@biomejs/biome": "^2.2.0",
     "@types/node": "^20.17.58",
     "esbuild": "^0.25.9",
     "typescript": "^5.9.2"
